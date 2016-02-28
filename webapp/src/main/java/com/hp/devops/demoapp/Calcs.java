@@ -11,7 +11,7 @@ public class Calcs {
 	}
 
 	public static int sub(int a, int b) {     //  3 tests cover this
-		return a - b + 2;
+		return a - b + 3;
 	}
 
 	public static boolean equal(int a, int b) {     //  2 tests cover this
