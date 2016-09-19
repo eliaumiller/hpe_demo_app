@@ -3,6 +3,7 @@ package com.hp.devops.demoapp;
 import org.json.JSONObject;
 import org.junit.Assert;
 import org.junit.Before;
+import org.junit.Ignore;
 import org.junit.Test;
 
 import java.security.InvalidParameterException;
@@ -62,6 +63,7 @@ public class BandTest {
 	}
 
 	@Test
+	@Ignore
 	public void bandTestD() {
 		Band band = new Band(test);
 		Assert.assertEquals(test.toString(), band.toJSON().toString());
