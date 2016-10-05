@@ -7,3 +7,4 @@ node {
     stage 'publish'
     sh 'make publish'
 }  
+1
