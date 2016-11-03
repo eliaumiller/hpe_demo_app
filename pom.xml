@@ -41,27 +41,27 @@
       </build>
 
       <dependencies>
-                <dependency>
+<!--                <dependency>
                     <groupId>com.hp.mqm</groupId>
                     <artifactId>nga-surefire-listener</artifactId>
                     <version>12.53.1-SNAPSHOT</version>
-                </dependency>
+                </dependency>-->
       </dependencies>
     </profile>
 	</profiles>
 	
 	<repositories>
-        <repository>
+<!--        <repository>
             <id>mqm-public</id>
             <url>http://mydtbld0051.hpeswlab.net:8081/nexus/content/repositories/mqm-public</url>
-        </repository>
+        </repository>-->
     </repositories>
 
     <pluginRepositories>
-        <pluginRepository>
+<!--        <pluginRepository>
             <id>mqm-public</id>
             <url>http://mydtbld0051.hpeswlab.net:8081/nexus/content/repositories/mqm-public</url>
-        </pluginRepository>
+        </pluginRepository>-->
     </pluginRepositories>
 	
 </project>
