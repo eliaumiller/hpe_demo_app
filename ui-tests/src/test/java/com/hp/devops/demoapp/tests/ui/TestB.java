@@ -80,33 +80,33 @@ public class TestB {
     public void tearDown() throws Exception {
     }
 
-    @Test
-    public void testUIcaseC() {
-        System.out.println("Proudly running test " + Thread.currentThread().getStackTrace()[1]);
-        WebElement query;
-        if(isMusicApp){
-            query = driver.findElement(By.id("bandsList"));
-            Assert.assertEquals(query.getTagName(), "div");
-        } else {
-            query = driver.findElement(By.id("jenkins"));
-            Assert.assertEquals(query.getTagName(), "body");
-        }
-        Assert.assertEquals(query.isDisplayed(), true);
-    }
+//     @Test
+//     public void testUIcaseC() {
+//         System.out.println("Proudly running test " + Thread.currentThread().getStackTrace()[1]);
+//         WebElement query;
+//         if(isMusicApp){
+//             query = driver.findElement(By.id("bandsList"));
+//             Assert.assertEquals(query.getTagName(), "div");
+//         } else {
+//             query = driver.findElement(By.id("jenkins"));
+//             Assert.assertEquals(query.getTagName(), "body");
+//         }
+//         Assert.assertEquals(query.isDisplayed(), true);
+//     }
 
-    @Category(SpecialTests.class)
-    @Test
-    public void testUIcaseD() {
-        System.out.println("Proudly running test " + Thread.currentThread().getStackTrace()[1]);
-        WebElement query;
-        if(isMusicApp){
-            query = driver.findElement(By.id("totalVotes"));
-            Assert.assertEquals(query.getTagName(), "div");
-        } else {
-            query = driver.findElement(By.id("jenkins"));
-            Assert.assertEquals(query.getTagName(), "body");
-        }
-        Assert.assertEquals(query.isDisplayed(), true);
-    }
+//     @Category(SpecialTests.class)
+//     @Test
+//     public void testUIcaseD() {
+//         System.out.println("Proudly running test " + Thread.currentThread().getStackTrace()[1]);
+//         WebElement query;
+//         if(isMusicApp){
+//             query = driver.findElement(By.id("totalVotes"));
+//             Assert.assertEquals(query.getTagName(), "div");
+//         } else {
+//             query = driver.findElement(By.id("jenkins"));
+//             Assert.assertEquals(query.getTagName(), "body");
+//         }
+//         Assert.assertEquals(query.isDisplayed(), true);
+//     }
 
 }
