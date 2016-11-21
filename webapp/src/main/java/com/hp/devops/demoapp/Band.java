@@ -19,7 +19,7 @@ public class Band {
 	public int votes = 0;
 
 	public Band(JSONObject json) {
-		System.out.println("  B   a   n   d ");
+		System.out.println("Band");
 		if (json.has("id")) {
 			id = json.getInt("id");
 			if (json.has("name")) name = json.getString("name");
