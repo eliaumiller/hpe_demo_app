@@ -25,7 +25,7 @@ public class DataManager {
 	static private ArrayList<Band> bands = new ArrayList<Band>();
 
 	static void init(ServletContext servletContext) {
-		System.out.println("DataManager  Init");
+		System.out.println("DataManager   Init");
 		System.out.println("  B   a   n   d ");
 		if (servletContext != null) {
 			DataManager.servletContext = servletContext;
