@@ -26,7 +26,7 @@ public class Band {
 			if (json.has("song")) song = json.getString("song");
 			if (json.has("votes")) votes = json.getInt("votes");
 		} else {
-			throw new InvalidParameterException("JSON must have an ID property");
+			throw new InvalidParameterException("JSON must have an id property");
 		}
 	}
 
