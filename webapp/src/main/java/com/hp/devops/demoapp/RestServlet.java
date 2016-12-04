@@ -26,7 +26,7 @@ public class RestServlet extends HttpServlet {
 	public void doGet(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
 		String[] pathNodes = Utils.nodify(request.getRequestURI());
 		if (pathNodes.length == 0) {
-			response.sendError(HttpServletResponse.SC_BAD_REQUEST, "path too     short");
+			response.sendError(HttpServletResponse.SC_BAD_REQUEST, "path too       short");
 		} else if (pathNodes[0].compareTo("bands") == 0) {
 			serveBands(pathNodes, response);
 		} else if (pathNodes[0].compareTo("reloadDB") == 0) {
