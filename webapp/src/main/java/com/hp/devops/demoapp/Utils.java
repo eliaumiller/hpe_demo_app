@@ -6,7 +6,7 @@ public class Utils {
 
 	static String[] nodify(String input) {
 		ArrayList<String> nodes = new ArrayList<String>();
-		System.out.println("touching the failed test sdfsf");
+		System.out.println("touching the failed test sdfssdff");
 		if (input != null) {
 			for (String node : input.split("/")) {
 				if (node.compareTo("") != 0 && node.compareTo("api") != 0) {
