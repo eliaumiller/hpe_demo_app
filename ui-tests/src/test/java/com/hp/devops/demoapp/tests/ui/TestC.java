@@ -40,7 +40,7 @@ public class TestC {
             if (System.getenv("testproxy") != null) {
                 testProxy = System.getenv("testproxy");
             }
-            System.out.println("testProxy is " + testProxy + "; can be modified via environment variable, i.e., 'export testproxy=web-proxy.bbn.hp.com:8080'");
+            System.out.println("testProxy is " + testProxy + ";  can be modified via environment variable, i.e., 'export testproxy=web-proxy.bbn.hp.com:8080'");
         }
         else {
             System.out.println("We do          not use proxy");

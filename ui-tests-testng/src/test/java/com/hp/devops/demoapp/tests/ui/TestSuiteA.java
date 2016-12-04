@@ -75,7 +75,7 @@ public class TestSuiteA {
 
     @Test(groups = {"Group_A"})
     public void testCase1() {
-        System.out.println("Proudly running test          " + Thread.currentThread().getStackTrace()[1]);
+        System.out.println("Proudly running test           " + Thread.currentThread().getStackTrace()[1]);
         WebElement query;
         if (isMusicApp) {
             query = driver.findElement(By.id("bandsList"));
