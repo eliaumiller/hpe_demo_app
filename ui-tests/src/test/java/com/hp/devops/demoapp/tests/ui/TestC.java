@@ -43,7 +43,7 @@ public class TestC {
             System.out.println("testProxy is " + testProxy + "; can be modified via environment variable, i.e., 'export testproxy=web-proxy.bbn.hp.com:8080'");
         }
         else {
-            System.out.println("We do   not use proxy");
+            System.out.println("We do    not use proxy");
         }
 
         if (isBehindProxy) {
