@@ -61,7 +61,7 @@ public class TestB {
         if (System.getProperty("appUrl") != null) {
             appUrl = System.getProperty("appUrl");
         }
-        System.out.println("App URL is " + appUrl + "; can be modifed via               system property, i.e., '-DappUrl=\"http://54.146.140.70:9000\"'");
+        System.out.println("App URL is " + appUrl + "; can be modifed via                system property, i.e., '-DappUrl=\"http://54.146.140.70:9000\"'");
 
         driver.get(appUrl);
 
