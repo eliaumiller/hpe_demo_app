@@ -66,7 +66,7 @@ public class TestA {
         if (System.getProperty("appUrl") != null) {
             appUrl = System.getProperty("appUrl");
         }
-        System.out.println("App URL is " + appUrl + "; can   be modifed via system property, i.e., '-DappUrl=\"http://54.146.140.70:9000\"'");
+        System.out.println("App URL is " + appUrl + "; can                           be modifed via system property, i.e., '-DappUrl=\"http://54.146.140.70:9000\"'");
 
         driver.get(appUrl);
 
@@ -105,7 +105,17 @@ public class TestA {
 
     @Test
     public void testUIcaseAlwaysPass() {
-        System.out.println("Proudly running test " + Thread.currentThread().getStackTrace()[1]);
+        System.out.println("Proudly  running test " + Thread.currentThread().getStackTrace()[1]);
+        Assert.assertTrue(true);
+    }
+
+    @Test
+    public void faileTestForMailTrack() {
+        Assert.assertTrue(false);
+    }
+
+    @Test
+    public void faileTestForMailTrackA() {
         Assert.assertTrue(true);
     }
 
