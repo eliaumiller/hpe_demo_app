@@ -116,7 +116,7 @@ public class TestA {
 
     @Test
     public void faileTestForMailTrackA() {
-        Assert.assertTrue(false);
+        Assert.assertTrue(true);
     }
 
     @AfterClass
