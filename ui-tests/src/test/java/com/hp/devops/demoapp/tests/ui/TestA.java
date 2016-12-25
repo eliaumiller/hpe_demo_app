@@ -110,6 +110,7 @@ public class TestA {
     }
 
     @Test
+    @Ignore
     public void faileTestForMailTrack() {
         Assert.assertTrue(false);
     }
