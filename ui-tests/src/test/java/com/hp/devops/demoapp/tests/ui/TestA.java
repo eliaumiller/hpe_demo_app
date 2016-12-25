@@ -109,6 +109,11 @@ public class TestA {
         Assert.assertTrue(true);
     }
 
+    @Test
+    public void faileTestForMailTrack() {
+        Assert.assertTrue(false);
+    }
+
     @AfterClass
     static public void afterAll() {
         driver.quit();
