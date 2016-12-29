@@ -31,7 +31,7 @@ echo %echoPrefix% Attempt #%counter%
 
 :pull
 echo %echoPrefix% Attempting Pull-Rebase...
-git pull origin tests --rebase
+git pull origin tests
 if errorlevel 1 goto pullerror
 goto pullsuccess
 :pullerror
