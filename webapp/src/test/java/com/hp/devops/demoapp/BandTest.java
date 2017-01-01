@@ -46,7 +46,7 @@ public class BandTest {
 			band.methodThatThrowsNullPointerException();
 			Assert.assertEquals(true,true);
 		} catch (Exception e) {
-			Assert.assertEquals(true,true);
+			Assert.assertEquals(true,false);
 		}
 	}
 
