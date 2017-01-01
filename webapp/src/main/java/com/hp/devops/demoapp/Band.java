@@ -31,6 +31,14 @@ public class Band {
 		}
 	}
 
+	/**
+	 * for testing blame committer feature
+	 */
+	public void methodThatThrowsNullPointerException() {
+		System.out.print("going to throw null pointer exception..");
+		throw new NullPointerException();
+	}
+
 	public JSONObject toJSON() {
 		JSONObject r = new JSONObject();
 		r.put("id", id);

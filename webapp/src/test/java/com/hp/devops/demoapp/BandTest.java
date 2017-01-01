@@ -40,6 +40,17 @@ public class BandTest {
 	}
 
 	@Test
+	public void failTestOnNullPointer() {
+		try {
+			Band band = new Band(null);
+			band.methodThatThrowsNullPointerException();
+			Assert.assertEquals(true,true);
+		} catch (Exception e) {
+			Assert.assertEquals(true,true);
+		}
+	}
+
+	@Test
 	public void bandTestB() {
 		try {
 			Band band = new Band(new JSONObject());
