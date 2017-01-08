@@ -106,12 +106,12 @@ public class TestA {
     @Test
     public void testUIcaseAlwaysPass() {
         System.out.println("Proudly         running test " + Thread.currentThread().getStackTrace()[1]);
-        Assert.assertTrue(true);
+        Assert.assertTrue(false);
     }
 
     @Test
     public void faileTestForMailTrack() {
-        Assert.assertTrue(false);
+        Assert.assertTrue(true);
     }
 
     @Test
