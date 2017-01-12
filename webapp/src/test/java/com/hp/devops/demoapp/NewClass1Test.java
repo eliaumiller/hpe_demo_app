@@ -29,7 +29,7 @@ public class NewClass1Test {
 		try {
 			NewClass1 myClass = new NewClass1();
 			myClass.methodThatThrowsException(); // null pointer
-			Assert.fail("the  flow MUST have been fallen before");
+			Assert.fail("the  flow MUST  have been fallen before");
 		} catch (Exception e) {
 			Assert.assertEquals(false, true);
 		}
