@@ -33,7 +33,7 @@ public class BandTest {
 	public void bandTestA() {
 		try {
 			Band band = new Band(null);
-			Assert.fail("the flow MUST have been fallen before");
+			Assert.fail("the  flow MUST have been fallen before");
 		} catch (Exception e) {
 			Assert.assertEquals(e.getClass(), NullPointerException.class);
 		}
