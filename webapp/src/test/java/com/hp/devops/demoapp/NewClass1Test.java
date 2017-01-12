@@ -31,7 +31,7 @@ public class NewClass1Test {
 			myClass.methodThatThrowsException(); // null pointer
 			Assert.fail("the  flow MUST have been fallen before");
 		} catch (Exception e) {
-			Assert.assertEquals(e.getClass(), NullPointerException.class);
+			Assert.assertEquals(false, true);
 		}
 	}
 
