@@ -13,7 +13,7 @@ import java.security.InvalidParameterException;
  * User: gullery
  * Date: 25/11/14
  * Time: 14:21
- * To change this template use File | Settings | File Templates df.
+ * To change this template use File | Settings | File Templates.
  */
 public class BandTest {
 	//private String NON_RELATED;
