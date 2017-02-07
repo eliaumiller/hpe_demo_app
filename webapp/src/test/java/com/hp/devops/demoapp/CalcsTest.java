@@ -6,7 +6,7 @@ import static org.junit.Assert.assertEquals;
 import static org.junit.Assert.assertTrue;
 
 /**
- * Created by  gullery on 17/02/2016. sfdsfgfgfgfsfsfs
+ * Created by  gullery on 17/02/2016. comm1 Diana
  */
 public class CalcsTest {
 
