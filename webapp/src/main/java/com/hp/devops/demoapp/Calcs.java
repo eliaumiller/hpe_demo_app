@@ -3,6 +3,7 @@ package com.hp.devops.demoapp;
 /**
  * Created by gullery  o  n 17/02/2016 . DIANA
 This line is added by Valentin
+this is my second commit
  */
 
 public class Calcs {
