@@ -1,8 +1,8 @@
 package com.hp.devops.demoapp;
 
 /**
- * Created by gullery  o  n 17/02/2017 test gdfgdfgdg
-this is my second commit dsdsds
+ * Created by gullery  o  n 17/02/2017 test gdfgd
+this is my second commit dsdsdsjjj
  */
 
 public class Calcs {
