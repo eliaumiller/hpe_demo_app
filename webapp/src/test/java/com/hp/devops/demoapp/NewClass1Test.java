@@ -9,7 +9,7 @@ import org.junit.Test;
 import java.security.InvalidParameterException;
 
 /**
- * Created with IntelliJ IDEA.
+ * Created with IntelliJ IDEA. Test
  * User: gullery
  * Date: 25/11/14
  * Time: 14:21
