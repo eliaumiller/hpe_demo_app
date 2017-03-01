@@ -18,7 +18,7 @@ public class CalcsTest {
 	@Test
 	public void sub_test_A() {
 		assertEquals(3, Calcs.sub(5, 2));
-	}
+	} 
 
 	@Test
 	public void sub_test_B() {
@@ -60,4 +60,5 @@ public class CalcsTest {
 		assertTrue(Calcs.alwaysTrue());
 	}
 	//nissim added comment for regrassion day 14/02/2017 
+	//add comment
 }
