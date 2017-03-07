@@ -21,6 +21,7 @@
 	    <profiles>
 	<profile>
       <id>coverage-per-test</id>
+
       <build>
         <plugins>
           <plugin>
