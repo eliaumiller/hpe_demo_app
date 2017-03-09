@@ -1,5 +1,6 @@
 package com.hp.devops.demoapp.tests.ui;/**
  * Created by belozovs on 2/24/2015.
+ *
  */
 
 import org.junit.*;
