@@ -1,8 +1,8 @@
 package com.hp.devops.demoapp;
 
-/**
- * Created by gullery                   o  n 17/02/2016 .
- */
+/**n
+ * Created by gullery                   o2/2016 .raluca
+ */ c 
 
 public class Calcs {
 
