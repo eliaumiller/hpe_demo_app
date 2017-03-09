@@ -12,7 +12,7 @@ import java.io.IOException;
  * User: gullery
  * Date: 23/11/14
  * Time: 17:40
- * To change this template use File | Settings | File Templates.
+ * To change this template  use File | Settings | File Templates.
  */
 public class RestServlet extends HttpServlet {
 
