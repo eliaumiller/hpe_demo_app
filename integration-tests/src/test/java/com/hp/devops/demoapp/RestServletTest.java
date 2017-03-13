@@ -3,7 +3,7 @@ package com.hp.devops.demoapp;/**
  * User: belozovs
  * Date: 11/25/14
  * Time: 4:32 PM
- * To change   this template use File | Settings | File Templates.
+ * To change   this template use File  | Settings | File Templates.
  */
 
 import com.jayway.restassured.RestAssured;

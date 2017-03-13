@@ -13,7 +13,7 @@ import org.openqa.selenium.remote.CapabilityType;
 import org.openqa.selenium.remote.DesiredCapabilities;
 
 
-public class TestC {
+public class  TestC {
 
     static final boolean isMusicApp = false;
 
