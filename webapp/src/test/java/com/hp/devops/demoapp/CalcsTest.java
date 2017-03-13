@@ -60,5 +60,5 @@ public class CalcsTest {
 		assertTrue(Calcs.alwaysTrue());
 	}
 	//nissim added comment for regrassion day 14/02/2017 
-	//eli too 2
+	//eli too 3
 }
