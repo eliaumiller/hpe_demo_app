@@ -6,6 +6,7 @@ import javax.annotation.PostConstruct;
  * User:    belozo vs
  * Date: 11/25/14
  * Description
+ * Testing hotspot widget by Raluyrtyrety
  */
 public class ConfigurationService {
 
