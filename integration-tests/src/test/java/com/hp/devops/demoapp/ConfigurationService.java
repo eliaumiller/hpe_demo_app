@@ -3,7 +3,7 @@ package com.hp.devops.demoapp;
 import javax.annotation.PostConstruct;
 
 /**
- * User:    belozovs
+ * User:    belozo vs
  * Date: 11/25/14
  * Description
  * Testing hotspot widget by Raluyrtyrety
