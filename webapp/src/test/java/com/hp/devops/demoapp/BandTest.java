@@ -14,7 +14,7 @@ import java.security.InvalidParameterException;
  * Date: 25/11/14
  * Time: 14:21
  * To change this      template use File | Settings | File Templates.
- * Testing hotspot widget by Ralufdghdfgh
+ * Testing hotspot widget by Ralu
  */
 public class BandTest {
 	//private String NON_RELATED;
