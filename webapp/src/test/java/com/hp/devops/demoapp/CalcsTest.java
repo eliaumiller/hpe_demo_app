@@ -29,7 +29,7 @@ public class CalcsTest {
 	public void sub_test_C() {
 		assertEquals(3, Calcs.sub(10, 7));
 	}
-//sarah test 2
+//sarah test 3
 	@Test
 	public void eq_test_A() {
 		assertTrue(Calcs.equal(1, 1));
