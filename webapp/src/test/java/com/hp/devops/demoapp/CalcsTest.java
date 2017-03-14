@@ -6,7 +6,7 @@ import static org.junit.Assert.assertEquals;
 import static org.junit.Assert.assertTrue;
 
 /**
- * Created by  gullery        on 17/02/2016. Diana comment 1 
+ * Created by  gullery        on 17/02/2016. Diana comment 3
  */
 public class CalcsTest {
 
@@ -29,7 +29,7 @@ public class CalcsTest {
 	public void sub_test_C() {
 		assertEquals(3, Calcs.sub(10, 7));
 	}
-
+//sarah test 5
 	@Test
 	public void eq_test_A() {
 		assertTrue(Calcs.equal(1, 1));
@@ -61,4 +61,7 @@ public class CalcsTest {
 	}
 	//nissim added comment for regrassion day 14/02/2017 
 	//eli too 5
+	
+	
+	
 }
