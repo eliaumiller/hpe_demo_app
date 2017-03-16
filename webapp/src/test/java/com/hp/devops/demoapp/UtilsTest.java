@@ -11,7 +11,7 @@ import static org.junit.Assert.assertEquals;
  * Date: 25/11/14
  * Time: 13:46
  * To change this     template use File | Settings | File Templates.
- * Testing hotspot widget by Ralu test test
+ * Testing hotspot widget by Ralu test test testetstets
  */
 public class UtilsTest {
 
