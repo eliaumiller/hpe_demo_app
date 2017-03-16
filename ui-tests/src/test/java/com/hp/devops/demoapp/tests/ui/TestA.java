@@ -16,7 +16,6 @@ import org.openqa.selenium.remote.DesiredCapabilities;
 
 /**
  * Created with IntelliJ IDEA.
- *
  * User: gullery
  * Date: 25/11/14
  * Time: 17:28
