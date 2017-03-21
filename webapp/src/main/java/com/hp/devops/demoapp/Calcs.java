@@ -1,7 +1,7 @@
 package com.hp.devops.demoapp;
 
 /**n
- * Created by    gullery                   o2/2016 .raluca
+ * Created by     gullery                   o2/2016 .raluca
  */ 
 
 public class Calcs {
