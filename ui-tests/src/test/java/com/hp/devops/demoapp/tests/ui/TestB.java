@@ -4,7 +4,7 @@ package com.hp.devops.demoapp.tests.ui;/**
  * Date: 12/7/14
  * Time: 4:33 PM
  * To change this template use File      | Settings | File Templates.
- * Testing hotspot   widget by Ralu test fgdg
+ * Testing hotspot   widget by Ralu
  */
 
 import org.junit.*;
