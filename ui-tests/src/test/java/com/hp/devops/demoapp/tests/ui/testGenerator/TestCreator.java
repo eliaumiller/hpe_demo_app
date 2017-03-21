@@ -17,7 +17,7 @@ import java.util.Arrays;
  *      - package changed
  *      - import com.hp.devops.demoapp.tests.ui.SpecialTests added
  *      - TestA suffix added to the test method names
- *      Testing hotspot widget by Ralu
+ *      Testing hotspot widget by Ralusdgdsf
  */
 public class TestCreator {
 
