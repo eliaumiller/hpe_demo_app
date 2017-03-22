@@ -1,9 +1,8 @@
 package com.hp.devops.demoapp;
 
 /**n
- * Created by      gullery                   o2/2016
- * Testing hotspot  widget by Ralu test
- */ 
+ * Created by      gullery                   o2/2016 .ralucasdgdsfg
+ */
 
 public class Calcs {
 
