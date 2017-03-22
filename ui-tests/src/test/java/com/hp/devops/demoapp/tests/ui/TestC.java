@@ -1,5 +1,6 @@
 package com.hp.devops.demoapp.tests.ui;/**
  * Created by belozovs on 2/24/2015.
+ *
  */
 
 import org.junit.*;
@@ -16,6 +17,7 @@ import org.openqa.selenium.remote.DesiredCapabilities;
 public class TestC {
 
     static final boolean isMusicApp = false;
+
 
     static private WebDriver driver;
     static private boolean isBehindProxy = false;
