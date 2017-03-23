@@ -1,6 +1,6 @@
 package com.hp.devops.demoapp.tests.ui;/**
  * Created by belozovs     on 2/24/2015.
- * Testing hotspot widget by Ralu test
+ * Testing hotspot widget by Ralu test rtyrt
  */
 
 import org.junit.*;
