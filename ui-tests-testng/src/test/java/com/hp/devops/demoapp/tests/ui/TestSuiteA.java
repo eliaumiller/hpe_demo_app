@@ -21,7 +21,7 @@ import org.testng.annotations.Test;
  * To change this       template use File | Settings | File Templates.
  * Testing hotspot widget by Ralu test
  */
-public class TestSuiteANew {
+public class TestSuiteA {
 
     final static private boolean isMusicApp = false;
 
