@@ -56,7 +56,7 @@
     <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
     <property name="sun.cpu.isalist" value=""/>
   </properties>
-  <testcase name="testCase1" classname="com.hp.devops.demoapp.tests.ui.TestSuiteA" time="0.242">
+  <testcase name="testCase1" classname="com.hp.devops.demoapp.tests.ui.TestSuiteANew" time="0.242">
     <failure message="Unable to locate element by id for com.gargoylesoftware.htmlunit.UnexpectedPage@6304101a&#10;For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html&#10;Build info: version: &apos;2.43.1&apos;, revision: &apos;5163bceef1bc36d43f3dc0b83c88998168a363a0&apos;, time: &apos;2014-09-10 09:43:55&apos;&#10;System info: host: &apos;4a22174e31df&apos;, ip: &apos;172.17.0.134&apos;, os.name: &apos;Linux&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;2.6.32-431.el6.x86_64&apos;, java.version: &apos;1.8.0_45-internal&apos;&#10;Driver info: driver.version: HtmlUnitDriver" type="org.openqa.selenium.NoSuchElementException">org.openqa.selenium.NoSuchElementException: Unable to locate element by id for com.gargoylesoftware.htmlunit.UnexpectedPage@6304101a
 For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
 Build info: version: '2.43.1', revision: '5163bceef1bc36d43f3dc0b83c88998168a363a0', time: '2014-09-10 09:43:55'
@@ -69,12 +69,12 @@ Driver info: driver.version: HtmlUnitDriver
 	at org.openqa.selenium.htmlunit.HtmlUnitDriver.implicitlyWaitFor(HtmlUnitDriver.java:1251)
 	at org.openqa.selenium.htmlunit.HtmlUnitDriver.findElement(HtmlUnitDriver.java:1572)
 	at org.openqa.selenium.htmlunit.HtmlUnitDriver.findElement(HtmlUnitDriver.java:532)
-	at com.hp.devops.demoapp.tests.ui.TestSuiteA.testCase1(TestSuiteA.java:85)
+	at com.hp.devops.demoapp.tests.ui.TestSuiteANew.testCase1(TestSuiteA.java:85)
 </failure>
-    <system-out><![CDATA[Proudly running test com.hp.devops.demoapp.tests.ui.TestSuiteA.testCase1(TestSuiteA.java:78)
+    <system-out><![CDATA[Proudly running test com.hp.devops.demoapp.tests.ui.TestSuiteANew.testCase1(TestSuiteA.java:78)
 ]]></system-out>
   </testcase>
-  <testcase name="testCase2" classname="com.hp.devops.demoapp.tests.ui.TestSuiteA" time="0.204">
+  <testcase name="testCase2" classname="com.hp.devops.demoapp.tests.ui.TestSuiteANew" time="0.204">
     <failure message="Unable to locate element by id for com.gargoylesoftware.htmlunit.UnexpectedPage@6304101a&#10;For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html&#10;Build info: version: &apos;2.43.1&apos;, revision: &apos;5163bceef1bc36d43f3dc0b83c88998168a363a0&apos;, time: &apos;2014-09-10 09:43:55&apos;&#10;System info: host: &apos;4a22174e31df&apos;, ip: &apos;172.17.0.134&apos;, os.name: &apos;Linux&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;2.6.32-431.el6.x86_64&apos;, java.version: &apos;1.8.0_45-internal&apos;&#10;Driver info: driver.version: HtmlUnitDriver" type="org.openqa.selenium.NoSuchElementException">org.openqa.selenium.NoSuchElementException: Unable to locate element by id for com.gargoylesoftware.htmlunit.UnexpectedPage@6304101a
 For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
 Build info: version: '2.43.1', revision: '5163bceef1bc36d43f3dc0b83c88998168a363a0', time: '2014-09-10 09:43:55'
@@ -87,10 +87,10 @@ Driver info: driver.version: HtmlUnitDriver
 	at org.openqa.selenium.htmlunit.HtmlUnitDriver.implicitlyWaitFor(HtmlUnitDriver.java:1251)
 	at org.openqa.selenium.htmlunit.HtmlUnitDriver.findElement(HtmlUnitDriver.java:1572)
 	at org.openqa.selenium.htmlunit.HtmlUnitDriver.findElement(HtmlUnitDriver.java:532)
-	at com.hp.devops.demoapp.tests.ui.TestSuiteA.testCase2(TestSuiteA.java:100)
+	at com.hp.devops.demoapp.tests.ui.TestSuiteANew.testCase2(TestSuiteA.java:100)
 </failure>
-    <system-out><![CDATA[Proudly running test com.hp.devops.demoapp.tests.ui.TestSuiteA.testCase2(TestSuiteA.java:93)
+    <system-out><![CDATA[Proudly running test com.hp.devops.demoapp.tests.ui.TestSuiteANew.testCase2(TestSuiteA.java:93)
 ]]></system-out>
   </testcase>
-  <testcase name="testCase3" classname="com.hp.devops.demoapp.tests.ui.TestSuiteA" time="0.999"/>
+  <testcase name="testCase3" classname="com.hp.devops.demoapp.tests.ui.TestSuiteANew" time="0.999"/>
 </testsuite>

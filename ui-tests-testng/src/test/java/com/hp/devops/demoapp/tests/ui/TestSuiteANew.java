@@ -18,10 +18,10 @@ import org.testng.annotations.Test;
  * User: gullery
  * Date: 03/12/14
  * Time:   15:50
- * To change this      template use File | Settings | File Templates.
+ * To change this       template use File | Settings | File Templates.
  * Testing hotspot widget by Ralu test
  */
-public class TestSuiteA {
+public class TestSuiteANew {
 
     final static private boolean isMusicApp = false;
 

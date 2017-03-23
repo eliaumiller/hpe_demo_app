@@ -10,7 +10,7 @@
 		</groups>
 
 		<classes>
-			<class name="com.hp.devops.demoapp.tests.ui.TestSuiteA">
+			<class name="com.hp.devops.demoapp.tests.ui.TestSuiteANew">
 				<methods>
 					<include name="testCase1" />
 					<include name="testCase2" />
