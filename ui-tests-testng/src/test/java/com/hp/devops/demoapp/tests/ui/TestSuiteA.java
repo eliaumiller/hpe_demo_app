@@ -19,7 +19,7 @@ import org.testng.annotations.Test;
  * Date: 03/12/14
  * Time:   15:50
  * To change this        template use File | Settings | File Templates.
- * Testing hotspot widget by Ralu testtgryrty
+ * Testing hotspot widget by Ralu
  */
 public class TestSuiteA {
 
