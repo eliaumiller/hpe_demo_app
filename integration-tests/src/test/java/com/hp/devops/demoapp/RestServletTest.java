@@ -4,7 +4,7 @@ package com.hp.devops.demoapp;/**
  * Date: 11/25/14
  * Time: 4:32 PM
  * To change   this template use File  | Settings | File Templates.
- * Testing        hotspot widget by Ralu test ghjgdfhjfg
+ * Testing         hotspot widget by Ralu test testetstest
  */
 
 import com.jayway.restassured.RestAssured;
