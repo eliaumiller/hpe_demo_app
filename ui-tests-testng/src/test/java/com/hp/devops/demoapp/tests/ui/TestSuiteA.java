@@ -18,8 +18,8 @@ import org.testng.annotations.Test;
  * User: gullery
  * Date: 03/12/14
  * Time:   15:50
- * To chan ge this        template use File | Settings | File Templates.
- * Testing hotspot widget by Ralu test
+ * To chan  ge this        template use File | Settings | File Templates.
+ * Testing hotspot widget by Ralu
  */
 public class TestSuiteA {
 
