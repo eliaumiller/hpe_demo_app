@@ -7,6 +7,7 @@ package com.hp.devops.demoapp.tests.ui;
  * Time: 5:20 PM
  * To change this template use File  | Settings | File Templates. Test
  *
+ *
  */
 public interface SpecialTests {
 }
