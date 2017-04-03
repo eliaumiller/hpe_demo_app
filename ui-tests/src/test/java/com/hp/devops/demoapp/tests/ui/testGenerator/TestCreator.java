@@ -17,7 +17,6 @@ import java.util.Arrays;
  *      - package changed
  *      - import com.hp.devops.demoapp.tests.ui.SpecialTests added
  *      - TestA suffix added to the test method names
- *
  */
 public class TestCreator {
 
