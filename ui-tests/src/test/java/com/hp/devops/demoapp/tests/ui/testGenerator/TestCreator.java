@@ -19,7 +19,6 @@ import java.util.Arrays;
  *      - TestA suffix added to the test method names
  *
  *
- *
  */
 public class TestCreator {
 
