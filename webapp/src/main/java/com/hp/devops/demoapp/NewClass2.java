@@ -5,5 +5,5 @@ package com.hp.devops.demoapp;
  *  Testing hotspot  widget by Ralu test
  *  test
  */
-public class       NewClass2 {
+public class        NewClass2 {
 }
