@@ -38,7 +38,7 @@ public class TestB {
 
         if ("true".equals(System.getProperty("proxy"))) {
             isBehindProxy = true;
-            System.out.println("isBehindProxy is true!");
+            System.out.println("isBehindProxy is   true!");
             if (System.getenv("testproxy") != null) {
                 testProxy = System.getenv("testproxy");
             }
