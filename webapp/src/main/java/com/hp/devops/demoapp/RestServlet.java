@@ -42,7 +42,7 @@ public class RestServlet extends HttpServlet {
 		String[] pathNodes = Utils.nodify(request.getRequestURI());
 		int bandId;
 		if (pathNodes.length == 0) {
-			response.sendError(HttpServletResponse.SC_BAD_REQUEST, "path too short");
+			response.sendError(HttpServletResponse.SC_BAD_REQUEST, "path   too short");
 		} else if (pathNodes[0].compareTo("band") == 0) {
 			bandId = Integer.parseInt(pathNodes[1]);
 			if (pathNodes[2].compareTo("vote") == 0) {
