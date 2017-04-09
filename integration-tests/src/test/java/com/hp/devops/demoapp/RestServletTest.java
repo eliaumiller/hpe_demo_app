@@ -31,7 +31,7 @@ public class RestServletTest {
 		RestAssured.baseURI = configurationService.getBaseUri();
 		RestAssured.port = configurationService.getPort();
 		RestAssured.basePath = configurationService.getBasePath();
-		if (!configurationService.getProxyHost().isEmpty()) {
+		if (!configurationService.getProxyHost().equals("")) {
 			RestAssured.proxy(configurationService.getProxyHost(), configurationService.getProxyPort());
 		}
 
