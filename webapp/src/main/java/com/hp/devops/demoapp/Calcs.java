@@ -2,7 +2,7 @@ package com.hp.devops.demoapp;
 
 /**n
  * Created by                    gullery                   o2/2016
- * Testing hotspot     widget by Ralu test test
+ * Testing hotspot      widget by Ralu test test
  */
 
 public class Calcs {
