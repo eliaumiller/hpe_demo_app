@@ -9,7 +9,7 @@ import static org.junit.Assert.assertTrue;
  * Created by  gullery          on 17/02/2016. DianAAA 1111111frerr
  */
 public class CalcsTest {
-
+//commit
 	@Test
 	public void sum_test_A() {
 		assertEquals(3, Calcs.sum(1, 2));
