@@ -42,7 +42,7 @@ public class ConfigurationService {
         }
         System.out.println("Starting the test for " + instance.protocol + "://" + instance.hostName + ":" + instance.port + instance.basePath);
         if(!instance.proxyHost.equals("")){
-            System.out.println("The  tests will  run via proxy: " + instance.proxyHost + ":" + instance.proxyPort);
+            System.out.println("The tests will run via proxy: " + instance.proxyHost + ":" + instance.proxyPort);
         }
 
         return instance;
