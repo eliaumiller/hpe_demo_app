@@ -49,7 +49,7 @@ public class CalcsTest {
 	public void neq_test_A() {
 		assertTrue(Calcs.nonEqual(0, 1));
 	}
-
+//add comment
 	@Test
 	public void neq_test_B() {
 		assertTrue(Calcs.nonEqual(-1, 0));
