@@ -97,7 +97,7 @@ public class TestC {
     @Category(SpecialTests.class)
     @Test
     public void testUIcaseF() {
-        System.out.println("Proudly running test " + Thread.currentThread().getStackTrace()[1]);
+        System.out.println("Proudly  running test " + Thread.currentThread().getStackTrace()[1]);
         WebElement query;
         if (isMusicApp) {
             query = driver.findElement(By.id("totalVotes"));

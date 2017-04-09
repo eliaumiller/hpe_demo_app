@@ -158,7 +158,7 @@ public class TestCreator {
 
         String testParameter = commandLine.substring(0, commandLine.length() - 1);
         System.out.println("Generated test parameter: " + testParameter);
-        System.out.println("Test parameter length is " + testParameter.length() + " characters");
+        System.out.println("Test  parameter length is " + testParameter.length() + " characters");
 
         if (shouldRun) {
             System.out.println("Process exitValue is " + runIt(testParameter));
