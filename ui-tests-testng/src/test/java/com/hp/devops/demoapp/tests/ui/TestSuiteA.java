@@ -105,7 +105,7 @@ public class TestSuiteA {
 
     @Test(groups = {"Group_A"})
     public void testCase3() {
-        System.out.println("Proudly running test " + Thread.currentThread().getStackTrace()[1]);
+        System.out.println("Proudly  running  test " + Thread.currentThread().getStackTrace()[1]);
         try {
             Thread.sleep(1000);
         } catch (InterruptedException e) {

@@ -1,15 +1,13 @@
 package com.hp.devops.demoapp;
 
-import javax.annotation.PostConstruct;
-
 /**
  * User: belozovs
  * Date: 11/25/14
  * Description
  */
-public class ConfigurationService {
+public class ConfigurationService2 {
 
-    private static ConfigurationService instance = new ConfigurationService();
+    private static ConfigurationService2 instance = new ConfigurationService2();
 
     private String protocol = "http";
     private String hostName = "localhost";
@@ -18,10 +16,10 @@ public class ConfigurationService {
     private String proxyHost = "";  //rhvwebcachevip.bastion.europe.hp.com
     private int proxyPort = 0;  //8080
 
-    private ConfigurationService(){
+    private ConfigurationService2(){
 
     }
-    public static ConfigurationService getInstance(){
+    public static ConfigurationService2 getInstance(){
         if(System.getProperty("hostname")!=null){
             instance.hostName = System.getProperty("hostname");
         }
@@ -42,7 +40,7 @@ public class ConfigurationService {
         }
         System.out.println("Starting the test for " + instance.protocol + "://" + instance.hostName + ":" + instance.port + instance.basePath);
         if(!instance.proxyHost.equals("")){
-            System.out.println("The tests will run   via proxy: " + instance.proxyHost + ":" + instance.proxyPort);
+            System.out.println("The tests will run via proxy: " + instance.proxyHost + ":" + instance.proxyPort);
         }
 
         return instance;

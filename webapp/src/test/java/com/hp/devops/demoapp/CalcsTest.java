@@ -15,7 +15,7 @@ import static org.junit.Assert.assertTrue;
  *
  */
 public class CalcsTest {
-
+//yet another comment
 	@Test
 	public void sum_test_A() {
 		assertEquals(3, Calcs.sum(1, 2));
@@ -50,7 +50,7 @@ public class CalcsTest {
 	public void neq_test_A() {
 		assertTrue(Calcs.nonEqual(0, 1));
 	}
-
+//add comment
 	@Test
 	public void neq_test_B() {
 		assertTrue(Calcs.nonEqual(-1, 0));
