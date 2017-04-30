@@ -1,7 +1,7 @@
 package com.hp.devops.demoapp;
 
 /**n
- * Created by                     gullery                   o2/2016
+ * Created by                      gullery                   o2/2016
  * Testing hotspottttt        widget by Ralu test test
  */
 
