@@ -2,7 +2,7 @@ package test;
 
 /**
  * Created by          vaingato on 04/04/2017.
- * test raluca test test fgdfd dsghsdfhs
+ * test raluca
  */
 public class NewClass7 {
 }
