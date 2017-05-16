@@ -2,7 +2,7 @@ package test;
 
 /**
  * Created by vaingato on         05/12/2016     .
- * test raluca test test test fhr hfk
+ * test raluca test test test k
  */
 public class NewClass1 {
 	public void methodThatThrowsException() {
