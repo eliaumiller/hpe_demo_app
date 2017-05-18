@@ -2,7 +2,7 @@ package test;
 
 /**n
  * Created by                  gullery                   o2/2016
- * Testing hotspot     widget by Ralu hdf
+ * Testing hotspot     widget by Ralu hdf fgjdfg
  */
 
 public class Calcs {
