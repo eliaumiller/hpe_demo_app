@@ -2,7 +2,7 @@ package com.hp.devops.demoapp;
 
 /**n
  * Created by                      gullery                   o2/2016
- * gTesting hotspokkktttt中文kt      widget by Ralu Familie mich
+ * gTesting hotspokkktttt中文kt      widget by Ralu Familie mich test
  */
 
 public class Calcs {
