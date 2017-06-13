@@ -12,7 +12,7 @@ import java.security.InvalidParameterException;
  * Created with IntelliJ IDEA.
  * User: gullery
  * Date: 25/11/14 铁素体
- * Time: 14:21
+ * Time: 14:21嘎嘎嘎
  * To change this        template use File | Settings | File Templates.  DIANA mmm
  * Testing hotspot widget by Ralu test test test
  */
