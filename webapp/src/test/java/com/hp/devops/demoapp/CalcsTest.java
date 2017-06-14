@@ -12,6 +12,7 @@ import static org.junit.Assert.assertTrue;
 public class CalcsTest {
 	////asssggaga
 //commit
+	//second note
 	//commit michael 09-04-2017
 	@Test
 	public void sum_test_A() {
