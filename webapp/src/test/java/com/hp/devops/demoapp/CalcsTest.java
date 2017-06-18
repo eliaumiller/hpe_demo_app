@@ -13,7 +13,7 @@ import static org.junit.Assert.assertTrue;
  * Testing playground
  */
 public class CalcsTest {
-//yet another comment
+//yet another comment...
 	@Test
 	public void sum_test_A() {
 		assertEquals(3, Calcs.sum(1, 2));
