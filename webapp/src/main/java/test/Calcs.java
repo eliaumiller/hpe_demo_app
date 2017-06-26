@@ -1,6 +1,6 @@
 package test;
 
-/**n
+/**nfd
  * Created by                  gullery                   o2/2016
  * Testing hotspots widget by Raluca
  */
