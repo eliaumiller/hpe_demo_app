@@ -8,7 +8,7 @@ import static org.junit.Assert.assertTrue;
 /**
  * Created by  gullery          on 17/02/2016. DianAAA 1111111frerr
  * test raluca test test
- ****adad testing 特殊
+ ****adad t
  */
 public class CalcsTest {
 	////asssggaga
