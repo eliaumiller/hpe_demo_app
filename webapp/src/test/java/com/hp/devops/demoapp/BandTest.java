@@ -52,7 +52,7 @@ public class BandTest {
 	}
 
 	@Test
-	public void bandTestB() {
+	public void bandTestBtestlongnamefordocviewtestraluca() {
 		try {
 			Band band = new Band(new JSONObject());
 			Assert.fail("the flow MUST have been fallen before");
