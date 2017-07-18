@@ -41,7 +41,7 @@ public class BandTest {
 	}
 
 	@Test
-	public void failTestOnNullPointer() {
+	public void failTestOnNullPointertestlongnamefordocviewtestraluca() {
 		try {
 			Band band = new Band(null);
 			band.methodThatThrowsNullPointerException();
@@ -52,7 +52,7 @@ public class BandTest {
 	}
 
 	@Test
-	public void bandTestBtestlongnamefordocviewtestraluca() {
+	public void bandTestB() {
 		try {
 			Band band = new Band(new JSONObject());
 			Assert.fail("the flow MUST have been fallen before");
