@@ -41,7 +41,7 @@ public class BandTest {
 	}
 
 	@Test
-	public void failTestOnNullPointertestlongnamefordocviewtestraluca() {
+	public void failTestOnNullPointertestlongnamefordocviewtestralucafailTestOnNullPointertestlongnamefordocviewtestralucafailTestOnNullPointertestlongnamefordocviewtestraluca() {
 		try {
 			Band band = new Band(null);
 			band.methodThatThrowsNullPointerException();
