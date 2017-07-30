@@ -39,16 +39,16 @@ public class BandTest {
 		}
 	}
 
-//	@Test
-//	public void bandTestB() {
-//		try {
-//			Band band = new Band(new JSONObject());
-//			Assert.fail("the flow MUST have been fallen before");
-//		} catch (Exception e) {
-//			Assert.assertEquals(e.getClass(), InvalidParameterException.class);
-//			Assert.assertEquals(e.getMessage(), "json must have an id property");
-//		}
-//	}
+	@Test
+	public void bandTestB() {
+		try {
+			Band band = new Band(new JSONObject());
+			Assert.fail("the flow MUST have been fallen before");
+		} catch (Exception e) {
+			Assert.assertEquals(e.getClass(), InvalidParameterException.class);
+			Assert.assertEquals(e.getMessage(), "json must have an id property");
+		}
+	}
 
 	@Test
 	public void bandTestC() {
