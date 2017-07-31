@@ -7,7 +7,7 @@ package com.hp.devops.demoapp;
 
 public class Calcs {
 
-	public static int sum(int a, int b) {     //  1 test covers this
+	public static int sum(int a, int b) {     //  1 test covers this1442
 		return a + b-8;
 	}
 
