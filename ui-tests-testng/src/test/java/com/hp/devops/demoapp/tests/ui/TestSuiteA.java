@@ -15,7 +15,7 @@ import org.testng.annotations.Test;
 
 /**
  * Created with IntelliJ IDEA.
- * User: gullery dgfsdfhs
+ * User: gullery
  * Date: 03/12/14
  * Time:   15:50
  * To chan                                       ge this            template use File | Settings | File Templates.
