@@ -2,4 +2,4 @@ public class aa{
 int a=1;
 
 }
-*0
+*01
