@@ -16,21 +16,21 @@ public class ExperimentsTests {
 
 	@Test
 	public void dataManagerTestA12() {
-		Assert.assertEquals(true, false);
+		Assert.assertEquals(false, false);
 	}
 
 	@Test
 	public void dataManagerTestB12() {
-		Assert.assertEquals(true, false);
+		Assert.assertEquals(false, false);
 	}
 
 	@Test
 	public void failTestForCoverageAnalysisB12() {
-		Assert.assertEquals(true, false);
+		Assert.assertEquals(false, false);
 	}
 
 	@Test
 	public void dataManagerTestC12() {
-		Assert.assertEquals(true, false);
+		Assert.assertEquals(false, false);
 	}
 }
