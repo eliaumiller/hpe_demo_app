@@ -10,7 +10,6 @@ import static org.junit.Assert.assertTrue;
  *
  * Testing playground
  *
- *
  * Testing playground
  *
  */
