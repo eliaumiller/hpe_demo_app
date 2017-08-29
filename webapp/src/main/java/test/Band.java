@@ -10,7 +10,7 @@ import java.security.InvalidParameterException;
  * Date: 24/11/14
  * Time: 10:03
  * To change this                     template use File |   Settings | File Templates.
- * Raluca testing
+ * Raluca test
  */
 public class Band {
 	public int id;
