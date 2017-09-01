@@ -28,8 +28,8 @@ public class NewClass1Test {
 	public void newClass1TestA() {
 		try {
 			NewClass1 myClass = new NewClass1();
-//			myClass.methodThatThrowsException(); // null pointer
-//			Assert.fail("the   flow MUST  have been fallen before");
+			myClass.methodThatThrowsException(); // null pointer
+			Assert.fail("the   flow MUST  have been fallen before");
 		} catch (Exception e) {
 			Assert.assertEquals(false, true);
 		}
@@ -38,6 +38,6 @@ public class NewClass1Test {
 	@Test
 	public void newClass1TestB() {
 		NewClass1 myClass = new NewClass1();
-//		myClass.methodThatThrowsException(); // null pointer
+		myClass.methodThatThrowsException(); // null pointer
 	}
 }

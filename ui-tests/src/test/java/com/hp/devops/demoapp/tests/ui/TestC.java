@@ -81,39 +81,39 @@ public class  TestC {
 
     @Test
     public void testUIcaseE() {
-//        System.out.println("Proudly running test " + Thread.currentThread().getStackTrace()[1]);
-//        WebElement query;
-//        if (isMusicApp) {
-//            query = driver.findElement(By.id("bandsList"));
-//            Assert.assertEquals(query.getTagName(), "div");
-//        }
-//        else {
-//            query = driver.findElement(By.id("jenkins"));
-//            Assert.assertEquals(query.getTagName(), "body");
-//        }
-//        Assert.assertEquals(query.isDisplayed(), true);
+        System.out.println("Proudly running test " + Thread.currentThread().getStackTrace()[1]);
+        WebElement query;
+        if (isMusicApp) {
+            query = driver.findElement(By.id("bandsList"));
+            Assert.assertEquals(query.getTagName(), "div");
+        }
+        else {
+            query = driver.findElement(By.id("jenkins"));
+            Assert.assertEquals(query.getTagName(), "body");
+        }
+        Assert.assertEquals(query.isDisplayed(), true);
     }
 
     @Category(SpecialTests.class)
     @Test
     public void testUIcaseF() {
-//        System.out.println("Proudly running test " + Thread.currentThread().getStackTrace()[1]);
-//        WebElement query;
-//        if (isMusicApp) {
-//            query = driver.findElement(By.id("totalVotes"));
-//            Assert.assertEquals(query.getTagName(), "div");
-//        }
-//        else {
-//            query = driver.findElement(By.id("jenkins"));
-//            Assert.assertEquals(query.getTagName(), "body");
-//        }
-//        Assert.assertEquals(query.isDisplayed(), true);
+        System.out.println("Proudly running test " + Thread.currentThread().getStackTrace()[1]);
+        WebElement query;
+        if (isMusicApp) {
+            query = driver.findElement(By.id("totalVotes"));
+            Assert.assertEquals(query.getTagName(), "div");
+        }
+        else {
+            query = driver.findElement(By.id("jenkins"));
+            Assert.assertEquals(query.getTagName(), "body");
+        }
+        Assert.assertEquals(query.isDisplayed(), true);
     }
-//
-//    @Test
-//    public void testUIcaseAlwaysPass() {
-//        System.out.println("Proudly running test " + Thread.currentThread().getStackTrace()[1]);
-//        Assert.assertTrue(true);
-//    }
+
+    @Test
+    public void testUIcaseAlwaysPass() {
+        System.out.println("Proudly running test " + Thread.currentThread().getStackTrace()[1]);
+        Assert.assertTrue(true);
+    }
 
 }

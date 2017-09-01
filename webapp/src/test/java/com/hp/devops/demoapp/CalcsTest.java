@@ -9,7 +9,7 @@ import static org.junit.Assert.assertTrue;
  * Created by  gullery          on 17/02/2016. testtted in pipeline 111
  * test raluca test test
  ****adad
- * this is
+ * this is new *usr2
  */
 public class CalcsTest {
 	////asssggaga
@@ -58,7 +58,7 @@ public class CalcsTest {
 
 	@Test
 	public void neq_test_C_BrokenTest() {
-		assertTrue(Calcs.nonEqual(5, 6));
+		assertTrue(Calcs.nonEqual(5, 5));
 	}
 
 	@Test
