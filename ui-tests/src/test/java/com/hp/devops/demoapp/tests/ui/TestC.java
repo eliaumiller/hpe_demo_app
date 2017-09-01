@@ -109,11 +109,11 @@ public class  TestC {
 //        }
 //        Assert.assertEquals(query.isDisplayed(), true);
     }
-
-    @Test
-    public void testUIcaseAlwaysPass() {
+//
+//    @Test
+//    public void testUIcaseAlwaysPass() {
 //        System.out.println("Proudly running test " + Thread.currentThread().getStackTrace()[1]);
 //        Assert.assertTrue(true);
-    }
+//    }
 
 }
