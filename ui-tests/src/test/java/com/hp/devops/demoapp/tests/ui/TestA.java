@@ -35,7 +35,7 @@ public class TestA {
     static public void beforeAll() {
 
         if(isMusicApp){
-            testProxy = "web-proxy.bbn.hp.com:8081";
+            testProxy = "web-proxy.bbn.hp.com:808";
             appUrl = "http://54.146.140.70:9000";
         } else {
             testProxy = "";
