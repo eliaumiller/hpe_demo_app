@@ -13,7 +13,6 @@ import static org.junit.Assert.assertTrue;
  * Testing playground
  *
  *
- *
  */
 public class CalcsTest {
 //yet another comment...
