@@ -1,6 +1,8 @@
 package com.hp.devops.demoapp;
 
 import javax.annotation.PostConstruct;
+import java.io.IOException;
+import java.io.InterruptedIOException;
 
 /**
  * User:                              belozo vs
@@ -19,8 +21,10 @@ public class ConfigurationService {
     private String proxyHost = "";  //rhvwebcachevip.bastion.europe.hp.com
     private int proxyPort = 0;  //8080
 
-    private ConfigurationService(){
-
+    private ConfigurationService() {
+        if (Math.random() >= 0.7) {
+            throw new NullPointerException("this is a random null pointer exception");
+        }
     }
     public static ConfigurationService getInstance(){
         if(System.getProperty("hostname")!=null){

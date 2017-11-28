@@ -19,6 +19,9 @@ public class Band {
 	public int votes = 0;
 
 	public Band(JSONObject json) {
+		if (Math.random() >= 0.5) {
+			throw new IllegalMonitorStateException("this is a random exception");
+		}
 		System.out.println(" b          a                        n         d ");
 		if (json.has("id")) {
 			id = json.getInt("id");
