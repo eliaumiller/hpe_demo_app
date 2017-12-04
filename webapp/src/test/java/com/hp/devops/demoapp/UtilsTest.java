@@ -22,6 +22,19 @@ public class UtilsTest {
 	}
 
 	@Test
+	public void testThatFailForSimilarityMeasurementA() {
+		Musical musical = new Musical();
+		musical.setMusical();
+	}
+
+	@Test
+	public void testThatFailForSimilarityMeasurementWithALongerNameThanTestA() {
+		Musical musical = new Musical();
+		System.out.println("some print");
+		musical.setMusical();
+	}
+
+	@Test
 	public void nodifyTestB() {
 		String[] result = Utils.nodify("");
 		assertEquals(result.length, 0);         //  0 is the right answer
