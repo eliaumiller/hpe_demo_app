@@ -4,6 +4,7 @@ import org.junit.Assert;
 import org.junit.Test;
 
 import java.security.InvalidParameterException;
+import java.util.Random;
 
 /**
  * Created with IntelliJ IDEA.
@@ -13,24 +14,92 @@ import java.security.InvalidParameterException;
  * To change this template use File  | Settings | File Templates.
  */
 public class ExperimentsTest {
+	private Random rand = new Random();
+	private int randomNumber;
 
+	public ExperimentsTest() {
+		randomNumber = rand.nextInt(5) + 1;
+	}
 	@Test
-	public void dataManagerTestA12() {
-		Assert.assertEquals(true, false);
+	public void randomA1Test() {
+		if (randomNumber == 1) {
+			Assert.assertEquals(true, false);
+		} else {
+			Assert.assertEquals(true, true);
+		}
 	}
 
 	@Test
-	public void dataManagerTestB12() {
-		Assert.assertEquals(true, false);
+	public void randomA2Test() {
+		if (randomNumber == 1) {
+			Assert.assertEquals(true, false);
+		} else {
+			Assert.assertEquals(true, true);
+		}
+	}
+	@Test
+	public void randomB1Test() {
+		if (randomNumber == 2) {
+			Assert.assertEquals(true, false);
+		} else {
+			Assert.assertEquals(true, true);
+		}
 	}
 
 	@Test
-	public void failTestForCoverageAnalysisB12() {
-		Assert.assertEquals(true, false);
+	public void randomB2Test() {
+		if (randomNumber == 2) {
+			Assert.assertEquals(true, false);
+		} else {
+			Assert.assertEquals(true, true);
+		}
 	}
-
 	@Test
-	public void dataManagerTestC12() {
-		Assert.assertEquals(true, false);
+	public void randomC1Test() {
+		if (randomNumber == 3) {
+			Assert.assertEquals(true, false);
+		} else {
+			Assert.assertEquals(true, true);
+		}
+	}
+	@Test
+	public void randomC2Test() {
+		if (randomNumber == 3) {
+			Assert.assertEquals(true, false);
+		} else {
+			Assert.assertEquals(true, true);
+		}
+	}
+	@Test
+	public void randomD1Test() {
+		if (randomNumber == 4) {
+			Assert.assertEquals(true, false);
+		} else {
+			Assert.assertEquals(true, true);
+		}
+	}
+	@Test
+	public void randomD2Test() {
+		if (randomNumber == 4) {
+			Assert.assertEquals(true, false);
+		} else {
+			Assert.assertEquals(true, true);
+		}
+	}
+	@Test
+	public void randomE1Test() {
+		if (randomNumber == 5) {
+			Assert.assertEquals(true, false);
+		} else {
+			Assert.assertEquals(true, true);
+		}
+	}
+	@Test
+	public void randomE2Test() {
+		if (randomNumber == 5) {
+			Assert.assertEquals(true, false);
+		} else {
+			Assert.assertEquals(true, true);
+		}
 	}
 }
