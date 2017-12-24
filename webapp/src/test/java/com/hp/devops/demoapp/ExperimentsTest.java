@@ -23,7 +23,7 @@ public class ExperimentsTest {
 	@Test
 	public void randomA1Test() {
 		if (randomNumber == 1) {
-			Assert.assertEquals(true, false);
+			throw new IllegalMonitorStateException("this is a random exception");
 		} else {
 			Assert.assertEquals(true, true);
 		}
@@ -32,7 +32,7 @@ public class ExperimentsTest {
 	@Test
 	public void randomA2Test() {
 		if (randomNumber == 1) {
-			Assert.assertEquals(true, false);
+			throw new IllegalMonitorStateException("this is a random exception");
 		} else {
 			Assert.assertEquals(true, true);
 		}
@@ -40,7 +40,7 @@ public class ExperimentsTest {
 	@Test
 	public void randomB1Test() {
 		if (randomNumber == 2) {
-			Assert.assertEquals(true, false);
+			throw new IllegalMonitorStateException("this is a random exception");
 		} else {
 			Assert.assertEquals(true, true);
 		}
@@ -49,7 +49,7 @@ public class ExperimentsTest {
 	@Test
 	public void randomB2Test() {
 		if (randomNumber == 2) {
-			Assert.assertEquals(true, false);
+			throw new IllegalMonitorStateException("this is a random exception");
 		} else {
 			Assert.assertEquals(true, true);
 		}
@@ -57,7 +57,7 @@ public class ExperimentsTest {
 	@Test
 	public void randomC1Test() {
 		if (randomNumber == 3) {
-			Assert.assertEquals(true, false);
+			throw new IllegalMonitorStateException("this is a random exception");
 		} else {
 			Assert.assertEquals(true, true);
 		}
@@ -65,7 +65,7 @@ public class ExperimentsTest {
 	@Test
 	public void randomC2Test() {
 		if (randomNumber == 3) {
-			Assert.assertEquals(true, false);
+			throw new IllegalMonitorStateException("this is a random exception");
 		} else {
 			Assert.assertEquals(true, true);
 		}
@@ -73,7 +73,7 @@ public class ExperimentsTest {
 	@Test
 	public void randomD1Test() {
 		if (randomNumber == 4) {
-			Assert.assertEquals(true, false);
+			throw new IllegalMonitorStateException("this is a random exception");
 		} else {
 			Assert.assertEquals(true, true);
 		}
@@ -81,7 +81,7 @@ public class ExperimentsTest {
 	@Test
 	public void randomD2Test() {
 		if (randomNumber == 4) {
-			Assert.assertEquals(true, false);
+			throw new IllegalMonitorStateException("this is a random exception");
 		} else {
 			Assert.assertEquals(true, true);
 		}
@@ -89,7 +89,7 @@ public class ExperimentsTest {
 	@Test
 	public void randomE1Test() {
 		if (randomNumber == 5) {
-			Assert.assertEquals(true, false);
+			throw new IllegalMonitorStateException("this is a random exception");
 		} else {
 			Assert.assertEquals(true, true);
 		}
@@ -97,7 +97,7 @@ public class ExperimentsTest {
 	@Test
 	public void randomE2Test() {
 		if (randomNumber == 5) {
-			Assert.assertEquals(true, false);
+			throw new IllegalMonitorStateException("this is a random exception");
 		} else {
 			Assert.assertEquals(true, true);
 		}
