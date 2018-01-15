@@ -15,7 +15,7 @@ public class CalcsTest {
 	////asssggaga
 	//commit..
 	//second note
-	//commit michael 09-04-2017  test raluca
+	//commit michael 09-04-2017  test
 
 
 	@Test
