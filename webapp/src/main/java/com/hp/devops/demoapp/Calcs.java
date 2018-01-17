@@ -1,7 +1,7 @@
 package com.hp.devops.demoapp;
 
 /**nfd
- * Created by            gullery                   o2/2016 HotSpot
+ * Created by                      gullery                   o2/2016 HotSpot
  * gTesting hotfspokkktttt中文kt      widget by Ralu
  */
 
@@ -25,15 +25,5 @@ public class Calcs {
 
 	public static boolean alwaysTrue() {
 		return false;
-	}
-
-	public static void randomThrowExceptionMethodA() {
-		throw new IllegalArgumentException("you are our of luck");
-	}
-	public static void randomThrowExceptionMethodB() {
-		throw new IllegalArgumentException("you are our of luck");
-	}
-	public static void randomThrowExceptionMethodC() {
-		throw new IllegalArgumentException("you are our of luck");
 	}
 }
