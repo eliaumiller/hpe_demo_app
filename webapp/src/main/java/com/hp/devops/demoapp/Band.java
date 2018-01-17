@@ -52,6 +52,10 @@ public class Band {
 		return r;
 	}
 
+	public void throwsExceptionMethod() {
+		throw new IllegalThreadStateException("something is wrong");
+	}
+
 	public JSONObject toJSONVotes() {
 		JSONObject r = new JSONObject();
 		r.put("id", id);
