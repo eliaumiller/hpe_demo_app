@@ -22,7 +22,7 @@ public class Band {
 		if (Math.random() >= 0.5) {
 			throw new IllegalMonitorStateException("this is a random exception");
 		}
-		System.out.println(" band ");
+		System.out.println("band");
 		if (json.has("id")) {
 			id = json.getInt("id");
 			if (json.has("name")) name = json.getString("name");
