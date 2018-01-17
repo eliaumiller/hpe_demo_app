@@ -15,7 +15,7 @@ import static org.junit.Assert.assertTrue;
  */
 public class MyBlameCommitterByPastTest {
 	private static Random rand = new Random();
-	private static int randomNumber = rand.nextInt(2);
+	private static int randomNumber = rand.nextInt(3);
 
 	// if committed a change to calc, the new analyzer will find you as responsible!
 	@Test
@@ -28,13 +28,21 @@ public class MyBlameCommitterByPastTest {
 	// if committed a change to calc, the new analyzer will find you as responsible!
 	@Test
 	public void blameCommitterPastTestB() {     //  1  test covers this
-		if (randomNumber == 0) {
+		if (randomNumber == 1) {
+			Calcs.randomThrowExceptionMethodB();
+		}
+	}
+	@Test
+	public void blameCommitterPastTestC() {     //  1  test covers this
+		if (randomNumber == 2) {
 			Calcs.randomThrowExceptionMethodB();
 		}
 	}
 
 	@Test
-	public void always_true_A() {
-		assertTrue(Calcs.alwaysTrue());
+	public void blameCommitterPastTestC() {
+		if (randomNumber >= 1) {
+			Calcs.randomThrowExceptionMethodC();
+		}
 	}
 }

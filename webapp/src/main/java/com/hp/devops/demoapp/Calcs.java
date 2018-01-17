@@ -33,4 +33,7 @@ public class Calcs {
 	public static void randomThrowExceptionMethodB() {
 		throw new IllegalArgumentException("you are our of luck");
 	}
+	public static void randomThrowExceptionMethodC() {
+		throw new IllegalArgumentException("you are our of luck");
+	}
 }
