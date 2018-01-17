@@ -26,4 +26,11 @@ public class Calcs {
 	public static boolean alwaysTrue() {
 		return false;
 	}
+
+	public static void randomThrowExceptionMethodA() {
+		throw new IllegalArgumentException("you are our of luck");
+	}
+	public static void randomThrowExceptionMethodB() {
+		throw new IllegalArgumentException("you are our of luck");
+	}
 }
