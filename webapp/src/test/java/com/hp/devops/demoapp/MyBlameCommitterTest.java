@@ -31,25 +31,28 @@ public class MyBlameCommitterTest {
 
 	@Test
 	public void throwsExceptionTestA() {
-		if (randomNumber == 0) {
+/*		if (randomNumber == 0) {
 			Band band = new Band(null);
 			band.throwsExceptionMethod();
-		}
+		}*/
+        Assert.assertEquals(true, false);
 	}
 
 	@Test
 	public void throwsExceptionTestB() {
-		if (randomNumber == 1) {
+/*		if (randomNumber == 1) {
 			Band band = new Band(null);
 			band.throwsExceptionMethod();
-		}
+		}*/
+        Assert.assertEquals(true, false);
 	}
 	@Test
 	public void throwsExceptionTestC() {
-		if (randomNumber == 2) {
+		/*if (randomNumber == 2) {
 			Band band = new Band(null);
 			band.throwsExceptionMethod();
-		}
+		}*/
+        Assert.assertEquals(true, false);
 	}
 
 }
