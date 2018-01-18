@@ -23,6 +23,8 @@ public class MyBlameCommitterTest {
 
 	@Test
 	public void throwsExceptionTestA() {
+		Band band = new Band(null);
+		band.throwsExceptionMethod();
 /*		if (randomNumber == 0) {
 			Band band = new Band(null);
 			band.throwsExceptionMethod();
@@ -34,23 +36,28 @@ public class MyBlameCommitterTest {
 
 	@Test
 	public void throwsExceptionTestB() {
-		if (randomNumber == 0) {
+		Band band = new Band(null);
+		band.throwsExceptionMethod();
+
+/*		if (randomNumber == 0) {
 			Assert.assertEquals(true, false);
 		} else if (randomNumber == 1) {
 			Assert.assertEquals(1, 1);
 		}
 		Band band = new Band(null);
-		band.throwsExceptionMethod();
+		band.throwsExceptionMethod();*/
 	}
 	@Test
 	public void throwsExceptionTestC() {
-		if (randomNumber == 0) {
+		Band band = new Band(null);
+		band.throwsExceptionMethod();
+		/*		if (randomNumber == 0) {
 			Assert.assertEquals(1, 1);
 		} else if (randomNumber == 1) {
 			Band band = new Band(null);
 			band.throwsExceptionMethod();
 		}
-        Assert.assertEquals(true, false);
+        Assert.assertEquals(true, false);*/
 	}
 
 }
