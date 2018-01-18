@@ -34,21 +34,21 @@ public class MyBlameCommitterTest {
 
 	@Test
 	public void throwsExceptionTestB() {
-		if (randomNumber == 1) {
-			Band band = new Band(null);
-			band.throwsExceptionMethod();
-		} else if (randomNumber == 0) {
+		if (randomNumber == 0) {
+			Assert.assertEquals(true, false);
+		} else if (randomNumber == 1) {
 			Assert.assertEquals(true, true);
 		}
-        Assert.assertEquals(true, false);
+		Band band = new Band(null);
+		band.throwsExceptionMethod();
 	}
 	@Test
 	public void throwsExceptionTestC() {
-		if (randomNumber == 2) {
+		if (randomNumber == 0) {
+			Assert.assertEquals(true, true);
+		} else if (randomNumber == 1) {
 			Band band = new Band(null);
 			band.throwsExceptionMethod();
-		} else if (randomNumber == 1) {
-			Assert.assertEquals(true, true);
 		}
         Assert.assertEquals(true, false);
 	}
