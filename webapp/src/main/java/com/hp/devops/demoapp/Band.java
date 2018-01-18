@@ -35,7 +35,7 @@ public class Band {
 	}
 
 	/**
-	 * for testing blame  committer feature
+	 * for testing blame committer feature
 	 */
 	public void methodThatThrowsNullPointerException() {
 		System.out.print("going to throw  null pointer exception..");
