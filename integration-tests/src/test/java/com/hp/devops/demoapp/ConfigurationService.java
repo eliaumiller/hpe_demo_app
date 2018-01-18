@@ -76,5 +76,5 @@ public class ConfigurationService {
         return protocol + "://" + hostName;
     }
 
-    public void stam2(){}
+    public void stam(){}
 }
