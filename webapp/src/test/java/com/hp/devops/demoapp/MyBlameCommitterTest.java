@@ -9,14 +9,6 @@ import org.junit.Test;
 import java.security.InvalidParameterException;
 import java.util.Random;
 
-/**
- * Created with IntelliJ IDEA.
- * User: gullery12
- * Date: 25/11/14
- * Time: 14:21
- * To change this         template use File | Settings | File Templates. 测试添加一些东西
- * Testing hotspot widget by Ralu test
- */
 public class MyBlameCommitterTest {
 
 	private static Random rand;
@@ -31,28 +23,28 @@ public class MyBlameCommitterTest {
 
 	@Test
 	public void throwsExceptionTestA() {
-/*		if (randomNumber == 0) {
+		if (randomNumber == 0) {
 			Band band = new Band(null);
 			band.throwsExceptionMethod();
-		}*/
-        Assert.assertEquals(true, false);
+		}
+        //Assert.assertEquals(true, false);
 	}
 
 	@Test
 	public void throwsExceptionTestB() {
-/*		if (randomNumber == 1) {
+		if (randomNumber == 1) {
 			Band band = new Band(null);
 			band.throwsExceptionMethod();
-		}*/
-        Assert.assertEquals(true, false);
+		}
+        //Assert.assertEquals(true, false);
 	}
 	@Test
 	public void throwsExceptionTestC() {
-		/*if (randomNumber == 2) {
+		if (randomNumber == 2) {
 			Band band = new Band(null);
 			band.throwsExceptionMethod();
-		}*/
-        Assert.assertEquals(true, false);
+		}
+        //Assert.assertEquals(true, false);
 	}
 
 }
