@@ -23,6 +23,8 @@ public class MyBlameCommitterTest {
 
 	@Test
 	public void throwsExceptionTestA() {
+		Band band = new Band(null);
+		band.throwsExceptionMethod();
 		if (randomNumber == 0) {
 			Band band = new Band(null);
 			band.throwsExceptionMethod();
@@ -35,6 +37,8 @@ public class MyBlameCommitterTest {
 
 	@Test
 	public void throwsExceptionTestB() {
+		Band band = new Band(null);
+		band.throwsExceptionMethod();
 		if (randomNumber == 1) {
 			Band band = new Band(null);
 			band.throwsExceptionMethod();
@@ -45,6 +49,8 @@ public class MyBlameCommitterTest {
 	}
 	@Test
 	public void throwsExceptionTestC() {
+		Band band = new Band(null);
+		band.throwsExceptionMethod();
 		if (randomNumber == 2) {
 			Band band = new Band(null);
 			band.throwsExceptionMethod();
