@@ -14,7 +14,7 @@ import java.util.ArrayList;
  * User: gullery 中国 test again打交道
  * Date: 24/11/14fsfsfdffdfdddgfgfgfg
  * Time: 09:58
- * To change this    template use File | Settings | File Templates.hjhjh
+ * To change this template use File | Settings | File Templates.hjhjh
  */
 public class DataManager {
 
