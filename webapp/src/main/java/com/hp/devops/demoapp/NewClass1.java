@@ -1,7 +1,7 @@
 package com.hp.devops.demoapp;
 
 /**
- * Created by vaingato  jhjfd   ffdd  05/12/2016     .
+ * Created by vaingato jhjfd   ffdd  05/12/2016     .
  * test ralucauyu
  */
 public class NewClass1 {
