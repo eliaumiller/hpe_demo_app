@@ -7,8 +7,8 @@ import java.security.InvalidParameterException;
 /**vvvv
  * Created with IntelliJdf  IDEA.
  * User: gullery
- * Date: 24/11/14  的dd
- * Time: 10:03  Zeugnis testing again
+ * Date: 24/11/14 的dd
+ * Time: 10:03 Zeugnis testing again
  * To change this template use File | Settings | File Templates.
  */
 public class Band {
