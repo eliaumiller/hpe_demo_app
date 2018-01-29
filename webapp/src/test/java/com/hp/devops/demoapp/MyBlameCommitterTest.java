@@ -21,35 +21,35 @@ public class MyBlameCommitterTest {
 	}
 
 
-//	@Test
-//	public void throwsExceptionTestA() {
-//		if (randomNumber == 0) {
-//			Band band = new Band(null);
-//			band.throwsExceptionMethod();
-//		} else if (randomNumber == 1) {
-//			Assert.assertEquals(1, 2);
-//		}
-//	}
-//
-//	@Test
-//	public void throwsExceptionTestB() {
-//		if (randomNumber == 0) {
-//			Assert.assertEquals(true, false);
-//		} else if (randomNumber == 1) {
-//		} else {
-//			Band band = new Band(null);
-//			band.throwsExceptionMethod();
-//		}
-//	}
-//	@Test
-//	public void throwsExceptionTestC() {
-//		if (randomNumber == 0) {
-//		} else if (randomNumber == 1) {
-//			Band band = new Band(null);
-//			band.throwsExceptionMethod();
-//		} else {
-//			Assert.assertEquals(true, false);
-//		}
-//	}
+	@Test
+	public void throwsExceptionTestA() {
+		if (randomNumber == 0) {
+			Band band = new Band(null);
+			band.throwsExceptionMethod();
+		} else if (randomNumber == 1) {
+			Assert.assertEquals(1, 2);
+		}
+	}
+
+	@Test
+	public void throwsExceptionTestB() {
+		if (randomNumber == 0) {
+			Assert.assertEquals(true, false);
+		} else if (randomNumber == 1) {
+		} else {
+			Band band = new Band(null);
+			band.throwsExceptionMethod();
+		}
+	}
+	@Test
+	public void throwsExceptionTestC() {
+		if (randomNumber == 0) {
+		} else if (randomNumber == 1) {
+			Band band = new Band(null);
+			band.throwsExceptionMethod();
+		} else {
+			Assert.assertEquals(true, false);
+		}
+	}
 
 }
