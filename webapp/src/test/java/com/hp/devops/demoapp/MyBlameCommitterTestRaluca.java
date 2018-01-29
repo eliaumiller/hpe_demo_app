@@ -11,18 +11,18 @@ public class MyBlameCommitterTestRaluca {
 	private static Random rand;
 	private static int randomNumber;
 
-//	@Before
-//	public void beforeEach() {
-//		rand = new Random();
-//		randomNumber = rand.nextInt(3);
-//	}
-
-
-	@Test
-	public void throwsExceptionTestA() {
-			Band band = new Band(null);
-			band.throwsExceptionMethod();
+	@Before
+	public void beforeEach() {
+		rand = new Random();
+		randomNumber = rand.nextInt(3);
 	}
+
+//
+//	@Test
+//	public void throwsExceptionTestA() {
+//			Band band = new Band(null);
+//			band.throwsExceptionMethod();
+//	}
 //
 //	@Test
 //	public void throwsExceptionTestB() {
