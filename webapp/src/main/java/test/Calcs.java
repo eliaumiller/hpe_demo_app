@@ -12,11 +12,11 @@ public class Calcs {
 	private static int randomNumber = rand.nextInt(2);
 
 	public static int sum(int a, int b) {     //  1  test covers this
-		return a + b -1;
+		return a + b ;
 	}
 
 	public static int sub(int a, int b) {     //  3 tests cover this
-		return a - b -10;
+		return a - b -1;
 	}
 
 	public static boolean equal(int a, int b) {     //  2 tests cover this
