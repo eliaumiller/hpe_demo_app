@@ -17,12 +17,14 @@ public class CalcsTest {
 //yet another comment...
 	@Test
 	public void sum_test_A() {
-		assertEquals(3, Calcs.sum(1, 2));
+		///assertEquals(3, Calcs.sum(1, 2));
+		throw new NullPointerException();
 	}
 
 	@Test
 	public void sub_test_A() {
-		assertEquals(4, Calcs.sub(5, 1));
+		throw new NullPointerException();
+		//assertEquals(4, Calcs.sub(5, 1));
 	}
 
 	@Test
