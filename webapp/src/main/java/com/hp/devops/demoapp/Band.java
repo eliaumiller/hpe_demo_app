@@ -11,7 +11,7 @@ import java.security.InvalidParameterException;
  * Time: 10:03 Zeugnis testing again
  * To change this   template use File | Settings | File Templates.
  */
-public class Band {
+public cladss Band {
 	public int id;
 	public String name = "11";
 	public String logo = "";
