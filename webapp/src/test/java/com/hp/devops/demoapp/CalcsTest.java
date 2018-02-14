@@ -6,8 +6,8 @@ import static org.junit.Assert.assertEquals;
 import static org.junit.Assert.assertTrue;
 
 /**
- * Created by  gullery          on 17/02/2016. testtted in pipeline 111
- * test raluca test
+ * Created by  gullery   on 17/02/2016. testtted in pipeline 111
+ * test raluca   test
  ****adad 做了更改与测试
  * this is new *usr2
  */
@@ -15,7 +15,9 @@ public class CalcsTest {
 	////asssggaga
 	//commit..
 	//second note
-	//commit michael 09-04-2017
+	//commit michael 09-04-2017  test test test
+
+
 	@Test
 	public void sum_test_A() {
 		assertEquals(3, Calcs.sum(1, 2));

@@ -13,8 +13,8 @@ import java.security.InvalidParameterException;
  * User: gullery12
  * Date: 25/11/14
  * Time: 14:21
- * To change this         template use File | Settings | File Templates. 测试添加一些东西
- * Testing hotspot widget by Ralu test
+ * To change this         template use File | Settings | File Templates. 测试添
+ * Testing hotspot widget by Ralu
  */
 public class BandTest {
 	//private String NON_RELATED;
