@@ -13,9 +13,6 @@ public class CalcsTest {
 	////asssggaga
 	//commit..
 	//second note
-	//commit michael 09-04-2017  test test test
-
-
 	@Test
 	public void sum_test_A() {
 		assertEquals(3, Calcs.sum(1, 2));
