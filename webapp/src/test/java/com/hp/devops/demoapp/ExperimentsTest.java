@@ -22,7 +22,7 @@ public class ExperimentsTest {
 	}
 	@Test
 	public void randomA1Test() {
-		if (randomNumber == 1) {
+		if (randomNumber == 22) {
 			throw new IllegalMonitorStateException("this is a random exception");
 		} else {
 			Assert.assertEquals(true
