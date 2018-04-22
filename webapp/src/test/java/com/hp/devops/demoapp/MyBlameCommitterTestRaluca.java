@@ -18,7 +18,7 @@ public class MyBlameCommitterTestRaluca {
 	}
 
 //
-//	@Test
+//	 @Test
 //	public void throwsExceptionTestA() {
 //			Band band = new Band(null);
 //			band.throwsExceptionMethod();
