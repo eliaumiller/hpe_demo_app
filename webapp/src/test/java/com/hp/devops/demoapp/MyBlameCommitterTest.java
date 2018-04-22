@@ -86,7 +86,7 @@ public class MyBlameCommitterTest {
 	}
 
 	@Test
-	public void throwsExceptionTestA2() {
+	public void throwsExceptionTestA3() {
 		if (randomNumber3 == 0) {
 			Band band = new Band(null);
 			band.throwsExceptionMethod();
@@ -96,7 +96,7 @@ public class MyBlameCommitterTest {
 	}
 
 	@Test
-	public void throwsExceptionTestB2() {
+	public void throwsExceptionTestB3() {
 		if (randomNumber3 == 0) {
 			Assert.assertEquals(true, false);
 		} else if (randomNumber3 == 1) {
@@ -106,7 +106,7 @@ public class MyBlameCommitterTest {
 		}
 	}
 	@Test
-	public void throwsExceptionTestC2() {
+	public void throwsExceptionTestC3() {
 		if (randomNumber3 == 0) {
 		} else if (randomNumber3 == 1) {
 			Band band = new Band(null);
