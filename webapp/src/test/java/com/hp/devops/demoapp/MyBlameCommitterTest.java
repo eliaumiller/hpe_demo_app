@@ -10,7 +10,7 @@ import java.security.InvalidParameterException;
 import java.util.Random;
 
 public class MyBlameCommitterTest {
-    // a                  b                  c
+    // a                  b                   c
 	private static Random rand;
 	private static int randomNumber, randomNumber2, randomNumber3;
 
