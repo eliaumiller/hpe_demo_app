@@ -14,7 +14,7 @@ import java.util.Random;
  * User: gullery 3usnothi1821af
  * Date: 25/11/14
  * Time: 14:21
- * To change   this   template use File | Settings | File Templates.
+ * To change   this     template use File | Settings | File Templates.
  */
 public class NewClass1Test {
 	//private String NON_RELATED;
