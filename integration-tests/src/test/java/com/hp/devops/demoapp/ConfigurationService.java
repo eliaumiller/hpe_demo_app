@@ -8,7 +8,7 @@ import java.io.InterruptedIOException;
  * User:                              belozo vs
  * Date: 11/25/14
  * Description
- * Testing hotspot widget by Ralu test dfgsdfh
+ * Testing hotspot widget by Ralu test
  */
 public class ConfigurationService {
 
