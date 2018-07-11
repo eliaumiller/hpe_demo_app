@@ -20,7 +20,7 @@ import org.testng.annotations.Test;
  * Time:   15:50
  * To chan                                       ge this            template use File | Settings | File Templates.
  * Testing hotspot widget by Ralu test test
- * Xander Tests Octane Pipelines #2
+ * Xander Tests Octane Pipelines #3
  */
 public class TestSuiteA {
 
