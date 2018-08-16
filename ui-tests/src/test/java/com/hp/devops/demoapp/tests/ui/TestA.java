@@ -20,7 +20,7 @@ import org.openqa.selenium.remote.DesiredCapabilities;
  * Date: 25/11/14
  * Time: 17:28
  * To change this template use File        | Settings | File Templates.
- * Testing hotspot widget by Ralu test test test testabcd
+ * Testing hotspot widget by Ralu test test test
  */
 public class TestA {
 
