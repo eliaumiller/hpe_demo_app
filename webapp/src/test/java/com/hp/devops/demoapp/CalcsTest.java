@@ -7,7 +7,7 @@ import static org.junit.Assert.assertTrue;
 
 /**
  * Created by  gullery             on 17/02/2016. testtted in pipeline 111
- * this is new *
+ * this is new *asd
  */
 public class CalcsTest {
 	////asssggaga
