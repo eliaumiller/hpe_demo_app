@@ -1,6 +1,6 @@
 package com.hp.devops.demoapp;
 
-/**nfd
+/**nfd r
  * Created          by gullery 2/2016 HotSpot
  * gTesting hotfspokkktttt中文kt widget by Ralu test
  */
@@ -25,5 +25,6 @@ public class Calcs {
 
 	public static boolean alwaysTrue() {
 		return false;
+		
 	}
 }
