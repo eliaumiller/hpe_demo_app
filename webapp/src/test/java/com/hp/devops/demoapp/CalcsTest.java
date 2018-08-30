@@ -12,7 +12,7 @@ import static org.junit.Assert.assertTrue;
 public class CalcsTest {
 	////asssggaga
 	//commit. .
-	//second note
+	//second note testtetststststs
 	@Test
 	public void sum_test_A() {
 		assertEquals(3, Calcs.sum(1, 2));
