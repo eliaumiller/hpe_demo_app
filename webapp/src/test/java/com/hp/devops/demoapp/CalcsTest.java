@@ -7,11 +7,11 @@ import static org.junit.Assert.assertTrue;
 
 /**
  * Created by  gullery             on 17/02/2016. testtted in pipeline 111
- * this is new *
+ * this is new *asd test
  */
 public class CalcsTest {
 	////asssggaga
-	//commit. .sdfsdfsfasf
+	//commit. .
 	//second note
 	@Test
 	public void sum_test_A() {
@@ -68,7 +68,7 @@ public class CalcsTest {
 		assertTrue(Calcs.alwaysTrue());
 	}
 	//nissim added comment for regrassion day 14/02/2017 
-	//eli too 5
+	//eli too 55 
 	
 	
 	
