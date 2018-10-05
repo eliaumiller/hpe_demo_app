@@ -10,7 +10,7 @@ import java.security.InvalidParameterException;
 import java.util.Random;
 
 public class MyBlameCommitterTest {
-    // a                                   b                                 c
+    // a            b       c
 	private static Random rand;
 	private static int randomNumber, randomNumber2, randomNumber3;
 
@@ -47,6 +47,7 @@ public class MyBlameCommitterTest {
 	public void throwsExceptionTestC() {
 		if (randomNumber == 0) {
 		} else if (randomNumber == 1) {
+
 			Band band = new Band(null);
 			band.throwsExceptionMethod();
 		} else {
