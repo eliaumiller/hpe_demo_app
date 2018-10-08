@@ -21,7 +21,7 @@ import org.testng.annotations.Test;
  * To chan                                       ge this            template use File | Settings | File Templates.
  * Testing hotspot widget by Ralu test test1
  */
-//Xander Random change for commit a
+//Xander Random change for commit
 public class TestSuiteA {
 
     final static private boolean isMusicApp = false;
