@@ -9,28 +9,29 @@ import org.testng.annotations.Test;
 
 /**
  * Created with IntelliJ IDEA.
- * User: gullery
- * Date: 03/12/15
+ * User:  gullery
+ * Date: 03/11/14
  * Time: 15:50
- * To change this template use File | Settings | File Templates.
- * THIS IS XANDER
+ * To change this template use File | Settings | File Templates
  */
-public class SeleniumTestSuiteA {
+public class TestNG_Selenium_TestSuiteB {
 
-    TestData data;
+    private TestData data;
 
-    private void setUp() {
+
+    private void setUP() {
+
         data = TestData.generate();
     }
 
     @BeforeClass(alwaysRun = true)
     public void beforeClass() {
-        setUp();
+        setUP();
     }
 
-    @Test(groups = {"Group_A"})
-    public void testCase1() {
-        System.out.println("Proudly running test " + Thread.currentThread().getStackTrace()[1]);
+    @Test(groups = {"Group_B"})
+    public void testCaseA() {
+        System.out.println("Proudly   running   test " + Thread.currentThread().getStackTrace()[1]);
         WebElement query;
         if (data.isMusicApp()) {
             query = data.getDriver().findElement(By.id("bandsList"));
@@ -43,7 +44,7 @@ public class SeleniumTestSuiteA {
     }
 
     @Test
-    public void testCase2() {
+    public void testCaseB() {
         System.out.println("Proudly running test " + Thread.currentThread().getStackTrace()[1]);
         WebElement query;
         if (data.isMusicApp()) {
@@ -56,9 +57,9 @@ public class SeleniumTestSuiteA {
         Assert.assertEquals(query.isDisplayed(), true);
     }
 
-    @Test(groups = {"Group_A"})
-    public void testCase3() {
-        System.out.println("Proudly  running  test " + Thread.currentThread().getStackTrace()[1]);
+    @Test(groups = {"Group_B"})
+    public void testCaseC() {
+        System.out.println("Proudly running test " + Thread.currentThread().getStackTrace()[1]);
         try {
             Thread.sleep(1000);
         } catch (InterruptedException e) {
