@@ -14,7 +14,7 @@ import org.testng.annotations.Test;
  * Time: 15:50
  * To change this template use File | Settings | File Templates
  */
-public class TestNG_Selenium_TestSuiteB {
+public class TestSuiteB_TestNG_Selenium {
 
     private TestData data;
 

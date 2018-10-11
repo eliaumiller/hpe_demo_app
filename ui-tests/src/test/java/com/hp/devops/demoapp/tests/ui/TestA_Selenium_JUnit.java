@@ -1,13 +1,10 @@
-package com.hp.devops.demoapp.tests.ui;/**
- * Created with IntelliJ IDEA.
- * User: belozovs
- * Date: 12/7/14
- * Time: 4:33 PM
- * To change this template use File | Settings | File Templates.abcioana-malinaaasd
- *
- */
+package com.hp.devops.demoapp.tests.ui;
 
-import org.junit.*;
+import org.junit.AfterClass;
+import org.junit.Assert;
+import org.junit.BeforeClass;
+import org.junit.Ignore;
+import org.junit.Test;
 import org.junit.experimental.categories.Category;
 import org.openqa.selenium.By;
 import org.openqa.selenium.Proxy;
@@ -17,31 +14,27 @@ import org.openqa.selenium.htmlunit.HtmlUnitDriver;
 import org.openqa.selenium.remote.CapabilityType;
 import org.openqa.selenium.remote.DesiredCapabilities;
 
-public class TestB {
+/**
+ * Created with IntelliJ IDEA.
+ * User: gullery
+ * Date: 25/11/14
+ * Time: 17:28
+ * To change this template use File | Settings | File Templates.
+ * test raluca
+ * testDan123
+ */
+public class TestA_Selenium_JUnit {
 
     static private TestData testData;
 
     @BeforeClass
-    public static void setUpBeforeClass() throws Exception {
+    static public void beforeAll() {
         testData = TestData.generate();
     }
 
-    @AfterClass
-    public static void tearDownAfterClass() throws Exception {
-        testData.getDriver().quit();
-    }
-
-    @Before
-    public void setUp() throws Exception {
-    }
-
-    @After
-    public void tearDown() throws Exception {
-    }
-
     @Test
-    public void testUIcaseC() {
-        System.out.println("Proudly running test " + Thread.currentThread().getStackTrace()[1]);
+    public void testUIcaseA() {
+        System.out.println("Proudly  running  test   " + Thread.currentThread().getStackTrace()[1]);
         WebElement query;
         if(testData.isMusicApp()){
             query = testData.getDriver().findElement(By.id("bandsList"));
@@ -55,7 +48,7 @@ public class TestB {
 
     @Category(SpecialTests.class)
     @Test
-    public void testUIcaseD() {
+    public void testUIcaseB() {
         System.out.println("Proudly running test " + Thread.currentThread().getStackTrace()[1]);
         WebElement query;
         if(testData.isMusicApp()){
@@ -68,4 +61,14 @@ public class TestB {
         Assert.assertEquals(query.isDisplayed(), true);
     }
 
+    @Test
+    public void testUIcaseAlwaysPass() {
+        System.out.println("Proudly  running test " + Thread.currentThread().getStackTrace()[1]);
+        Assert.assertTrue(true);
+    }
+
+    @AfterClass
+    static public void afterAll() {
+        testData.getDriver().quit();
+    }
 }

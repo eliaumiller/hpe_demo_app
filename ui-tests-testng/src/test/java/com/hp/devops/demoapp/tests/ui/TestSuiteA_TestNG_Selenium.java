@@ -15,7 +15,7 @@ import org.testng.annotations.Test;
  * To change this template use File | Settings | File Templates.
  * THIS IS XANDER
  */
-public class TestNG_Selenium_TestSuiteA {
+public class TestSuiteA_TestNG_Selenium {
 
     TestData data;
 
