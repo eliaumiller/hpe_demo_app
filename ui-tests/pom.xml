@@ -43,8 +43,7 @@
                 <version>2.18.1</version>
                 <configuration>
                     <includes>
-                        <include>**/TestA.java</include>
-                        <include>%regex[.*TestB.*]</include>
+                        <include>**/.*Test.*.java</include>
                     </includes>
                 </configuration>
                 <executions>
