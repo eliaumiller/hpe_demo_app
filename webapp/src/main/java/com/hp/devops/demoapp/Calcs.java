@@ -24,9 +24,9 @@ public class Calcs {
 	}
 
 	public static boolean alwaysTrue() {
-		return false;
+		return true;
 	}
 	public static boolean alwaysFalse() {
-		return true;
+		return false;
 	}
 }
