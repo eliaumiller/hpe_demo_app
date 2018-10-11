@@ -93,8 +93,8 @@
             this.framework=framework;
         }
 
-	    tests.push(new Test("com.hp.devops.demoapp.tests.ui.JUnit_Selenium_TestA", "testUIcaseA", "Selenium-Junit"));
-	    tests.push(new Test("com.hp.devops.demoapp.tests.ui.JUnit_Selenium_TestA", "testUIcaseB", "Selenium-Junit"));
+	    tests.push(new Test("com.hp.devops.demoapp.tests.ui.TestA", "testUIcaseA", "Selenium-Junit"));
+	    tests.push(new Test("com.hp.devops.demoapp.tests.ui.TestA", "testUIcaseB", "Selenium-Junit"));
 	    tests.push(new Test("com.hp.devops.demoapp.tests.ui.JUnit_Selenium_TestB", "testUIcaseC", "Selenium-Junit"));
 	    tests.push(new Test("com.hp.devops.demoapp.tests.ui.JUnit_Selenium_TestB", "testUIcaseD", "Selenium-Junit"));
 	    tests.push(new Test("com.hp.devops.demoapp.tests.ui.TestNG_Selenium_TestSuiteA", "testCase1", "Selenium via TestNG"));
@@ -200,7 +200,7 @@
 //        curl -X POST "http://myd-vm02771.hpswlabs.adapps.hp.com:8080/jenkins/job/Selenium-Junit/build?delay=0sec"
 // --data-urlencode json=
 // "{'parameter': [{'name': 'useProxy', 'value': 'false'},{'name': 'appUrl', 'value': 'http://myd-vm05069.hpswlabs.adapps.hp.com:9080'},
-// {'name': 'testsToRun', 'value': '-Dtest=com.hp.devops.demoapp.tests.ui.JUnit_Selenium_TestA#testUIcaseB'}]}"
+// {'name': 'testsToRun', 'value': '-Dtest=com.hp.devops.demoapp.tests.ui.TestA#testUIcaseB'}]}"
 //TESTNG
 //        DPROXY_PORT= -DAPP_PORT=9080 -DPROXY_HOST= -DTESTNG_PARAMS=-Dgroups=Group_A -DAPP_HOST=http://myd-vm05069.hpswlabs.adapps.hp.com
         //http://myd-vm02771.hpswlabs.adapps.hp.com:8080/jenkins/job/Selenium-TestNG

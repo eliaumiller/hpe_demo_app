@@ -197,8 +197,8 @@ Test.getByMethod = function(method) {
 	return null;
 };
 
-tests.push(new Test("com.hp.devops.demoapp.tests.ui.JUnit_Selenium_TestA", "testUIcaseA", "Selenium-Junit"));
-tests.push(new Test("com.hp.devops.demoapp.tests.ui.JUnit_Selenium_TestA", "testUIcaseB", "Selenium-Junit"));
+tests.push(new Test("com.hp.devops.demoapp.tests.ui.TestA", "testUIcaseA", "Selenium-Junit"));
+tests.push(new Test("com.hp.devops.demoapp.tests.ui.TestA", "testUIcaseB", "Selenium-Junit"));
 tests.push(new Test("com.hp.devops.demoapp.tests.ui.JUnit_Selenium_TestB", "testUIcaseC", "Selenium-Junit"));
 tests.push(new Test("com.hp.devops.demoapp.tests.ui.JUnit_Selenium_TestB", "testUIcaseD", "Selenium-Junit"));
 tests.push(new Test("com.hp.devops.demoapp.tests.ui.TestNG_Selenium_TestSuiteA", "testCase1", "Selenium via TestNG", "Group_A"));
@@ -238,7 +238,7 @@ function runJob() {
 	if(document.getElementById("techStack").selectedIndex === 1) {
 		var data;
 		var testsString = buildJunitTestString(selectTests());
-		//json="{'parameter': [{'name': 'useProxy', 'value': 'false'},{'name': 'appUrl', 'value': 'http://myd-vm05069.hpswlabs.adapps.hp.com:9080'},{'name': 'testsToRun', 'value': '-Dtest=com.hp.devops.demoapp.tests.ui.JUnit_Selenium_TestA#testUIcaseA+testUIcaseB'}]}"
+		//json="{'parameter': [{'name': 'useProxy', 'value': 'false'},{'name': 'appUrl', 'value': 'http://myd-vm05069.hpswlabs.adapps.hp.com:9080'},{'name': 'testsToRun', 'value': '-Dtest=com.hp.devops.demoapp.tests.ui.TestA#testUIcaseA+testUIcaseB'}]}"
 		var testParams;
 		if(document.getElementById("junitCategory").checked) {
 			testParams = '-Dgroups=';

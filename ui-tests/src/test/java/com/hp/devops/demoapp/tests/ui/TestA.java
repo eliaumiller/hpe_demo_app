@@ -23,7 +23,7 @@ import org.openqa.selenium.remote.DesiredCapabilities;
  * test raluca
  * testDan123
  */
-public class JUnit_Selenium_TestA {
+public class TestA {
 
     static private TestData testData;
 
