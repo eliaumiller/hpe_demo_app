@@ -199,8 +199,8 @@ Test.getByMethod = function(method) {
 
 tests.push(new Test("com.hp.devops.demoapp.tests.ui.TestA", "testUIcaseA", "Selenium-Junit"));
 tests.push(new Test("com.hp.devops.demoapp.tests.ui.TestA", "testUIcaseB", "Selenium-Junit"));
-tests.push(new Test("com.hp.devops.demoapp.tests.ui.JUnit_Selenium_TestB", "testUIcaseC", "Selenium-Junit"));
-tests.push(new Test("com.hp.devops.demoapp.tests.ui.JUnit_Selenium_TestB", "testUIcaseD", "Selenium-Junit"));
+tests.push(new Test("com.hp.devops.demoapp.tests.ui.TestB", "testUIcaseC", "Selenium-Junit"));
+tests.push(new Test("com.hp.devops.demoapp.tests.ui.TestB", "testUIcaseD", "Selenium-Junit"));
 tests.push(new Test("com.hp.devops.demoapp.tests.ui.TestNG_Selenium_TestSuiteA", "testCase1", "Selenium via TestNG", "Group_A"));
 tests.push(new Test("com.hp.devops.demoapp.tests.ui.TestNG_Selenium_TestSuiteA", "testCase2", "Selenium via TestNG"));
 tests.push(new Test("com.hp.devops.demoapp.tests.ui.TestNG_Selenium_TestSuiteA", "testCase3", "Selenium via TestNG", "Group_A"));
@@ -542,7 +542,7 @@ function showOptionalParams() {
 				}
 			});
 			document.getElementById("testsList").innerHTML += "<tr><td>Category: SpecialTests</td><td>All related to category</td>" + "<td><input type='checkbox' class='testSelector' id='junitCategory' value='com.hp.devops.demoapp.tests.ui.SpecialTests''></td></tr>";
-			document.getElementById("testsList").innerHTML += "<tr><td>Class: com.hp.devops.demoapp.tests.ui.JUnit_Selenium_TestB</td><td>All tests in the class</td>" + "<td><input type='checkbox' class='testSelector' id='junitClass' value='com.hp.devops.demoapp.tests.ui.JUnit_Selenium_TestB''></td></tr>";
+			document.getElementById("testsList").innerHTML += "<tr><td>Class: com.hp.devops.demoapp.tests.ui.TestB</td><td>All tests in the class</td>" + "<td><input type='checkbox' class='testSelector' id='junitClass' value='com.hp.devops.demoapp.tests.ui.TestB''></td></tr>";
 			document.getElementById("testsList").innerHTML += "<tr><td>All classes</td><td>All tests</td>" + "<td><input type='checkbox' class='testSelector' id='allTestsSelected' value=all></td></tr>";
 			document.getElementById("optionalFields").innerHTML += "</table>";
 			document.getElementById("optionalFields").innerHTML += "<div id='testParamDiv'></div>"

@@ -1,5 +1,10 @@
 package com.hp.devops.demoapp.tests.ui;/**
- * Created by belozovs on 2/24/2015
+ * Created with IntelliJ IDEA.
+ * User: belozovs
+ * Date: 12/7/14
+ * Time: 4:33 PM
+ * To change this template use File | Settings | File Templates.abcioana-malinaaasd
+ *
  */
 
 import org.junit.*;
@@ -12,8 +17,7 @@ import org.openqa.selenium.htmlunit.HtmlUnitDriver;
 import org.openqa.selenium.remote.CapabilityType;
 import org.openqa.selenium.remote.DesiredCapabilities;
 
-
-public class SeleniumTestC {
+public class TestB {
 
     static private TestData testData;
 
@@ -36,14 +40,13 @@ public class SeleniumTestC {
     }
 
     @Test
-    public void testUIcaseE() {
+    public void testUIcaseC() {
         System.out.println("Proudly running test " + Thread.currentThread().getStackTrace()[1]);
         WebElement query;
-        if (testData.isMusicApp()) {
+        if(testData.isMusicApp()){
             query = testData.getDriver().findElement(By.id("bandsList"));
             Assert.assertEquals(query.getTagName(), "div");
-        }
-        else {
+        } else {
             query = testData.getDriver().findElement(By.id("jenkins"));
             Assert.assertEquals(query.getTagName(), "body");
         }
@@ -52,24 +55,17 @@ public class SeleniumTestC {
 
     @Category(SpecialTests.class)
     @Test
-    public void testUIcaseF() {
-        System.out.println("Proudly  running test " + Thread.currentThread().getStackTrace()[1]);
+    public void testUIcaseD() {
+        System.out.println("Proudly running test " + Thread.currentThread().getStackTrace()[1]);
         WebElement query;
-        if (testData.isMusicApp()) {
+        if(testData.isMusicApp()){
             query = testData.getDriver().findElement(By.id("totalVotes"));
             Assert.assertEquals(query.getTagName(), "div");
-        }
-        else {
+        } else {
             query = testData.getDriver().findElement(By.id("jenkins"));
             Assert.assertEquals(query.getTagName(), "body");
         }
         Assert.assertEquals(query.isDisplayed(), true);
-    }
-
-    @Test
-    public void testUIcaseAlwaysPass() {
-        System.out.println("Proudly running test " + Thread.currentThread().getStackTrace()[1]);
-        Assert.assertTrue(true);
     }
 
 }

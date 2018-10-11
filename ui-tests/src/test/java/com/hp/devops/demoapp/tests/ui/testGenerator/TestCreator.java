@@ -11,7 +11,7 @@ import java.util.Arrays;
  * User: belozovs
  * Date: 1/1/15
  * Description:
- *      Run this class to generate a {@link TestCreator#numOfTests} tests and run (or not - {@link TestCreator#shouldRun}) them together with TestA and JUnit_Selenium_TestB.
+ *      Run this class to generate a {@link TestCreator#numOfTests} tests and run (or not - {@link TestCreator#shouldRun}) them together with TestA and TestB.
  *      The test output is printed to this class stdout
  *      The test source is copied from TestA with 3 differences:
  *      - package changed
@@ -137,7 +137,7 @@ public class TestCreator {
         final String CASEA_STRING = "testUIcaseAGeneratedTest";
         final String CASEB_STRING = "testUIcaseBGeneratedTest";
 
-        StringBuffer commandLine = new StringBuffer("-Dtest=com.hp.devops.demoapp.tests.ui.TestA#testUIcaseA+testUIcaseB,com.hp.devops.demoapp.tests.ui.JUnit_Selenium_TestB#testUIcaseC+testUIcaseD,");
+        StringBuffer commandLine = new StringBuffer("-Dtest=com.hp.devops.demoapp.tests.ui.TestA#testUIcaseA+testUIcaseB,com.hp.devops.demoapp.tests.ui.TestB#testUIcaseC+testUIcaseD,");
 
         for (int i = 0; i < numOfTests; i++) {
             File testFile = new File(MODULE_STRING + PACKAGE_STRING.replace(".", "/") + CLASS_NAME_STRING + i + ".java");
