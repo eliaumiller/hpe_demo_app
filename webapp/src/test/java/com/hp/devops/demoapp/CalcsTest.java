@@ -3,6 +3,7 @@ package com.hp.devops.demoapp;
 import org.junit.Test;
 
 import static org.junit.Assert.assertEquals;
+import static org.junit.Assert.assertFalse;
 import static org.junit.Assert.assertTrue;
 
 /**
@@ -60,6 +61,9 @@ public class CalcsTest {
 		assertTrue(Calcs.nonEqual(5, 5));
 	}
 
-//	@Test
-//	public void always_true_A() {assertTrue(Calcs.alwaysTrue());}
+	@Test
+	public void always_true_A() {assertTrue(Calcs.alwaysTrue());}
+
+	@Test
+	public void always_false_A() {assertTrue(Calcs.alwaysTrue());}
 }

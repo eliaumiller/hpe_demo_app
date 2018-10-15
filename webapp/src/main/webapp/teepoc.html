@@ -197,16 +197,16 @@ Test.getByMethod = function(method) {
 	return null;
 };
 
-tests.push(new Test("com.hp.devops.demoapp.tests.ui.TestA", "testUIcaseA", "Selenium-Junit"));
-tests.push(new Test("com.hp.devops.demoapp.tests.ui.TestA", "testUIcaseB", "Selenium-Junit"));
-tests.push(new Test("com.hp.devops.demoapp.tests.ui.TestB", "testUIcaseC", "Selenium-Junit"));
-tests.push(new Test("com.hp.devops.demoapp.tests.ui.TestB", "testUIcaseD", "Selenium-Junit"));
-tests.push(new Test("com.hp.devops.demoapp.tests.ui.TestSuiteA", "testCase1", "Selenium via TestNG", "Group_A"));
-tests.push(new Test("com.hp.devops.demoapp.tests.ui.TestSuiteA", "testCase2", "Selenium via TestNG"));
-tests.push(new Test("com.hp.devops.demoapp.tests.ui.TestSuiteA", "testCase3", "Selenium via TestNG", "Group_A"));
-tests.push(new Test("com.hp.devops.demoapp.tests.ui.TestSuiteB", "testCaseA", "Selenium via TestNG", "Group_B"));
-tests.push(new Test("com.hp.devops.demoapp.tests.ui.TestSuiteB", "testCaseB", "Selenium via TestNG"));
-tests.push(new Test("com.hp.devops.demoapp.tests.ui.TestSuiteB", "testCaseC", "Selenium via TestNG", "Group_B"));
+tests.push(new Test("com.hp.devops.demoapp.tests.ui.TestA_Selenium_JUnit", "testUIcaseA", "Selenium-Junit"));
+tests.push(new Test("com.hp.devops.demoapp.tests.ui.TestA_Selenium_JUnit", "testUIcaseB", "Selenium-Junit"));
+tests.push(new Test("com.hp.devops.demoapp.tests.ui.TestB_Selenium_JUnit", "testUIcaseC", "Selenium-Junit"));
+tests.push(new Test("com.hp.devops.demoapp.tests.ui.TestB_Selenium_JUnit", "testUIcaseD", "Selenium-Junit"));
+tests.push(new Test("com.hp.devops.demoapp.tests.ui.TestSuiteA_TestNG_Selenium", "testCase1", "Selenium via TestNG", "Group_A"));
+tests.push(new Test("com.hp.devops.demoapp.tests.ui.TestSuiteA_TestNG_Selenium", "testCase2", "Selenium via TestNG"));
+tests.push(new Test("com.hp.devops.demoapp.tests.ui.TestSuiteA_TestNG_Selenium", "testCase3", "Selenium via TestNG", "Group_A"));
+tests.push(new Test("com.hp.devops.demoapp.tests.ui.TestSuiteB_TestNG_Selenium", "testCaseA", "Selenium via TestNG", "Group_B"));
+tests.push(new Test("com.hp.devops.demoapp.tests.ui.TestSuiteB_TestNG_Selenium", "testCaseB", "Selenium via TestNG"));
+tests.push(new Test("com.hp.devops.demoapp.tests.ui.TestSuiteB_TestNG_Selenium", "testCaseC", "Selenium via TestNG", "Group_B"));
 
 uftTests.push(new UFTTest("CalculatorPlus", "C:/TEE/UFTTests/CalculatorPlus"));
 var calcPlusParamsParams = [{'name' : 'ResultAreaNumber1_Text', 'value':'2', 'type':'Int'},{'name' : 'ResultAreaNumber2_Text', 'value':'5', 'type':'Int'}];
@@ -238,7 +238,7 @@ function runJob() {
 	if(document.getElementById("techStack").selectedIndex === 1) {
 		var data;
 		var testsString = buildJunitTestString(selectTests());
-		//json="{'parameter': [{'name': 'useProxy', 'value': 'false'},{'name': 'appUrl', 'value': 'http://myd-vm05069.hpswlabs.adapps.hp.com:9080'},{'name': 'testsToRun', 'value': '-Dtest=com.hp.devops.demoapp.tests.ui.TestA#testUIcaseA+testUIcaseB'}]}"
+		//json="{'parameter': [{'name': 'useProxy', 'value': 'false'},{'name': 'appUrl', 'value': 'http://myd-vm05069.hpswlabs.adapps.hp.com:9080'},{'name': 'testsToRun', 'value': '-Dtest=com.hp.devops.demoapp.tests.ui.TestA_Selenium_JUnit#testUIcaseA+testUIcaseB'}]}"
 		var testParams;
 		if(document.getElementById("junitCategory").checked) {
 			testParams = '-Dgroups=';
@@ -542,7 +542,7 @@ function showOptionalParams() {
 				}
 			});
 			document.getElementById("testsList").innerHTML += "<tr><td>Category: SpecialTests</td><td>All related to category</td>" + "<td><input type='checkbox' class='testSelector' id='junitCategory' value='com.hp.devops.demoapp.tests.ui.SpecialTests''></td></tr>";
-			document.getElementById("testsList").innerHTML += "<tr><td>Class: com.hp.devops.demoapp.tests.ui.TestB</td><td>All tests in the class</td>" + "<td><input type='checkbox' class='testSelector' id='junitClass' value='com.hp.devops.demoapp.tests.ui.TestB''></td></tr>";
+			document.getElementById("testsList").innerHTML += "<tr><td>Class: com.hp.devops.demoapp.tests.ui.TestB_Selenium_JUnit</td><td>All tests in the class</td>" + "<td><input type='checkbox' class='testSelector' id='junitClass' value='com.hp.devops.demoapp.tests.ui.TestB_Selenium_JUnit''></td></tr>";
 			document.getElementById("testsList").innerHTML += "<tr><td>All classes</td><td>All tests</td>" + "<td><input type='checkbox' class='testSelector' id='allTestsSelected' value=all></td></tr>";
 			document.getElementById("optionalFields").innerHTML += "</table>";
 			document.getElementById("optionalFields").innerHTML += "<div id='testParamDiv'></div>"

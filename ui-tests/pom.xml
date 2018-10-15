@@ -11,7 +11,7 @@
 
 	<artifactId>ui-tests</artifactId>
 
-	<name>Discover Demo App - Tribute to Progressive Music (UI Tests)</name>
+	<name>Discover Demo App - Tribute to Progressive Music (UI JUnit Tests)</name>
 
 	<dependencies>
 		<dependency>
@@ -23,7 +23,7 @@
 		<dependency>
 			<groupId>junit</groupId>
 			<artifactId>junit</artifactId>
-			<version>4.11</version>
+			<version>4.12</version>
 			<scope>test</scope>
 		</dependency>
 	</dependencies>
@@ -35,7 +35,7 @@
             <plugin>
                 <groupId>org.apache.maven.plugins</groupId>
                 <artifactId>maven-surefire-plugin</artifactId>
-                <version>2.18.1</version>
+                <version>2.19.1</version>
             </plugin>
             <plugin>
                 <groupId>org.apache.maven.plugins</groupId>
@@ -43,8 +43,7 @@
                 <version>2.18.1</version>
                 <configuration>
                     <includes>
-                        <include>**/TestA.java</include>
-                        <include>%regex[.*TestB.*]</include>
+                        <include>**/**.java</include>
                     </includes>
                 </configuration>
                 <executions>
@@ -70,7 +69,7 @@
             <groupId>org.apache.maven.plugins</groupId>
             <artifactId>maven-surefire-plugin</artifactId>
             <!-- Minimal supported version is 2.4 -->
-            <version>2.13</version>
+            <version>2.19.1</version>
             <configuration>
               <properties>
                 <property>
