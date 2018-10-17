@@ -34,6 +34,17 @@ public class MyBlameCommitterTest {
 	}
 
 	@Test
+	public void mySpecialAuditTest() {
+		Assert.assertEquals(1, 2);
+		if (randomNumber == 0) {
+			Band band = new Band(null);
+			band.throwsExceptionMethod();
+		} else if (randomNumber == 1) {
+			Assert.assertEquals(1, 2);
+		}
+	}
+
+	@Test
 	public void throwsExceptionTestB() {
 		if (randomNumber == 0) {
 			Assert.assertEquals(true, false);
