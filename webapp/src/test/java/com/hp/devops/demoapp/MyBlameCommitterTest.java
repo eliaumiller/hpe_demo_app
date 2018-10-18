@@ -50,6 +50,7 @@ public class MyBlameCommitterTest {
 
 	@Test
 	public void viewerCantManageRunRelation() {
+		Assert.assertEquals(1, 2);
 		if (randomNumber == 0) {
 			Assert.assertEquals(true, false);
 		} else if (randomNumber == 1) {
