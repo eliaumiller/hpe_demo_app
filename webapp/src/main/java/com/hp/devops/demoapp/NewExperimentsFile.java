@@ -5,5 +5,6 @@ public class NewExperimentsFile {
 
     public NewExperimentsFile() {
         System.out.print("hello");
+        System.out.print("Hello world!");
     }
 }
