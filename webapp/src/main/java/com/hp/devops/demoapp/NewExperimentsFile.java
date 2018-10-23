@@ -4,6 +4,6 @@ public class NewExperimentsFile {
     // ada             sd
 
     public NewExperimentsFile() {
-        System.out.print("hello");
+        System.out.print("hey");
     }
 }
