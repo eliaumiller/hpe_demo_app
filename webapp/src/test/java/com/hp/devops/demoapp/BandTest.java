@@ -13,7 +13,7 @@ import java.security.InvalidParameterException;
  * User: gullery12
  * Date: 25/11/14
  * Time: 14:21
- * Testing hotspot widget by Ralu test test
+ * Testing hotspot widget by Ralu
  */
 public class BandTest {
 	//private String NON_RELATED;
