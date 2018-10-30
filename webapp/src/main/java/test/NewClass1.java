@@ -6,6 +6,8 @@ package test;
  */
 public class NewClass1 {
 	public void methodThatThrowsException() {
+		System.out.println("bla1 ");
+		System.out.println("bla2 ");
 		throw new NullPointerException("Exception in class: NewClass1");
 	}
 }
