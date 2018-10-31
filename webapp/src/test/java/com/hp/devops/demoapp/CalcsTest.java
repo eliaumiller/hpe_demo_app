@@ -6,7 +6,7 @@ import static org.junit.Assert.assertEquals;
 import static org.junit.Assert.assertTrue;
 
 /**
- * Created by  gullery                on 17/02/2016. testtted in pipeline 111
+ * Created by  gullery                  on 17/02/2016. testtted in pipeline 111
 <<<<<<< HEAD
  * this is new *asdwej
 =======
@@ -19,7 +19,7 @@ public class CalcsTest {
 	//second note
 	@Test
 	public void sum_test_A() {
-		assertEquals(3, Calcs.sum(1, 5));
+		assertEquals(3, Calcs.sum(1, 2));
 	}
 
 	@Test
@@ -30,7 +30,7 @@ public class CalcsTest {
 	@Test
 	public void sub_test_A() {
 		assertEquals(3, Calcs.sub(5, 2));
-	} 
+	}
 
 	@Test
 	public void sub_test_B() {
