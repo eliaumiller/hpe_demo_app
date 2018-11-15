@@ -26,7 +26,7 @@ public class MyBlameCommitterTest {
 
 	@Test
 	public void throwsExceptionTestA() {
-		String [] testStopWords = {"test","it","case", "cases", "tests", "class"};
+		String []  testStopWords = {"test","it","case", "cases", "tests", "class"};
 		Arrays.asList(testStopWords);
 
 		if (randomNumber == 0) {
