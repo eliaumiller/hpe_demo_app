@@ -50,12 +50,12 @@ public class MyBlameCommitterTest {
 
 	@Test
 	public void viewerCantManageRunRelation() {
-		Assert.assertEquals(1,   2);
+		Assert.assertEquals(1, 2);
 		if (randomNumber == 0) {
 			Assert.assertEquals(true,  false);
-		} else if (randomNumber ==  1) {
+		} else if (randomNumber == 1) {
 		} else {
-			Band band = new Band( null);
+			Band band =  new Band( null);
 			band.throwsExceptionMethod();
 		}
 	}
