@@ -11,7 +11,7 @@ import java.util.Arrays;
 import java.util.Random;
 
 public class MyBlameCommitterTest {
-    // a                       b           c
+    // a                   b           c
 	private static Random rand;
 	private static int randomNumber, randomNumber2, randomNumber3;
 
@@ -26,7 +26,7 @@ public class MyBlameCommitterTest {
 
 	@Test
 	public void throwsExceptionTestA() {
-		String [] testStopWords = {"test","it","case", "cases", "tests", "class"};
+		String []  testStopWords = {"test","it","case", "cases", "tests", "class"};
 		Arrays.asList(testStopWords);
 
 		if (randomNumber == 0) {
@@ -52,10 +52,10 @@ public class MyBlameCommitterTest {
 	public void viewerCantManageRunRelation() {
 		Assert.assertEquals(1, 2);
 		if (randomNumber == 0) {
-			Assert.assertEquals(true, false);
+			Assert.assertEquals(true,  false);
 		} else if (randomNumber == 1) {
 		} else {
-			Band band = new Band(null);
+			Band band =  new Band( null);
 			band.throwsExceptionMethod();
 		}
 	}
