@@ -9,7 +9,7 @@ public class Musical {
 	public String name = "tom    exception";
 
 	public Musical() {
-		System.out.println("not   important constructor");
+		System.out.println("not    important constructor");
 	}
 
 
