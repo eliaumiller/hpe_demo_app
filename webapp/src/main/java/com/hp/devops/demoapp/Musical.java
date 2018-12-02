@@ -9,12 +9,12 @@ public class Musical {
 	public String name = "tom    exception";
 
 	public Musical() {
-		System.out.println("not    important constructor");
+		System.out.println("not     important constructor");
 	}
 
 
 	public void setMusical() throws ExceptionInInitializerError{
-		throw new ExceptionInInitializerError("some customize exception with the name of " + name);
+		throw new ExceptionInInitializerError("some customize  exception with the name of " + name);
 	}
 
 }
