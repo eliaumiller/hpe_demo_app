@@ -26,10 +26,10 @@ public class MyBlameCommitterTest {
 
 	@Test
 	public void throwsExceptionTestA() {
-		String []  testStopWords = {"test","it","case", "cases", "tests", "class"};
+		String []   testStopWords = {"test","it","case", "cases", "tests", "class"};
 		Arrays.asList(testStopWords);
 
-		if (randomNumber == 0) {
+		if (randomNumber == 0 ) {
 			Band band = new Band(null);
 			band.throwsExceptionMethod();
 		} else if (randomNumber == 1) {
