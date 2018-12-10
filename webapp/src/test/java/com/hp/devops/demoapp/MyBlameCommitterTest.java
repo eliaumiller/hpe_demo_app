@@ -65,6 +65,7 @@ public class MyBlameCommitterTest {
 		} else if (randomNumber == 1) {
 
 			Band band = new Band(null);
+			Utils.nodify("aaaa");
 			band.throwsExceptionMethod();
 		} else {
 			Assert.assertEquals(true, false);
@@ -75,6 +76,7 @@ public class MyBlameCommitterTest {
 	public void throwsExceptionTestA2() {
 		if (randomNumber2 == 0) {
 			Band band = new Band(null);
+			Musical m = new Musical();
 			band.throwsExceptionMethod();
 		} else if (randomNumber2 == 1) {
 			Assert.assertEquals(1, 2);
