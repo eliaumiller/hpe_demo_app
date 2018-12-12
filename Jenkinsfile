@@ -1,9 +1,17 @@
 node { 
-    checkout scm
-
-    stage 'test'
-    sh 'make test'
-
-    stage 'publish'
-    sh 'make publish'
+    stage('checkout') {
+        checkout scm
+    }
+    
+    stage('build') {
+        if (isUnix()) {
+            sh "'${mvnHome}/bin/mvn' -Dmaven.test.failure.ignore clean package"
+        } else {
+            bat(/"${mvnHome}\bin\mvn" -Dmaven.test.failure.ignore clean package/)
+        }
+    }
+    
+    stage('results') {
+        junit '**/target/surefire-reports/TEST-*.xml'
+    }
 }
