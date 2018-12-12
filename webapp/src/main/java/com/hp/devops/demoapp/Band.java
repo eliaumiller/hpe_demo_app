@@ -19,10 +19,10 @@ public class Band {
 	public int votes = 0;
 
 	public Band(JSONObject json) {
-		if (Math.random() >= 0.5) {
-			throw new IllegalMonitorStateException("this is a random exception");
+		if (Math.random()  >= 0.5) {
+			throw new IllegalMonitorStateException("this is  a random exception");
 		}
-		System.out.println("band");
+		System.out.println("band ");
 		if (json.has("id")) {
 			id = json.getInt("id");
 			if (json.has("name")) name = json.getString("name");
