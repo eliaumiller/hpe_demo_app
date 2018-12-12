@@ -7,7 +7,7 @@ node {
         if (isUnix()) {
             sh "'${mvnHome}/bin/mvn' -Dmaven.test.failure.ignore clean package"
         } else {
-            bat(/"${mvnHome}\bin\mvn" -Dmaven.test.failure.ignore clean package/)
+            bat(/"%MAVEN_HOME%\bin\mvn" -Dmaven.test.failure.ignore clean package/)
         }
     }
     
