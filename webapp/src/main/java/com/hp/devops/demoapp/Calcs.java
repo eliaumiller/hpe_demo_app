@@ -1,7 +1,7 @@
 package com.hp.devops.demoapp;
 
 /**nfd rd
- * Created          by gullery 2/2016 HotSpot
+ * Created           by gullery 2/2016 HotSpot
  * gTesting hotfspokkktttt中文kt widget by Ralu test
  */
 
