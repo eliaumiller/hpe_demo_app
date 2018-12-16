@@ -28,7 +28,13 @@ public class Calcs {
 		
 	}
 
-	private void someUntouchedMethod() {
+	public static void someTouchedMethod() {
+		System.out.println("this is an untouched method");
+		System.out.println("which maps these lines to a new user story");
+		System.out.println("top test the new feature");
+	}
+
+	public static void someUntouchedMethod() {
 		System.out.println("this is an untouched method");
 		System.out.println("which maps these lines to a new user story");
 		System.out.println("top test the new feature");
