@@ -404,12 +404,10 @@
             <counter type="CLASS" missed="1" covered="0"/>
         </sourcefile>
         <sourcefile name="Calcs.java">
-            <line nr="8" mi="3" ci="0" mb="0" cb="0"/>
-            <line nr="11" mi="0" ci="6" mb="0" cb="0"/>
-            <line nr="15" mi="0" ci="6" mb="0" cb="0"/>
-            <line nr="19" mi="1" ci="6" mb="1" cb="1"/>
-            <line nr="23" mi="0" ci="7" mb="0" cb="2"/>
-            <line nr="27" mi="0" ci="2" mb="0" cb="0"/>
+            <line nr="32" mi="0" ci="3" mb="0" cb="0"/>
+            <line nr="33" mi="0" ci="3" mb="0" cb="0"/>
+            <line nr="34" mi="0" ci="3" mb="0" cb="0"/>
+            <line nr="99" mi="0" ci="3" mb="0" cb="0"/>
             <counter type="INSTRUCTION" missed="4" covered="27"/>
             <counter type="BRANCH" missed="1" covered="3"/>
             <counter type="LINE" missed="1" covered="5"/>
