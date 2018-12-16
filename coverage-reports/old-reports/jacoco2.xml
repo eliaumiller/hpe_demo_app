@@ -418,33 +418,9 @@
             <counter type="CLASS" missed="0" covered="1"/>
         </sourcefile>
         <sourcefile name="Band.java">
-            <line nr="16" mi="0" ci="3" mb="0" cb="0"/>
-            <line nr="17" mi="0" ci="3" mb="0" cb="0"/>
-            <line nr="18" mi="0" ci="3" mb="0" cb="0"/>
-            <line nr="19" mi="0" ci="3" mb="0" cb="0"/>
-            <line nr="21" mi="0" ci="2" mb="0" cb="0"/>
-            <line nr="22" mi="0" ci="3" mb="0" cb="0"/>
-            <line nr="23" mi="0" ci="4" mb="0" cb="2"/>
-            <line nr="24" mi="0" ci="5" mb="0" cb="0"/>
-            <line nr="25" mi="0" ci="9" mb="0" cb="2"/>
-            <line nr="26" mi="0" ci="9" mb="0" cb="2"/>
-            <line nr="27" mi="0" ci="9" mb="1" cb="1"/>
-            <line nr="28" mi="0" ci="10" mb="1" cb="1"/>
-            <line nr="30" mi="0" ci="5" mb="0" cb="0"/>
-            <line nr="32" mi="0" ci="1" mb="0" cb="0"/>
-            <line nr="38" mi="3" ci="0" mb="0" cb="0"/>
-            <line nr="39" mi="4" ci="0" mb="0" cb="0"/>
-            <line nr="43" mi="4" ci="0" mb="0" cb="0"/>
-            <line nr="44" mi="6" ci="0" mb="0" cb="0"/>
-            <line nr="45" mi="6" ci="0" mb="0" cb="0"/>
-            <line nr="46" mi="6" ci="0" mb="0" cb="0"/>
-            <line nr="47" mi="6" ci="0" mb="0" cb="0"/>
-            <line nr="48" mi="6" ci="0" mb="0" cb="0"/>
-            <line nr="49" mi="2" ci="0" mb="0" cb="0"/>
-            <line nr="53" mi="0" ci="4" mb="0" cb="0"/>
-            <line nr="54" mi="0" ci="6" mb="0" cb="0"/>
-            <line nr="55" mi="0" ci="6" mb="0" cb="0"/>
-            <line nr="56" mi="0" ci="2" mb="0" cb="0"/>
+            <line nr="32" mi="0" ci="3" mb="0" cb="0"/>
+            <line nr="33" mi="0" ci="3" mb="0" cb="0"/>
+            <line nr="34" mi="0" ci="3" mb="0" cb="0"/>
             <counter type="INSTRUCTION" missed="43" covered="87"/>
             <counter type="BRANCH" missed="2" covered="8"/>
             <counter type="LINE" missed="9" covered="18"/>
