@@ -318,19 +318,8 @@
             <counter type="METHOD" missed="1" covered="2"/>
             <counter type="CLASS" missed="0" covered="1"/>
         </class>
-        <sourcefile name="NewClass1.java">
-            <line nr="7" mi="0" ci="3" mb="0" cb="0"/>
-            <line nr="8" mi="0" ci="5" mb="0" cb="0"/>
-            <line nr="9" mi="0" ci="3" mb="0" cb="0"/>
-            <line nr="10" mi="0" ci="5" mb="0" cb="0"/>
-            <counter type="INSTRUCTION" missed="0" covered="8"/>
-            <counter type="LINE" missed="0" covered="2"/>
-            <counter type="COMPLEXITY" missed="0" covered="2"/>
-            <counter type="METHOD" missed="0" covered="2"/>
-            <counter type="CLASS" missed="0" covered="1"/>
-        </sourcefile>
         <sourcefile name="RestServlet.java">
-            <line nr="17" mi="3" ci="0" mb="0" cb="0"/>
+            <line nr="16" mi="3" ci="0" mb="0" cb="0"/>
             <line nr="21" mi="3" ci="0" mb="0" cb="0"/>
             <line nr="22" mi="2" ci="0" mb="0" cb="0"/>
             <line nr="23" mi="1" ci="0" mb="0" cb="0"/>
@@ -388,26 +377,19 @@
             <counter type="CLASS" missed="1" covered="0"/>
         </sourcefile>
         <sourcefile name="NewClass6.java">
-            <line nr="7" mi="3" ci="0" mb="0" cb="0"/>
+            <line nr="6" mi="3" ci="0" mb="0" cb="0"/>
             <counter type="INSTRUCTION" missed="3" covered="0"/>
             <counter type="LINE" missed="1" covered="0"/>
             <counter type="COMPLEXITY" missed="1" covered="0"/>
             <counter type="METHOD" missed="1" covered="0"/>
             <counter type="CLASS" missed="1" covered="0"/>
         </sourcefile>
-        <sourcefile name="NewClass2.java">
-            <line nr="8" mi="3" ci="0" mb="0" cb="0"/>
-            <counter type="INSTRUCTION" missed="3" covered="0"/>
-            <counter type="LINE" missed="1" covered="0"/>
-            <counter type="COMPLEXITY" missed="1" covered="0"/>
-            <counter type="METHOD" missed="1" covered="0"/>
-            <counter type="CLASS" missed="1" covered="0"/>
-        </sourcefile>
+
         <sourcefile name="Calcs.java">
             <line nr="32" mi="0" ci="3" mb="0" cb="0"/>
             <line nr="33" mi="0" ci="3" mb="0" cb="0"/>
             <line nr="34" mi="0" ci="3" mb="0" cb="0"/>
-            <line nr="88" mi="0" ci="3" mb="0" cb="0"/>
+            <line nr="89" mi="0" ci="3" mb="0" cb="0"/>
             <counter type="INSTRUCTION" missed="4" covered="27"/>
             <counter type="BRANCH" missed="1" covered="3"/>
             <counter type="LINE" missed="1" covered="5"/>
@@ -899,7 +881,7 @@
             <counter type="CLASS" missed="1" covered="0"/>
         </class>
         <sourcefile name="Band.java">
-            <line nr="17" mi="3" ci="0" mb="0" cb="0"/>
+            <line nr="16" mi="3" ci="0" mb="0" cb="0"/>
             <line nr="18" mi="3" ci="0" mb="0" cb="0"/>
             <line nr="19" mi="3" ci="0" mb="0" cb="0"/>
             <line nr="20" mi="3" ci="0" mb="0" cb="0"/>
@@ -1090,7 +1072,7 @@
             <counter type="CLASS" missed="1" covered="0"/>
         </sourcefile>
         <sourcefile name="NewClass1.java">
-            <line nr="7" mi="3" ci="0" mb="0" cb="0"/>
+            <line nr="6" mi="3" ci="0" mb="0" cb="0"/>
             <line nr="9" mi="5" ci="0" mb="0" cb="0"/>
             <counter type="INSTRUCTION" missed="8" covered="0"/>
             <counter type="LINE" missed="2" covered="0"/>
