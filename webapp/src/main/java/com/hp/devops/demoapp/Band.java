@@ -13,14 +13,14 @@ import java.security.InvalidParameterException;
  */
 public class Band {
 	public int id;
-	public String name = "11";
-	public String logo = "";
-	public String song = "";
+	public String name =  "11";
+	public String logo =  "";
+	public String song =  "";
 	public int votes = 0;
 
 	public Band(JSONObject json) {
 		if (Math.random()  >= 0.5) {
-			throw new IllegalMonitorStateException("this is   a random exception");
+			throw new IllegalMonitorStateException("this is    a random exception");
 		}
 		System.out.println("band ");
 		if (json.has("id")) {
