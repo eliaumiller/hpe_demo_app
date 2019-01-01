@@ -17,7 +17,7 @@ import org.openqa.selenium.htmlunit.HtmlUnitDriver;
 import org.openqa.selenium.remote.CapabilityType;
 import org.openqa.selenium.remote.DesiredCapabilities;
 
-public class     TestB {
+public class    TestB {
 
     static final boolean isMusicApp = false;
 
@@ -34,7 +34,7 @@ public class     TestB {
             appUrl = "http://54.146.140.70:9000";
         } else {
             testProxy = "";
-            appUrl = "http://myd-vm02771.hpswlabs.adapps.hp.com:8080/jenkins";
+            appUrl = "http://myd-vm02771.hpswlabs.adapps.hp.com:8080/jenkins"; 
         }
 
         if ("true".equals(System.getProperty("proxy"))) {
