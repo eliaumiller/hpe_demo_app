@@ -41,7 +41,7 @@ public class MyBlameCommitterTest {
 	public void mySpecialAuditTest() {
 		Assert.assertEquals(1, 2);
 		if (randomNumber == 0) {
-			Band band = new Band(null);
+			Band band = new Band( null);
 			band.throwsExceptionMethod();
 		} else if (randomNumber == 1) {
 			Assert.assertEquals(1, 2);
@@ -52,7 +52,7 @@ public class MyBlameCommitterTest {
 	public void viewerCantManageRunRelation() {
 		Assert.assertEquals(1, 2);
 		if (randomNumber == 0) {
-			Assert.assertEquals(true,  false);
+			Assert.assertEquals(true ,   false);
 		} else if (randomNumber == 1) {
 		} else {
 			Band band =  new Band( null);
@@ -64,11 +64,11 @@ public class MyBlameCommitterTest {
 		if (randomNumber == 0) {
 		} else if (randomNumber == 1) {
 
-			Band band = new Band(null);
+			Band band = new Band( null);
 			Utils.nodify("aaaa");
 			band.throwsExceptionMethod();
 		} else {
-			Assert.assertEquals(true, false);
+			Assert.assertEquals(true , false);
 		}
 	}
 
@@ -117,7 +117,7 @@ public class MyBlameCommitterTest {
 	@Test
 	public void throwsExceptionTestB3() {
 		if (randomNumber3 == 0) {
-			Assert.assertEquals(true, false);
+			Assert.assertEquals( true, false);
 		} else if (randomNumber3 == 1) {
 		} else {
 			Band band = new Band(null);
@@ -128,10 +128,10 @@ public class MyBlameCommitterTest {
 	public void throwsExceptionTestC3() {
 		if (randomNumber3 == 0) {
 		} else if (randomNumber3 == 1) {
-			Band band = new Band(null);
+			Band band = new Band( null);
 			band.throwsExceptionMethod();
 		} else {
-			Assert.assertEquals(true, false);
+			Assert.assertEquals( true, false);
 		}
 	}
 
