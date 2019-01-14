@@ -2,7 +2,7 @@ package com.hp.devops.demoapp;
 
 /**nfd rd
  * Created           by gullery 2/2016 HotSpot
- * gTesting hotfspokkktttt中文kt  by Ralu
+ * gTesting hotfspokkktttt中文kt  by Ralu test
  */
 
 public class Calcs {
