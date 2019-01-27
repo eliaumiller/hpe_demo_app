@@ -22,15 +22,15 @@ public class Band {
 	public Band(JSONObject json) {
 		//  1
 		if (Math.random()  >= 0.5) {
-			throw new IllegalMonitorStateException("this is  a random exception"); //    1
+			throw new IllegalMonitorStateException("this is  a random exception"); //     1
 		}
 		System.out.println(" band");
 		if (json.has("id"))  {
 			id =  json.getInt("id");
-			if (json.has("name")) name =   json.getString("name"); //     2
-			if (json.has("logo")) logo =   json.getString("logo"); //      3
-			if (json.has("song")) song =   json.getString("song"); //     4
-			if (json.has("votes")) votes   = json.getInt("votes"); //     5
+			if (json.has("name")) name =   json.getString("name"); //      2
+			if (json.has("logo")) logo =   json.getString("logo"); //       3
+			if (json.has("song")) song =   json.getString("song"); //      4
+			if (json.has("votes")) votes   = json.getInt("votes"); //      5
 		} else {
 			throw new InvalidParameterException("json  must have an id property");
 		}
