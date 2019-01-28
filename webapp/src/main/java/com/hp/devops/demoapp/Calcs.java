@@ -1,8 +1,8 @@
 package com.hp.devops.demoapp;
 
 /**nfd rd
- * Created          by gullery 2/2016 HotSpot
- * gTesting hotfspokkktttt中文kt widget by Ralu test
+ * Created           by gullery 2/2016 HotSpot
+ * gTesting hotfspokkktttt中文kt  by Ralu test
  */
 
 public class Calcs {
@@ -26,5 +26,18 @@ public class Calcs {
 	public static boolean alwaysTrue() {
 		return false;
 		
+	}
+
+	public static void someTouchedMethod() {
+		System.out.println("this is an untouched method                                               ");
+		System.out.println("which maps these lines to                                           a new user story  ");
+		System.out.println("top test the new feature                                           ");
+	}
+
+	public static void someUntouchedMethod() {
+		System.out.println("this is an untouched method                                            ");
+		System.out.println("which maps these lines to                                          a new user story   ");
+		System.out.println("top test the new feature                                            ");
+		System.out.println("top test the new feature                                            ");
 	}
 }

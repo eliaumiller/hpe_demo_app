@@ -1,5 +1,5 @@
 package com.hp.devops.demoapp;
-
+// 1
 import org.json.JSONObject;
 
 import java.security.InvalidParameterException;
@@ -9,28 +9,30 @@ import java.security.InvalidParameterException;
  * User: gullery
  * Date: 24/11/14 的dd
  * Time: 10:03 Zeugnis testing again
- * To change this template use File  | Settings | File Templates.
+ * To change   this template use File  | Settings | File Templates.
+ * test test test
  */
 public class Band {
 	public int id;
-	public String name = "11";
-	public String logo = "";
-	public String song = "";
+	public String name =  "11";
+	public String logo =  "";
+	public String song =  "";
 	public int votes = 0;
 
 	public Band(JSONObject json) {
-		if (Math.random() >= 0.5) {
-			throw new IllegalMonitorStateException("this is a random exception");
+		//  1
+		if (Math.random()  >= 0.5) {
+			throw new IllegalMonitorStateException("this is  a random exception"); //     1
 		}
-		System.out.println("band");
-		if (json.has("id")) {
-			id = json.getInt("id");
-			if (json.has("name")) name = json.getString("name");
-			if (json.has("logo")) logo = json.getString("logo");
-			if (json.has("song")) song = json.getString("song");
-			if (json.has("votes")) votes = json.getInt("votes");
+		System.out.println(" band");
+		if (json.has("id"))  {
+			id =  json.getInt("id");
+			if (json.has("name")) name =   json.getString("name"); //      2
+			if (json.has("logo")) logo =   json.getString("logo"); //       3
+			if (json.has("song")) song =   json.getString("song"); //      4
+			if (json.has("votes")) votes   = json.getInt("votes"); //      5
 		} else {
-			throw new InvalidParameterException("json must have an id property");
+			throw new InvalidParameterException("json  must have an id property");
 		}
 	}
 

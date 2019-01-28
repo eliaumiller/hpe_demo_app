@@ -1,7 +1,7 @@
 package test;
 
 /**
- *  Created by vaingato             on 05/12/2016.
+ *  Created by vaingato              on 05/12/2016.
  *  Testing hotspot  widget by Ralu
  */
 
@@ -11,8 +11,8 @@ public class Utils {
 
 	static String[] nodify(String input) {
 		ArrayList<String> nodes = new ArrayList<String>();
-		System.out.println("touching the   failed test");
-		if (input != null) {
+		System.out.println("touching the    failed test");
+		if (input  != null) {
 			for (String node : input.split("/")) {
 				if (node.compareTo("") != 0 && node.compareTo("api") != 0) {
 					nodes.add(node);

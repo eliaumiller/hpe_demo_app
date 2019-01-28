@@ -10,7 +10,7 @@ import static org.junit.Assert.assertTrue;
 <<<<<<< HEAD
  * this is new *asdwej
 =======
- * this is new *asd test
+ * this is new *asd
 >>>>>>> c00a1ac6278f44ae8e7dbdffc6a6538a717dcf09
  */
 public class CalcsTest {
@@ -19,6 +19,7 @@ public class CalcsTest {
 	//second note
 	@Test
 	public void sum_test_A() {
+		Calcs.someTouchedMethod();
 		assertEquals(3, Calcs.sum(1, 2));
 	}
 
@@ -72,7 +73,7 @@ public class CalcsTest {
 		assertTrue(Calcs.alwaysTrue());
 	}
 	//nissim added comment for regrassion day 14/02/2017 
-	//eli too 55 
+	//eli too 55 ff
 	
 	
 	

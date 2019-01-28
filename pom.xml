@@ -11,7 +11,8 @@
 		<module>ui-tests</module>
 		<module>integration-tests</module>
 		<module>ui-tests-testng</module>
-	</modules>
+        <module>bla</module>
+    </modules>
 
 	<name>Discover Demo App - Tribute to Progressive Music (Parent)</name>
 
