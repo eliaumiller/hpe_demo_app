@@ -20,8 +20,8 @@ import org.openqa.selenium.remote.DesiredCapabilities;
  * Date: 25/11/14
  * Time: 17:28
  * To change this template use File | Settings | File Templates.
- * test raluca 12345
- * testDan1234
+ * test raluca 12345git
+ * testDan1234 asd
  */
 public class TestA_Selenium_JUnit {
 
