@@ -115,7 +115,7 @@ public class TestSuiteA {
         }
     }
 
-    @AfterClass(alwaysRun = true)
+    @AfterClass(alwaysRun = true) 
     public void afterClass() {
         driver.quit();
     }
