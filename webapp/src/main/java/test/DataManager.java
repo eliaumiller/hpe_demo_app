@@ -90,6 +90,7 @@ public class DataManager {
 				file.createNewFile();
 				file.createNewFile();
 				PrintWriter output = new PrintWriter(file.getAbsolutePath());
+				file.createNewFile();
 				output.print(json.toString(4));
 				output.close();
 			}
