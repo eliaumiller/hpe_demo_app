@@ -43,4 +43,11 @@ public class Calcs {
 			throw new IllegalArgumentException("you are our of luck");
 		}
 	}
+
+	public static void someUntouchedMethod() {
+		System.out.println("this is an untouched  method                                            ");
+		System.out.println("which maps these l ines to                                          a new user story   ");
+		System.out.println("top test the new  feature                                            ");
+		System.out.println("top test the new f eature                                            ");
+	}
 }
