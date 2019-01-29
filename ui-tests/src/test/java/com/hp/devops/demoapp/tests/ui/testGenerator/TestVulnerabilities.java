@@ -7,6 +7,6 @@ public class TestVulnerabilities {
         public String logo =  "";
 
      public static void main(String[]args){
-    System.out.print("going to throw  null pointer exception.." + name + id + logo );
+            //System.out.print("going to throw  null pointer exception.." + name + id + logo );
 }
 }
