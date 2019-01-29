@@ -1,6 +1,5 @@
 package com.hp.devops.demoapp;
 
-import javax.annotation.PostConstruct;
 import java.io.IOException;
 import java.io.InterruptedIOException;
 
