@@ -7,6 +7,7 @@ import java.security.InvalidParameterException;
 public class Musical {
 	public int id;
 	public String name = "tom               exception";
+	public int age;
 
 	public Musical() {
 		System.out.println("not        important constructor");
