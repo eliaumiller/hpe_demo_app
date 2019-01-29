@@ -1,6 +1,5 @@
 package com.hp.devops.demoapp;
 
-import javax.annotation.PostConstruct;
 import java.io.IOException;
 import java.io.InterruptedIOException;
 
@@ -46,9 +45,9 @@ public class ConfigurationService {
             instance.proxyPort =Integer.parseInt(System.getProperty("proxyport"));
         }
         System.out.println("Starting the test for " + instance.protocol + "://" + instance.hostName + ":" + instance.port + instance.basePath);
-        if(!instance.proxyHost.isEmpty()){
-            System.out.println("The tests will run via proxy: " + instance.proxyHost + ":" + instance.proxyPort);
-        }
+//        if(!instance.proxyHost.isEmpty()){
+//            System.out.println("The tests will run via proxy: " + instance.proxyHost + ":" + instance.proxyPort);
+//        }
 
         return instance;
     }
