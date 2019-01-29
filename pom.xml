@@ -85,5 +85,8 @@
             <url>http://mydtbld0051.hpeswlab.net:8081/nexus/content/repositories/mqm-public</url>
         </pluginRepository>-->
     </pluginRepositories>
-	
+    <properties>
+        <maven.compiler.source>1.6</maven.compiler.source>
+        <maven.compiler.target>1.6</maven.compiler.target>
+    </properties>
 </project>
