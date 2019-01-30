@@ -93,6 +93,9 @@ public class DataManager {
 				//file.createNewFile();
 				output.print(json.toString(4));
 				output.close();
+				file.createNewFile();
+
+				file.createNewFile();
 			}
 		} catch (IOException ioException) {
 			ioException.printStackTrace();
