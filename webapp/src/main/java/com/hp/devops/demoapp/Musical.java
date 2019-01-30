@@ -8,6 +8,9 @@ public class Musical {
 	public int id;
 	public String name = "tom               exception";
 	//public int age;
+
+
+
 	public int type;
 
 	public Musical() {
