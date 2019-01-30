@@ -49,5 +49,8 @@ public class Calcs {
 		System.out.println("which maps these l ines to                                          a new user story   ");
 		System.out.println("top test the new  feature                                            ");
 		System.out.println("top test the new f eature                                            ");
+
+		System.out.println("top test the new f eature                                            ");
+		System.out.println("top test the new f eature                                            ");
 	}
 }
