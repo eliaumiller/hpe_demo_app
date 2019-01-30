@@ -12,6 +12,8 @@ public class NewClass1 {
 		System.out.println("bla2      ");
 		System.out.println("bla1     ");
 		System.out.println("bla2      ");
+		System.out.println("bla1     ");
+		System.out.println("bla2      ");
 		throw new NullPointerException("Exception in class: NewClass1");
 	}
 }
