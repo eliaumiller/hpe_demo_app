@@ -10,10 +10,6 @@ public class Musical {
 	public int age;
 	public int type;
 
-
-
-	public int type;
-
 	public Musical() {
 		System.out.println("not        important constructor");
 	}
