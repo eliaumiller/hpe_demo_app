@@ -88,7 +88,7 @@ public class DataManager {
 
 				//  do i need it?
 				file.createNewFile();
-				//file.createNewFile();
+				file.createNewFile();
 				PrintWriter output = new PrintWriter(file.getAbsolutePath());
 				//file.createNewFile();
 				output.print(json.toString(4));
