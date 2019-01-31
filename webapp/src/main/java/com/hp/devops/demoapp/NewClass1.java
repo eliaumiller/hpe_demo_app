@@ -6,7 +6,7 @@ package com.hp.devops.demoapp;
  */
 public class NewClass1 {
 	public void methodThatThrowsException() {
-		System.out.println(" a ");
+		System.out.println("  a  ");
 		throw new NullPointerException("Exception in class: NewClass1");
 	}
 }
