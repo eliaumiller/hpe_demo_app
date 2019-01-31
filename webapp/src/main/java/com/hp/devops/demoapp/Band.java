@@ -19,21 +19,21 @@ public class Band {
 	public String song =  "";
 	public int votes = 0;
 
-	public Band(JSONObject json) {//2
-		if (Math.random()   >= 0.5) {// 2
-			throw new IllegalMonitorStateException("this is     a random exception");//2
-		} //2
-		System.out.println("b and ");//1
-		if (json.has("id"))  {//1
-			id = json.getInt("id");//1
-			if (json.has("name")) name =  json.getString("name");//1
-			if (json.has("logo")) logo =  json.getString("logo");//1
-			if (json.has("song")) song =  json.getString("song");//1
-			if (json.has("votes")) votes  = json.getInt("votes");//1
-		} else {//1
-			throw new InvalidParameterException("json must have an id property");//2
-		}//2
-	}//2
+	public Band(JSONObject json) {// 2
+		if (Math.random()   >= 0.5) {//  2
+			throw new IllegalMonitorStateException("this is     a random exception");// 2
+		} // 2
+		System.out.println("b and ");// 1
+		if (json.has("id"))  {// 1
+			id = json.getInt("id");// 1
+			if (json.has("name")) name =  json.getString("name");// 1
+			if (json.has("logo")) logo =  json.getString("logo");// 1
+			if (json.has("song")) song =  json.getString("song");// 1
+			if (json.has("votes")) votes  = json.getInt("votes");// 1
+		} else {// 1
+			throw new InvalidParameterException("json must have an id property");// 2
+		}// 2
+	}// 2
 
 	/**
 	 * for testing blame committer feature
