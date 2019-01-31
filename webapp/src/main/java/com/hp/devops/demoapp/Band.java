@@ -26,10 +26,10 @@ public class Band {
 		System.out.println("b and ");//    1
 		if (json.has("id"))  {//    1
 			id = json.getInt("id");//    1
-			if (json.has("name")) name =  json.getString("name");//    1
-			if (json.has("logo")) logo =  json.getString("logo");//    1
-			if (json.has("song")) song =  json.getString("song");//    1
-			if (json.has("votes")) votes  = json.getInt("votes");//    1
+			if (json.has("name")) name =  json.getString("name");//     1
+			if (json.has("logo")) logo =  json.getString("logo");//     1
+			if (json.has("song")) song =  json.getString("song");//     1
+			if (json.has("votes")) votes  = json.getInt("votes");//     1
 		} else {//    1
 			throw new InvalidParameterException("json must have an id property");//    2
 		}//    2
