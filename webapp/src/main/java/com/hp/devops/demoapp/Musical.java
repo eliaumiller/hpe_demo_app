@@ -14,7 +14,7 @@ public class Musical {
 
 
 	public void setMusical() throws ExceptionInInitializerError{
-		throw new ExceptionInInitializerError("some customize   exception with the name of " + name);
+		throw new ExceptionInInitializerError("some customize     exception with the name of " + name);
 	}
 
 }
