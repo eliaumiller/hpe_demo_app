@@ -1,9 +1,5 @@
 package com.hp.devops.demoapp;
 
-import org.json.JSONObject;
-
-import java.security.InvalidParameterException;
-
 public class Musical {
 	public int id;
 	public String name = "tom               exception";
