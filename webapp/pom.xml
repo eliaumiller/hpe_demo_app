@@ -57,12 +57,12 @@
             <version>RELEASE</version>
             <scope>compile</scope>
         </dependency>
-        <dependency>
-            <groupId>com.hp.docker.jenkins.plugins</groupId>
-            <artifactId>jenkins-plugins</artifactId>
-            <version>2.32.7</version>
-            <type>zip</type>
-        </dependency>
+        <!--<dependency>-->
+            <!--<groupId>com.hp.docker.jenkins.plugins</groupId>-->
+            <!--<artifactId>jenkins-plugins</artifactId>-->
+            <!--<version>2.32.7</version>-->
+            <!--<type>zip</type>-->
+        <!--</dependency>-->
     </dependencies>
 
 	<build>
