@@ -2,9 +2,9 @@ package com.hp.devops.demoapp;
 
 
 /**
- * User:                              belozo vs
+ * User:                               belozo vs
  * Date: 11/25/14
- * Description
+ * Descript ion
  * Testing hotspot widget by Ralu test dfgsdfh
  */
 public class ConfigurationService {
