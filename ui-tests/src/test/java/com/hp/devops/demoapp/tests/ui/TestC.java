@@ -88,10 +88,10 @@ public class  TestC {
             Assert.assertEquals(query.getTagName(), "div");
         }
         else {
-            query = driver.findElement(By.id("jenkins"));
-            Assert.assertEquals(query.getTagName(), "body");
+            //query = driver.findElement(By.id("jenkins"));
+            //Assert.assertEquals(query.getTagName(), "body");
         }
-        Assert.assertEquals(query.isDisplayed(), true);
+        //Assert.assertEquals(query.isDisplayed(), true);
     }
 
     @Category(SpecialTests.class)
@@ -104,10 +104,10 @@ public class  TestC {
             Assert.assertEquals(query.getTagName(), "div");
         }
         else {
-            query = driver.findElement(By.id("jenkins"));
-            Assert.assertEquals(query.getTagName(), "body");
+            //query = driver.findElement(By.id("jenkins"));
+            //Assert.assertEquals(query.getTagName(), "body");
         }
-        Assert.assertEquals(query.isDisplayed(), true);
+        //Assert.assertEquals(query.isDisplayed(), true);
     }
 
     @Test

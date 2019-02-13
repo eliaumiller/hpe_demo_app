@@ -561,7 +561,7 @@
             <line nr="27" mi="0" ci="3" mb="0" cb="0"/>
             <line nr="28" mi="0" ci="7" mb="0" cb="2"/>
             <line nr="29" mi="0" ci="3" mb="0" cb="0"/>
-            <line nr="32" mi="0" ci="2" mb="0" cb="0"/>
+            <line nr="32" mi="0" ci="0" mb="0" cb="0"/>
             <counter type="INSTRUCTION" missed="3" covered="64"/>
             <counter type="BRANCH" missed="0" covered="10"/>
             <counter type="LINE" missed="1" covered="12"/>

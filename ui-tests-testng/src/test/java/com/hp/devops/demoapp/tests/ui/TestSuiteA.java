@@ -21,7 +21,7 @@ import org.testng.annotations.Test;
  * To chan                                       ge this            template use File | Settings | File Templates.
  * Testing hotspot widget by Ralu test test1
  */
-//Xander Random change for commit.
+//Xander Random change for commit. asd
 public class TestSuiteA {
 
     final static private boolean isMusicApp = false;
@@ -115,7 +115,7 @@ public class TestSuiteA {
         }
     }
 
-    @AfterClass(alwaysRun = true)
+    @AfterClass(alwaysRun = true) 
     public void afterClass() {
         driver.quit();
     }
