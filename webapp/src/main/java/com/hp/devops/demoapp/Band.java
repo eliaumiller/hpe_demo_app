@@ -20,16 +20,16 @@ public class Band {
 	public int votes = 0;
 
 	public Band(JSONObject json) {
-		if (Math.random()  >= 0.5) { //    a
+		if (Math.random()  >= 0.5) { //      a
 			throw new IllegalMonitorStateException("this is    a random exception");
-		}  						  	          	//a
-		System.out.println("band ");//     a
-		if (json.has("id")) {//     a
+		}  						  	           	//a
+		System.out.println("band ");//      a
+		if (json.has("id")) {//      a
 			id = json.getInt("id"); //a
-			if (json.has("name")) name =  json.getString("name");  //a
-			if (json.has("logo")) logo =  json.getString("logo");  //a
-			if (json.has("song")) song =  json.getString("song");  //a
-			if (json.has("votes")) votes  = json.getInt("votes");  //a
+			if (json.has("name")) name =  json.getString("name");   //a
+			if (json.has("logo")) logo =  json.getString("logo");   //a
+			if (json.has("song")) song =  json.getString("song");   //a
+			if (json.has("votes")) votes  = json.getInt("votes");   //a
 		} else {
 			throw new InvalidParameterException("json must have an id property");
 		}
