@@ -10,11 +10,11 @@ import java.security.InvalidParameterException;
  * Date: 24/11/14
  * Time: 10:03
  * To change this                      template use File |   Settings | File Templates.
- * Raluca test test test test
+ * Raluca test test
  */
 public class Band {
 	public int id;
-	public String name = "";
+	public String name = "1";
 	public String logo = "";
 	public String song = "";
 	public int votes = 0;
