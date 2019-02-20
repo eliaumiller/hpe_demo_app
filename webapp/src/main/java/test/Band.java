@@ -6,7 +6,7 @@ import java.security.InvalidParameterException;
 
 /**vvvv
  * Created with             IntelliJ IDEA. test
- * User: gullery  testubf   testing localization
+ * User: gullery  testubf   testing localization test
  * Date: 24/11/14
  * Time: 10:03
  * To change this                       template use File |   Settings | File Templates.
@@ -14,7 +14,7 @@ import java.security.InvalidParameterException;
  */
 public class Band {
 	public int id;
-	public String name =  "";
+	public String name =  "1";
 	public String logo =  "1";
 	public String song =  "";
 	public int votes = 0;
