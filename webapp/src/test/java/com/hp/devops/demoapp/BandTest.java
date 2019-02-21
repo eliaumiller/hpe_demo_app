@@ -14,7 +14,7 @@ import java.security.InvalidParameterException;
  * Date: 25/11/14
  * Time: 14:21
  * Testing hotspot widget by Ralu
- * test raluca test
+ * test raluca test test
  */
 public class BandTest {
 	//private String NON_RELATED;
@@ -34,7 +34,7 @@ public class BandTest {
 	public void bandTestA() {
 		try {
 			Band band = new Band(null);
-			Assert.fail("the  flow MUST have been fallen before");
+			Assert.fail("the  flow MUST have test been fallen before");
 		} catch (Exception e) {
 			Assert.assertEquals(e.getClass(), NullPointerException.class);
 		}
