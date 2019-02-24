@@ -13,10 +13,10 @@ import java.security.InvalidParameterException;
  * te st
  */
 public class Band {
-	public int id;
-	public String name =  "11";
-	public String logo =  "";
-	public String song =  "";
+	 public int id;
+	 public String name =  "11";
+	 public String logo =  "";
+	 public String song =  "";
 	public int votes = 0;
 
 	public Band(JSONObject json) {//                                                                                             v         2
