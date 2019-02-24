@@ -416,6 +416,7 @@
             <counter type="CLASS" missed="0" covered="1"/>
         </sourcefile>
         <sourcefile name="Band.java">
+            <line nr="7" mi="0" ci="3" mb="0" cb="0"/>
             <line nr="16" mi="0" ci="3" mb="0" cb="0"/>
             <line nr="17" mi="0" ci="3" mb="0" cb="0"/>
             <line nr="18" mi="0" ci="3" mb="0" cb="0"/>
@@ -445,7 +446,7 @@
             <line nr="56" mi="0" ci="2" mb="0" cb="0"/>
             <counter type="INSTRUCTION" missed="43" covered="87"/>
             <counter type="BRANCH" missed="2" covered="8"/>
-            <counter type="LINE" missed="9" covered="18"/>
+            <counter type="LINE" missed="9" covered="19"/>
             <counter type="COMPLEXITY" missed="4" covered="5"/>
             <counter type="METHOD" missed="2" covered="2"/>
             <counter type="CLASS" missed="0" covered="1"/>
