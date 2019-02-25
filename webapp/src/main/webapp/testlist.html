@@ -93,16 +93,16 @@
             this.framework=framework;
         }
 
-	    tests.push(new Test("com.hp.devops.demoapp.tests.ui.TestA", "testUIcaseA", "Selenium-Junit"));
-	    tests.push(new Test("com.hp.devops.demoapp.tests.ui.TestA", "testUIcaseB", "Selenium-Junit"));
-	    tests.push(new Test("com.hp.devops.demoapp.tests.ui.TestB", "testUIcaseC", "Selenium-Junit"));
-	    tests.push(new Test("com.hp.devops.demoapp.tests.ui.TestB", "testUIcaseD", "Selenium-Junit"));
-	    tests.push(new Test("com.hp.devops.demoapp.tests.ui.TestSuiteA", "testCase1", "Selenium via TestNG"));
-	    tests.push(new Test("com.hp.devops.demoapp.tests.ui.TestSuiteA", "testCase2", "Selenium via TestNG"));
-	    tests.push(new Test("com.hp.devops.demoapp.tests.ui.TestSuiteA", "testCase3", "Selenium via TestNG"));
-	    tests.push(new Test("com.hp.devops.demoapp.tests.ui.TestSuiteB", "testCaseA", "Selenium via TestNG"));
-	    tests.push(new Test("com.hp.devops.demoapp.tests.ui.TestSuiteB", "testCaseB", "Selenium via TestNG"));
-	    tests.push(new Test("com.hp.devops.demoapp.tests.ui.TestSuiteB", "testCaseC", "Selenium via TestNG"));
+	    tests.push(new Test("com.hp.devops.demoapp.tests.ui.TestA_Selenium_JUnit", "testUIcaseA", "Selenium-Junit"));
+	    tests.push(new Test("com.hp.devops.demoapp.tests.ui.TestA_Selenium_JUnit", "testUIcaseB", "Selenium-Junit"));
+	    tests.push(new Test("com.hp.devops.demoapp.tests.ui.TestB_Selenium_JUnit", "testUIcaseC", "Selenium-Junit"));
+	    tests.push(new Test("com.hp.devops.demoapp.tests.ui.TestB_Selenium_JUnit", "testUIcaseD", "Selenium-Junit"));
+	    tests.push(new Test("com.hp.devops.demoapp.tests.ui.TestSuiteA_TestNG_Selenium", "testCase1", "Selenium via TestNG"));
+	    tests.push(new Test("com.hp.devops.demoapp.tests.ui.TestSuiteA_TestNG_Selenium", "testCase2", "Selenium via TestNG"));
+	    tests.push(new Test("com.hp.devops.demoapp.tests.ui.TestSuiteA_TestNG_Selenium", "testCase3", "Selenium via TestNG"));
+	    tests.push(new Test("com.hp.devops.demoapp.tests.ui.TestSuiteB_TestNG_Selenium", "testCaseA", "Selenium via TestNG"));
+	    tests.push(new Test("com.hp.devops.demoapp.tests.ui.TestSuiteB_TestNG_Selenium", "testCaseB", "Selenium via TestNG"));
+	    tests.push(new Test("com.hp.devops.demoapp.tests.ui.TestSuiteB_TestNG_Selenium", "testCaseC", "Selenium via TestNG"));
         //init tests table
         tests.forEach(function (element) {
 
@@ -200,7 +200,7 @@
 //        curl -X POST "http://myd-vm02771.hpswlabs.adapps.hp.com:8080/jenkins/job/Selenium-Junit/build?delay=0sec"
 // --data-urlencode json=
 // "{'parameter': [{'name': 'useProxy', 'value': 'false'},{'name': 'appUrl', 'value': 'http://myd-vm05069.hpswlabs.adapps.hp.com:9080'},
-// {'name': 'testsToRun', 'value': '-Dtest=com.hp.devops.demoapp.tests.ui.TestA#testUIcaseB'}]}"
+// {'name': 'testsToRun', 'value': '-Dtest=com.hp.devops.demoapp.tests.ui.TestA_Selenium_JUnit#testUIcaseB'}]}"
 //TESTNG
 //        DPROXY_PORT= -DAPP_PORT=9080 -DPROXY_HOST= -DTESTNG_PARAMS=-Dgroups=Group_A -DAPP_HOST=http://myd-vm05069.hpswlabs.adapps.hp.com
         //http://myd-vm02771.hpswlabs.adapps.hp.com:8080/jenkins/job/Selenium-TestNG

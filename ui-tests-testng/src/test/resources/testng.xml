@@ -10,14 +10,14 @@
 		</groups>
 
 		<classes>
-			<class name="com.hp.devops.demoapp.tests.ui.TestSuiteA">
+			<class name="com.hp.devops.demoapp.tests.ui.TestSuiteA_TestNG_Selenium">
 				<methods>
 					<include name="testCase1" />
 					<include name="testCase2" />
 					<include name="testCase3" />
 				</methods>
 			</class>
-			<class name="com.hp.devops.demoapp.tests.ui.TestSuiteB"/>
+			<class name="com.hp.devops.demoapp.tests.ui.TestSuiteB_TestNG_Selenium"/>
 		</classes>
 	</test>
 </suite>
