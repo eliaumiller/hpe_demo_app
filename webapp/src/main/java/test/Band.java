@@ -5,22 +5,22 @@ import org.json.JSONObject;
 import java.security.InvalidParameterException;
 
 /**vvvv
- * Created with             IntelliJ IDEA.
+ * Created with             IntelliJ IDEA. test
  * User: gullery  testubf   testing localization
  * Date: 24/11/14
  * Time: 10:03
- * To change this                      template use File |   Settings | File Templates.
- * Raluca test test test test
+ * To change this        test               template use File |   Settings | File Templates.
+ * Raluca test
  */
 public class Band {
 	public int id;
-	public String name = "";
-	public String logo = "";
-	public String song = "";
+	public String name =  "1";
+	public String logo =  "";
+	public String song =  "";
 	public int votes = 0;
 
 	public Band(JSONObject json) {
-		System.out.println(" b          a                        n         d ");
+		System.out.println(" b          a                         n         d ");
 		if (json.has("id")) {
 			id = json.getInt("id");
 			if (json.has("name")) name = json.getString("name");
