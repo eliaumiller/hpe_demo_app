@@ -13,7 +13,7 @@ import java.security.InvalidParameterException;
  */
 public class Band {
 	public int id;
-	public String name = "1";
+	public String name = "";
 	public String logo = "1";
 	public String song = "1";
 	public int votes = 0;
