@@ -25,7 +25,7 @@ public class Utils {
 	}
 
 	static boolean simpleLogical() {
-		System.out.println("lsdkjfl");
+		System.out.println("lsdkjfltest");
 		for (int i = 0; i < 10; i++) {
 			System.out.println(i);
 		}
