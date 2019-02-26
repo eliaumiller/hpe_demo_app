@@ -19,7 +19,7 @@ public class Calcs {
 		return (a == b);
 	}
 
-	public static boolean nonEqual(int a, int b) {  //  2 tests cover this
+	public static boolean nonEqual(int a, int b) {  //  2 tests cover this  test
 		return (a == b);
 	}
 
