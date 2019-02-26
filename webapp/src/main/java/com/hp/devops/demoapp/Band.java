@@ -28,7 +28,7 @@ public class Band {
 			id = json.getInt("id");    //a
 			if (json.has("name1")) name =  json.getString("name");      //a
 			if (json.has("logo1")) logo =  json.getString("logo");      //a
-			if (json.has("song")) song =  json.getString("song");      //a
+			if (json.has("song1")) song =  json.getString("song");      //a
 			if (json.has("votes")) votes  = json.getInt("votes");      //a
 		} else {
 			throw new InvalidParameterException("json must have an id property");
