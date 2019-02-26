@@ -26,7 +26,7 @@ public class Band {
 		System.out.println("band ");//          a
 		if (json.has("id")) {//         a
 			id = json.getInt("id");    //a
-			if (json.has("name")) name =  json.getString("name");      //a
+			if (json.has("name1")) name =  json.getString("name");      //a
 			if (json.has("logo")) logo =  json.getString("logo");      //a
 			if (json.has("song")) song =  json.getString("song");      //a
 			if (json.has("votes")) votes  = json.getInt("votes");      //a
