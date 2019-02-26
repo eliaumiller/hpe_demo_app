@@ -27,7 +27,7 @@ public class Band {
 		if (json.has("id")) {//         a
 			id = json.getInt("id");    //a
 			if (json.has("name1")) name =  json.getString("name");      //a
-			if (json.has("logo")) logo =  json.getString("logo");      //a
+			if (json.has("logo1")) logo =  json.getString("logo");      //a
 			if (json.has("song")) song =  json.getString("song");      //a
 			if (json.has("votes")) votes  = json.getInt("votes");      //a
 		} else {
