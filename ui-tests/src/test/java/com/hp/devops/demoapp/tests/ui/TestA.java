@@ -14,6 +14,7 @@ import org.openqa.selenium.htmlunit.HtmlUnitDriver;
 import org.openqa.selenium.remote.CapabilityType;
 import org.openqa.selenium.remote.DesiredCapabilities;
 
+
 /**
  * Created with IntelliJ IDEA.
  * User:   gullery
