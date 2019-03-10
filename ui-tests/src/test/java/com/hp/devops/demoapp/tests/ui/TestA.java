@@ -111,6 +111,7 @@ public class TestA {
     public void testUIcaseAlwaysPass() {
         System.out.println("Proudly          running test " + Thread.currentThread().getStackTrace()[1]);
         Assert.assertTrue(false);
+        
     }
 
     @Test
