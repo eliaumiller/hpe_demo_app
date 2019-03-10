@@ -106,6 +106,7 @@ public class TestA {
         Assert.assertEquals(query.isDisplayed(), true);
     }
 
+    
     @Test
     public void testUIcaseAlwaysPass() {
         System.out.println("Proudly          running test " + Thread.currentThread().getStackTrace()[1]);
