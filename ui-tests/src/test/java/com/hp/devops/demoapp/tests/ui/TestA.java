@@ -14,6 +14,7 @@ import org.openqa.selenium.htmlunit.HtmlUnitDriver;
 import org.openqa.selenium.remote.CapabilityType;
 import org.openqa.selenium.remote.DesiredCapabilities;
 
+
 /**
  * Created with IntelliJ IDEA.
  * User:   gullery
@@ -40,6 +41,7 @@ public class TestA {
         } else {
             testProxy = "";
             appUrl = "http://myd-vm02771.hpswlabs.adapps.hp.com:8080/jenkins";
+            
         }
 
         if ("true".equals(System.getProperty("proxy"))) {
@@ -104,10 +106,12 @@ public class TestA {
         Assert.assertEquals(query.isDisplayed(), true);
     }
 
+    
     @Test
     public void testUIcaseAlwaysPass() {
         System.out.println("Proudly          running test " + Thread.currentThread().getStackTrace()[1]);
         Assert.assertTrue(false);
+        
     }
 
     @Test
