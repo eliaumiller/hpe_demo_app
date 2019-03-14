@@ -14,9 +14,9 @@ import java.security.InvalidParameterException;
  */
 public class Band {
 	public int id;
-	public String name =  "111";
+	public String name =  "1";
 	public String logo =  "";
-	public String song =  "1";
+	public String song =  "";
 	public int votes = 0;
 
 	public Band(JSONObject json) {
@@ -26,9 +26,9 @@ public class Band {
 		System.out.println("band ");//          a
 		if (json.has("id")) {//         a
 			id = json.getInt("id");    //a
-			if (json.has("name")) name =  json.getString("name");      //a
-			if (json.has("logo")) logo =  json.getString("logo");      //a
-			if (json.has("song")) song =  json.getString("song");      //a
+			if (json.has("name1")) name =  json.getString("name");      //a
+			if (json.has("logo1")) logo =  json.getString("logo");      //a
+			if (json.has("song1")) song =  json.getString("song");      //a
 			if (json.has("votes")) votes  = json.getInt("votes");      //a
 		} else {
 			throw new InvalidParameterException("json must have an id property");

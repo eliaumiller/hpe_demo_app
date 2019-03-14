@@ -10,7 +10,7 @@ import static org.junit.Assert.assertTrue;
 <<<<<<< HEAD
  * this is new *asdwej
 =======
- * this is new *asd
+ * this is new
 >>>>>>> c00a1ac6278f44ae8e7dbdffc6a6538a717dcf09
  */
 public class CalcsTest {

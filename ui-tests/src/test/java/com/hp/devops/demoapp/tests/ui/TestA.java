@@ -14,13 +14,14 @@ import org.openqa.selenium.htmlunit.HtmlUnitDriver;
 import org.openqa.selenium.remote.CapabilityType;
 import org.openqa.selenium.remote.DesiredCapabilities;
 
+
 /**
  * Created with IntelliJ IDEA.
  * User:   gullery
  * Date: 25/11/14
  * Time: 17:28
  * To change this template use File        | Settings | File Templates.
- * Testing hotspot widget by Ralu test test 12345
+ * Testing hotspot widget by Ralu test test1
  */
 public class TestA {
 
@@ -40,6 +41,7 @@ public class TestA {
         } else {
             testProxy = "";
             appUrl = "http://myd-vm02771.hpswlabs.adapps.hp.com:8080/jenkins";
+            
         }
 
         if ("true".equals(System.getProperty("proxy"))) {
@@ -104,10 +106,12 @@ public class TestA {
         Assert.assertEquals(query.isDisplayed(), true);
     }
 
+    
     @Test
     public void testUIcaseAlwaysPass() {
         System.out.println("Proudly          running test " + Thread.currentThread().getStackTrace()[1]);
         Assert.assertTrue(false);
+        
     }
 
     @Test
