@@ -8,6 +8,7 @@ public class Musical {
 	public int type3;
 	public int type9;
 	public int type10;
+	public int type11;
 
 
 
