@@ -941,7 +941,7 @@
             <line nr="26" mi="9" ci="0" mb="2" cb="0"/>
             <line nr="27" mi="9" ci="0" mb="2" cb="0"/>
             <line nr="28" mi="9" ci="0" mb="2" cb="0"/>
-            <line nr="29" mi="10" ci="0" mb="2" cb="0"/>
+            <line nr="29" mi="10" ci="1" mb="2" cb="0"/>
             <line nr="31" mi="5" ci="0" mb="0" cb="0"/>
             <line nr="33" mi="1" ci="0" mb="0" cb="0"/>
             <line nr="39" mi="3" ci="0" mb="0" cb="0"/>
@@ -959,7 +959,7 @@
             <line nr="57" mi="2" ci="0" mb="0" cb="0"/>
             <counter type="INSTRUCTION" missed="130" covered="0"/>
             <counter type="BRANCH" missed="10" covered="0"/>
-            <counter type="LINE" missed="26" covered="2"/>
+            <counter type="LINE" missed="25" covered="3"/>
             <counter type="COMPLEXITY" missed="9" covered="0"/>
             <counter type="METHOD" missed="4" covered="0"/>
             <counter type="CLASS" missed="1" covered="0"/>
