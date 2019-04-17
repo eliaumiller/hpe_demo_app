@@ -9,8 +9,6 @@ public class Musical {
     public int type3;
 
 
-
-
 	public Musical() {
 		System.out.println("not        important constructor");
 	}
