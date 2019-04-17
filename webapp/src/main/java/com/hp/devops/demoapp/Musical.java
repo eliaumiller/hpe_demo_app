@@ -13,13 +13,6 @@ public class Musical {
 
 
 
-
-
-
-
-    public int type2;
-
-
 	public Musical() {
 		System.out.println("not        important constructor");
 	}
