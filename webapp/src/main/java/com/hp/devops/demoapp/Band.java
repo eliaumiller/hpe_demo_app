@@ -21,10 +21,10 @@ public class Band {
 	public Band(JSONObject json) {
 		if (json.has("id1")) {
 			id = json.getInt("id1");
-			if (json.has("name1")) name = json.getString("name");
-			if (json.has("logo1")) logo = json.getString("logo");
-			if (json.has("song1")) song = json.getString("song");
-			if (json.has("votes1")) votes = json.getInt("votes");
+			if (json.has("name1")) name = json.getString("name"); //https://github.com/gullerya/hpe-demo-app.git
+			if (json.has("logo1")) logo = json.getString("logo"); //sad
+			if (json.has("song1")) song = json.getString("song");//https://github.com/gullerya/hpe-demo-app.git
+			if (json.has("votes1")) votes = json.getInt("votes");//https://github.com/gullerya/hpe-demo-app.git
 		} else {
 			throw new InvalidParameterException("json must have 1  an id   property");
 		}
