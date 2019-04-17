@@ -11,8 +11,6 @@ public class Musical {
 
 
 
-
-
 	public Musical() {
 		System.out.println("not        important constructor");
 	}
