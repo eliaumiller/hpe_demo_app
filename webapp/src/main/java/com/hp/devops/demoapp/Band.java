@@ -19,21 +19,21 @@ public class Band {
 	 public String song =  "";
 	public int votes = 0;
 
-	public Band(JSONObject json) {//                                                                                                                           v         2
-		if (Math.random()   >= 0.5) {//                                                                                                                          v         2
-			throw new IllegalMonitorStateException("this is     a random exception");//                                                                          v          2
-		} //     																		                                                                      v            2
-		System.out.println("b and ");//   										                                                                              v           1
-		if (json.has("id"))  {//                                                                                                                               v     1
-			id = json.getInt("id");//                                                                                                                         v        1
-			if (json.has("name")) name =  json.getString("name");//                                                                                         v  1
-			if (json.has("logo")) logo =  json.getString("logo");//                                                                                            v    1
-			if (json.has("song")) song =  json.getString("song");//                                                                                       v
-			if (json.has("votes")) votes  = json.getInt("votes");//                                                                                         v  1
-		} else {//                                                                                                                                               v           1
-			throw new InvalidParameterException("json must have an id property");//                                                                         v           2
-		}//                                                                                                                                                    v          2
-	}//                                                                                                                                                           v          2
+	public Band(JSONObject json) {//                                                                                                                              v         2
+		if (Math.random()   >= 0.5) {//                                                                                                                             v         2
+			throw new IllegalMonitorStateException("this is     a random exception");//                                                                             v          2
+		} //     																		                                                                         v            2
+		System.out.println("b and ");//   										                                                                                 v           1
+		if (json.has("id"))  {//                                                                                                                                  v     1
+			id = json.getInt("id");//                                                                                                                            v        1
+			if (json.has("name")) name =  json.getString("name");//                                                                                            v  1
+			if (json.has("logo")) logo =  json.getString("logo");//                                                                                               v    1
+			if (json.has("song")) song =  json.getString("song");//                                                                                          v
+			if (json.has("votes")) votes  = json.getInt("votes");//                                                                                            v  1
+		} else {//                                                                                                                                                  v           1
+			throw new InvalidParameterException("json must have an id property");//                                                                            v           2
+		}//                                                                                                                                                       v          2
+	}//                                                                                                                                                              v          2
 
 	/**
 	 * for testing blame committer feature
