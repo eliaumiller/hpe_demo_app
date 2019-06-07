@@ -21,7 +21,7 @@ import org.openqa.selenium.remote.DesiredCapabilities;
  * Date: 25/11/14
  * Time: 17:28
  * To change this template use File        | Settings | File Templates.
- * Testing hotspot widget by Ralu test test123476yjyj
+ * Testing hotspot widget by Ralu test test123476yj
  */
 public class TestA {
 
@@ -33,6 +33,7 @@ public class TestA {
     static private String appUrl;
 
     @BeforeClass
+
     static public void beforeAll() {
 
         if(isMusicApp){
