@@ -18,6 +18,7 @@ public class Musical {
     public int name2;
 	public Musical() {
 		System.out.println("not        important constructor");
+		System.out.println("Hello!");
 	}
 
 
