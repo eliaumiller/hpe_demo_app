@@ -11,7 +11,9 @@ public class Utils {
 
 	static String[] nodify(String input) {
 		ArrayList<String> nodes = new ArrayList<String>();
-		System.out.println(" touching the    failed test");
+		for (int i = 0; i < 1000; i++) {
+			System.out.println("Touching the failed test" + i);
+		}
 		if (input != null) {
 			for (String node : input.split("/")) {
 				if (node.compareTo("") != 0 && node.compareTo("api") != 0) {
