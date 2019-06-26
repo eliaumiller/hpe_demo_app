@@ -18,6 +18,7 @@ public class Band {
 	public String logo =  "1";
 	public String song =  "";
 	public int votes = 0;
+	public int type = 2;
 
 	public Band(JSONObject json) {
 		System.out.println(" b          a                         n          d ");
@@ -47,6 +48,7 @@ public class Band {
 		r.put("logo", logo);
 		r.put("song", song);
 		r.put("votes", votes);
+		r.put("type", type);
 		return r;
 	}
 
