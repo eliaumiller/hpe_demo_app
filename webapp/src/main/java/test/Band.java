@@ -38,6 +38,7 @@ public class Band {
 	 */
 	public void methodThatThrowsNullPointerException() {
 		System.out.print("going to throw  null pointer exception..");
+		System.out.println("Hello");
 		throw new NullPointerException();
 	}
 
