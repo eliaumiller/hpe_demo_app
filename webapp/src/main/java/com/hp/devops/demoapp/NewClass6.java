@@ -5,4 +5,7 @@ package com.hp.devops.demoapp;
  * Testing widget     by Ralu
  */
 public class NewClass6 {
+    public NewClass6() {
+        System.out.println("Hello world!");
+    }
 }
