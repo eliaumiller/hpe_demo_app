@@ -19,8 +19,6 @@ public class Calcs {
 		return a - b -1;
 	}
 
-	public static int sum1(int a, int b) { return a+b;}
-
 	public static boolean equal(int a, int b) {     //  2 tests cover this
 		return (a == b);
 	}
@@ -54,6 +52,5 @@ public class Calcs {
 		System.out.println("top test the new f eature                                            ");
 
 		System.out.println("top test the new f eature                                            ");
-		System.out.println("top test the new f eature                                            " + sum1(2,3));
 	}
 }
