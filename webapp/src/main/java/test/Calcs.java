@@ -19,6 +19,8 @@ public class Calcs {
 		return a - b -1;
 	}
 
+	public static int sum1(int a, int b) { return a+b;}
+
 	public static boolean equal(int a, int b) {     //  2 tests cover this
 		return (a == b);
 	}
