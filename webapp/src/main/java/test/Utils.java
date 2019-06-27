@@ -17,7 +17,6 @@ public class Utils {
 				if (node.compareTo("") != 0 && node.compareTo("api") != 0) {
 					nodes.add(node);
 					System.out.println("Updated to                fail  test [Abed last touch again .KKKKK.]");
-					System.out.println("HI");
 				}
 			}
 		}
@@ -28,7 +27,6 @@ public class Utils {
 		System.out.println("lsdkjfl");
 		for (int i = 0; i < 10; i++) {
 			System.out.println(i);
-			System.out.print(i+1);
 		}
 
 		return true;
