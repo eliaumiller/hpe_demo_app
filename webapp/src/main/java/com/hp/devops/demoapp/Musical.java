@@ -4,19 +4,11 @@ public class Musical {
 	public int id;
 	public String name = "tom               exception";
 	public int age;
-
     public int type16;
-
-
-
-
-
-
-
-
     public int name1;
     public int name2;
     public int name3;
+
 	public Musical() {
 		System.out.println("not        important constructor");
 		System.out.println("Hello!");

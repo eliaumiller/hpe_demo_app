@@ -18,6 +18,7 @@ public class Band {
 	public String logo =  "1";
 	public String song =  "";
 	public int votes = 0;
+	public int type = 2;
 
 	public Band(JSONObject json) {
 		System.out.println(" b          a                         n          d ");
@@ -37,6 +38,7 @@ public class Band {
 	 */
 	public void methodThatThrowsNullPointerException() {
 		System.out.print("going to throw  null pointer exception..");
+		System.out.println("Hello");
 		throw new NullPointerException();
 	}
 
@@ -47,6 +49,7 @@ public class Band {
 		r.put("logo", logo);
 		r.put("song", song);
 		r.put("votes", votes);
+		r.put("type", type);
 		return r;
 	}
 
