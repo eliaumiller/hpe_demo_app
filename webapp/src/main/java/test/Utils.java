@@ -27,7 +27,7 @@ public class Utils {
 		System.out.println("lsdkjfl");
 		for (int i = 0; i < 10; i++) {
 			System.out.println(i);
-			System.out.print("Hello!");
+			System.out.print(i+1);
 		}
 
 		return true;
