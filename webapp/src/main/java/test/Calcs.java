@@ -31,6 +31,7 @@ public class Calcs {
 		return false;
 	}
 
+
 	public static void randomThrowExceptionMethodA() {
 		Random rand = new Random();
 		if (randomNumber > 0) {
@@ -50,7 +51,6 @@ public class Calcs {
 		System.out.println("top test the new  feature                                            ");
 		System.out.println("top test the new f eature                                            ");
 
-		System.out.println("top test the new f eature                                            ");
 		System.out.println("top test the new f eature                                            ");
 	}
 }
