@@ -22,7 +22,7 @@ public class Band {
 		if (json.has("id1")) {
 			id = json.getInt("id1");
 			if (json.has("name1")) name = json.getString("name"); //h ttps://github.com/gullerya/hpe-demo-app.git
-			if (json.has("logo1")) logo = json.getString("logo"); //sa d
+			if (json.has("logo1")) logo = json.getString("logo"); //sa dd
 			if (json.has("song1")) song = json.getString("song");//http s://github.com/gullerya/hpe-demo-app.git
 			if (json.has("votes1")) votes = json.getInt("votes");//https ://github.com/gullerya/hpe-demo-app.git
 		} else {
@@ -32,6 +32,7 @@ public class Band {
 
 	public JSONObject toJSON() {
 		JSONObject r = new JSONObject();
+		r.put("id1", id);
 		r.put("id1", id);
 		r.put("name1", name);
 		r.put("logo1", logo);
