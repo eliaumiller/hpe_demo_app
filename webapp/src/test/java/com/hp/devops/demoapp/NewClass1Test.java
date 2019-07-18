@@ -17,7 +17,7 @@ import java.util.Random;
  * To change   this       template use File | Settings | File Templates. test test
  */
 public class NewClass1Test {
-	//private String NON_RELATED;////
+	//private String NON_RELATED;/////
 	private Random rand = new Random();
 	private int randomNumber;
 
