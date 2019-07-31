@@ -8,6 +8,10 @@ public class Musical {
     public int name1;
     public int name2;
     public int name3;
+
+
+
+
     public int name4;
 
 	public Musical() {
