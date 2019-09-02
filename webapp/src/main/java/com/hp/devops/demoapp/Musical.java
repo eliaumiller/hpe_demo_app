@@ -2,7 +2,7 @@ package com.hp.devops.demoapp;
 
 public class Musical {
 	public int id;
-	public String name = "tom   exception";
+	public String name = "tom  exception";
 	public int age;
     public int type16;
     public int name1;
