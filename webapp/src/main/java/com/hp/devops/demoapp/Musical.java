@@ -19,7 +19,6 @@ public class Musical {
 		System.out.println("Hello!");
 		System.out.println("HEllo World!");
 
-		System.out.println("HEllo World!");
 	}
 
 
