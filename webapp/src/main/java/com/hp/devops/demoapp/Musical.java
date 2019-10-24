@@ -21,6 +21,7 @@ public class Musical {
 	}
 
 
+
 	public void setMusical() throws ExceptionInInitializerError {
 		throw new ExceptionInInitializerError("some customize exception with the name of " + name  + age  + type16 + name1 + name2 + name3 + name4 + name5);
 		}
