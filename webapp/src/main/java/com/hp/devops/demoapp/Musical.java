@@ -23,6 +23,10 @@ public class Musical {
     public int nameVul2;
     public int nameVul3;
     public int nameVul4;
+
+
+
+
     public int vul;
 
 
