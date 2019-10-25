@@ -28,6 +28,8 @@ public class Musical {
 
 
     public int vul;
+    public int v;
+    public int v2;
 
 
 
@@ -48,7 +50,7 @@ public class Musical {
 	public void setMusical() throws ExceptionInInitializerError {
 		throw new ExceptionInInitializerError("some customize exception with the name of " + name  + age  + type16 + name1 +
 				name2 + name3 + name4 + name5 + name6 + name8 + nameVul + vulnerab +
-		nameVul1 + nameVul2 + nameVul3 + nameVul4 + vul);
+		nameVul1 + nameVul2 + nameVul3 + nameVul4 + vul +v + v2);
 		}
 
 }
