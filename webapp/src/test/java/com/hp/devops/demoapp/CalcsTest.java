@@ -12,8 +12,6 @@ import static org.junit.Assert.assertTrue;
  * this is new *usr2 
  
  
-
-
  */
 public class CalcsTest {
 	////asssggaga
