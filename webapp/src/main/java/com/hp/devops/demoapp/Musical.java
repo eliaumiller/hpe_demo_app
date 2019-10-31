@@ -26,7 +26,6 @@ public class Musical {
 
 
 
-
     public int vul;
     public int v;
     public int v2;
