@@ -31,7 +31,6 @@ public class Musical {
 
 
 
-
     public int vulnerab;
 
 
