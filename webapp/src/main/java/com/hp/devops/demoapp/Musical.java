@@ -1,6 +1,5 @@
 package com.hp.devops.demoapp;
 
-
 public class Musical {
 	public int id;
 	public String name = "tom  exception";
