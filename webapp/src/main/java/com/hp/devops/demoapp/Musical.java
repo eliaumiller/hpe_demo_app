@@ -30,7 +30,6 @@ public class Musical {
     public int v2;
     public int vulnerab;
 
-
 	public Musical() {
 		System.out.println("not        important constructor");
 		System.out.println("Hello!");
