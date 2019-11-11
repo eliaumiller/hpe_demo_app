@@ -13,7 +13,6 @@ public class Musical {
     public int name5;
     public int name6;
 
-
     public int name8;
     public int nameVul;
     public int nameVul1;
