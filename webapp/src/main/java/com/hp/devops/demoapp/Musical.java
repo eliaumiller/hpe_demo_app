@@ -16,8 +16,6 @@ public class Musical {
 
 
     public int name8;
-
-
     public int nameVul;
     public int nameVul1;
     public int nameVul2;
