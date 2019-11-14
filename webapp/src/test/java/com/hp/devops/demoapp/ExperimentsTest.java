@@ -12,7 +12,6 @@ import java.util.Random;
  * Date: 25/11/15
  * Time: 14:48 test
  * To change this template use File  | Settings | File Templates.
- 
  */
 public class ExperimentsTest {
 	private Random rand = new Random();
