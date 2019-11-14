@@ -22,6 +22,8 @@ public class Musical {
     public int v2;
     public int vulnerab;
     public int vulnerability;
+    public int vulnerability1;
+    public int vulnerability2;
 
 	public Musical() {
 		System.out.println("not important constructor");
@@ -32,6 +34,6 @@ public class Musical {
 	public void setMusical() throws ExceptionInInitializerError {
 		throw new ExceptionInInitializerError("some customize exception with the name of " + name  + age  + type16 + name1 +
 				name2 + name3 + name4 + name5 + name6 + name8 + nameVul + vulnerab +
-		nameVul1 + nameVul2 + nameVul3 + nameVul4 + vul +v + v2 + vulnerability);
+		nameVul1 + nameVul2 + nameVul3 + nameVul4 + vul +v + v2 + vulnerability + vulnerability1 + vulnerability2);
 		}
 }
