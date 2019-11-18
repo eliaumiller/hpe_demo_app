@@ -82,6 +82,7 @@ public class DataManager {
 
 				//  do i need it?
 				file.createNewFile();
+				file.createNewFile();
 				PrintWriter output = new PrintWriter(file.getAbsolutePath());
 				output.print(json.toString(4));
 				output.close();
@@ -118,4 +119,17 @@ public class DataManager {
 			throw new Exception("the band not exist");
 		}
 	}
+
+    static void upVoteBand2(int id) throws Exception {
+        if (!initialized) throw new Exception("service not initialized");
+        Band band = DataManager.getBand(id);
+        if (band != null) {
+            synchronized (band) {
+                band.votes++;
+            }
+            saveData();
+        } else {
+            throw new Exception("the band not exist");
+        }
+    }
 }

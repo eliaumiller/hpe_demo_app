@@ -9,7 +9,7 @@ import org.junit.Test;
 import java.security.InvalidParameterException;
 
 /**
- * Created with IntelliJ IDEA.
+ * Created           with IntelliJ IDEA.
  * User: gullery
  * Date: 25/11/14
  * Time: 14:21
@@ -61,6 +61,12 @@ public class BandTest {
 		Assert.assertEquals(band.song, "Song");
 		Assert.assertEquals(band.votes, 10);
 	}
+
+	@Test
+	public void bandVeryLongNameTest_1_123456789_2_123456789_3_123456789_4_123456789_5_123456789_6_123456789_7_123456789_8_123456789_9_123456789_10_123456789_11_123456789_12_123456789_13_123456789_14_123456789_15_123456789_16_123456789_17_123456789_18_123456789_19_123456789_20_123456789 () {
+
+	}
+
 
 	@Test
 	@Ignore

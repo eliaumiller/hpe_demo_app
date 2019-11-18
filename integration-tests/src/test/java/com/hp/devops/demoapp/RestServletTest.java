@@ -36,7 +36,7 @@ public class RestServletTest {
 		}
 
 		spec = RestAssured.given();
-		System.out.println("Base   URI: " + configurationService.getBaseUri());
+		System.out.println("Base  URI: " + configurationService.getBaseUri());
 	}
 
 	@AfterClass

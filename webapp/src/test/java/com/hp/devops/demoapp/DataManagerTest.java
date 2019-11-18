@@ -1,6 +1,7 @@
 package com.hp.devops.demoapp;
 
 import org.junit.Assert;
+import org.junit.Ignore;
 import org.junit.Test;
 
 import java.security.InvalidParameterException;
@@ -14,6 +15,7 @@ import java.security.InvalidParameterException;
  */
 public class DataManagerTest {
 
+	@Ignore
 	@Test
 	public void dataManagerTestA() {
 		try {
@@ -25,18 +27,21 @@ public class DataManagerTest {
 		}
 	}
 
+	@Ignore
 	@Test
 	public void dataManagerTestB() {
 		DataManager.loadData();
 		Assert.assertEquals(DataManager.isInitialized(), false);
 	}
 
+	@Ignore
 	@Test
 	public void failTestForCoverageAnalysisB() {
 		DataManager.loadData();
 		Assert.assertEquals(true, true);
 	}
 
+	@Ignore
 	@Test
 	public void dataManagerTestC() {
 		try {
@@ -48,6 +53,7 @@ public class DataManagerTest {
 		}
 	}
 
+	@Ignore
 	@Test
 	public void dataManagerTestD() {
 		try {
@@ -59,6 +65,7 @@ public class DataManagerTest {
 		}
 	}
 
+	@Ignore
 	@Test
 	public void dataManagerTestE() {
 		try {

@@ -11,7 +11,7 @@
 
 	<artifactId>ui-tests-testng</artifactId>
 
-	<name>Discover Demo App - Tribute to Progressive Music (UI Tests)</name>
+	<name>Discover Demo App - Tribute to Progressive Music (UI TestNG Tests)</name>
 
     <properties>
         <suiteFile>src/test/resources/testng.xml</suiteFile>
@@ -58,7 +58,7 @@
                 <plugin>
                     <groupId>org.apache.maven.plugins</groupId>
                     <artifactId>maven-surefire-plugin</artifactId>
-                    <version>2.18</version>
+                    <version>2.19.1</version>
                     <configuration>
                          <excludes>
                             <exclude>**/TestSuite*.java</exclude>
@@ -83,7 +83,7 @@
 			<plugin>
 				<groupId>org.apache.maven.plugins</groupId>
 				<artifactId>maven-surefire-plugin</artifactId>
-				<version>2.18</version>
+				<version>2.19.1</version>
 				<configuration>
 					<suiteXmlFiles>
 						<suiteXmlFile>${suiteFile}</suiteXmlFile>

@@ -75,5 +75,10 @@ public class ConfigurationService {
     public String getBaseUri(){
         return protocol + "://" + hostName;
     }
+
     public void EmptyMethod(){}
+
+
+    public void stam1(){}
+
 }

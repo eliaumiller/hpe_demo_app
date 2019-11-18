@@ -11,12 +11,13 @@ import java.util.Arrays;
  * User: belozovs
  * Date: 1/1/15
  * Description:
- *      Run this class to generate a {@link TestCreator#numOfTests} tests and run (or not - {@link TestCreator#shouldRun}) them together with TestA and TestB.
+ *      Run this class to generate a {@link TestCreator#numOfTests} tests and run (or not - {@link TestCreator#shouldRun}) them together with TestA_Selenium_JUnit and TestB_Selenium_JUnit.
  *      The test output is printed to this class stdout
- *      The test source is copied from TestA with 3 differences:
+ *      The test source is copied from TestA_Selenium_JUnit with 3 differences:
  *      - package changed
  *      - import com.hp.devops.demoapp.tests.ui.SpecialTests added
- *      - TestA suffix added to the test method names
+ *      - TestA_Selenium_JUnit suffix added to the test method names
+ *
  *
  */
 public class TestCreator {
@@ -40,7 +41,7 @@ public class TestCreator {
             "import org.openqa.selenium.remote.CapabilityType;\n" +
             "import org.openqa.selenium.remote.DesiredCapabilities;\n" +
             "\n" +
-            "public class TestA {\n" +
+            "public class TestA_Selenium_JUnit {\n" +
             "\n" +
             "    static final boolean isMusicApp = false;\n" +
             "\n" +
@@ -136,12 +137,12 @@ public class TestCreator {
         final String CASEA_STRING = "testUIcaseAGeneratedTest";
         final String CASEB_STRING = "testUIcaseBGeneratedTest";
 
-        StringBuffer commandLine = new StringBuffer("-Dtest=com.hp.devops.demoapp.tests.ui.TestA#testUIcaseA+testUIcaseB,com.hp.devops.demoapp.tests.ui.TestB#testUIcaseC+testUIcaseD,");
+        StringBuffer commandLine = new StringBuffer("-Dtest=com.hp.devops.demoapp.tests.ui.TestA_Selenium_JUnit#testUIcaseA+testUIcaseB,com.hp.devops.demoapp.tests.ui.TestB_Selenium_JUnit#testUIcaseC+testUIcaseD,");
 
         for (int i = 0; i < numOfTests; i++) {
             File testFile = new File(MODULE_STRING + PACKAGE_STRING.replace(".", "/") + CLASS_NAME_STRING + i + ".java");
             FileWriter fileWriter = new FileWriter(testFile);
-            String mySource = sourceCode.replace("TestA", CLASS_NAME_STRING + i);
+            String mySource = sourceCode.replace("TestA_Selenium_JUnit", CLASS_NAME_STRING + i);
             fileWriter.write(mySource);
             fileWriter.close();
 
