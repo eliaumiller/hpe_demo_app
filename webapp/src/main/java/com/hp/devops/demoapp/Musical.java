@@ -28,8 +28,6 @@ public class Musical {
 
 
 
-
-
     public int vulnerability1;
 
 
