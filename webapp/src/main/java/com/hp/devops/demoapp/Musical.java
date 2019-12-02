@@ -24,8 +24,6 @@ public class Musical {
     public int vulnerability;
 
 
-
-
     public int vulnerability2;
 
 
