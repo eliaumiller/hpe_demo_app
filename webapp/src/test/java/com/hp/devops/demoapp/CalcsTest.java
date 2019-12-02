@@ -10,7 +10,7 @@ import static org.junit.Assert.assertTrue;
  * test raluca test
  ****adad 做了更改与测试
  * this is new *usr2  
- */ 
+ */
 public class CalcsTest {
 	////asssggaga
 	//commit.. 
