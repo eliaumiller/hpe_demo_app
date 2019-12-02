@@ -73,7 +73,6 @@ public class TestA {
         System.out.println("App URL is " + appUrl + "; can                           be modifed via system property, i.e., '-DappUrl=\"http://54.146.140.70:9000\"'");
 
         driver.get(appUrl);
-
     }
 
     @Test
@@ -86,7 +85,7 @@ public class TestA {
             Assert.assertEquals(query.getTagName(), "div");
         } else {
             query = driver.findElement(By.id("jenkin"));
-            Assert.assertEquals(query.getTagName(), "body");
+            Assert.assertEquals(query.getTagName(), "bod");
         }
         Assert.assertEquals(query.isDisplayed(), true);
     }
