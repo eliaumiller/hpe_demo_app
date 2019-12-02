@@ -60,6 +60,7 @@ public class BandTest {
 			Assert.fail("the flow MUST have been fallen before");
 		} catch (Exception e) {
 			Assert.assertEquals(e.getClass(), InvalidParameterException.class);
+
 			Assert.assertEquals(e.getMessage(), "json must have an id property");
 		}
 	}
