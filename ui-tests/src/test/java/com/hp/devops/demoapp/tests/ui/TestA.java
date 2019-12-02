@@ -85,7 +85,7 @@ public class TestA {
             query = driver.findElement(By.id("bandsList"));
             Assert.assertEquals(query.getTagName(), "div");
         } else {
-            query = driver.findElement(By.id("jenkins"));
+            query = driver.findElement(By.id("jenkin"));
             Assert.assertEquals(query.getTagName(), "body");
         }
         Assert.assertEquals(query.isDisplayed(), true);
