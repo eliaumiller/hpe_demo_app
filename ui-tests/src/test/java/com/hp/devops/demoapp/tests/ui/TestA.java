@@ -76,7 +76,6 @@ public class TestA {
     }
 
     @Test
-    @Ignore
     public void testUIcaseA() {
         System.out.println("Proudly running test " + Thread.currentThread().getStackTrace()[1]);
         WebElement query;
