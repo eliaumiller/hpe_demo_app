@@ -16,7 +16,7 @@ import static org.junit.Assert.assertTrue;
 public class CalcsTest {
 	////asssggaga
 	//commit. .ghn
-	//second no
+	//second n
 	@Test
 	public void sum_test_A() {
 		Calcs.someTouchedMethod();
