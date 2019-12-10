@@ -20,6 +20,7 @@ public class CalcsTest {
 	@Test
 	public void sum_test_A() {
 		Calcs.someTouchedMethod();
+
 		assertEquals(3, Calcs.sum(1, 2));
 	}
 
