@@ -9,7 +9,7 @@ import static org.junit.Assert.assertTrue;
  * Created by gullery on 17/02/2016. testtted in pipeline 111
  * test raluca test
  ****adad 做了更改与测试
- * this is new *usr2  
+ * this is new *usr2   
  */
 public class CalcsTest {
 	////asssggaga
