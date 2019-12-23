@@ -40,14 +40,6 @@ public class Musical {
 
 
 
-
-
-
-
-
-
-
-
     public int vulnerabilitate;
     public int vulnerabilitate2;
 
