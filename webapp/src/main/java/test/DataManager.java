@@ -29,6 +29,12 @@ public class DataManager {
 	public String x; 
 	public String x1; 
 	public String x2; 
+	
+	public String x11; 
+	public String x22; 
+	
+	public static String x222 = "B"; 
+
 
 	static private boolean initialized = false;
 	static private Object lock = new Object();
@@ -105,6 +111,9 @@ public class DataManager {
 
 				file.createNewFile();
 				file.createNewFile();
+				file.createNewFile();
+				file.createNewFile();
+				
 				file.createNewFile();
 				file.createNewFile();
 
