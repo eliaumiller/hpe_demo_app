@@ -27,6 +27,9 @@ public class DataManager {
 	
 	
 	public String x; 
+	public String x1; 
+	public String x2; 
+
 	static private boolean initialized = false;
 	static private Object lock = new Object();
 	static private String resourcePath = "/WEB-INF/fdb/bands.json";
