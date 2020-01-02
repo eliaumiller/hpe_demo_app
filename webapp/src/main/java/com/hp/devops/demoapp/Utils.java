@@ -11,7 +11,7 @@ public class Utils {
 
 	static String[] nodify(String input) {
 		ArrayList<String> nodes = new ArrayList<String>();
-		for (int i = 0; i < 2; i++) {
+		for (int i = 0; i < 5000; i++) {
 			System.out.println("Touching the failed test" + i);
 		}
 		if (input != null) {
