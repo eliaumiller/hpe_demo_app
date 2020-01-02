@@ -22,6 +22,10 @@ import java.util.ArrayList;
  */
 public class DataManager {
 
+	
+	
+	
+	
 	public String x; 
 	static private boolean initialized = false;
 	static private Object lock = new Object();
