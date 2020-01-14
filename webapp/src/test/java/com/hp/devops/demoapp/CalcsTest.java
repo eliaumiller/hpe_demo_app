@@ -21,7 +21,7 @@ public class CalcsTest {
 	public void sum_test_A() {
 		Calcs.someTouchedMethod();
 
-		assertEquals(3, Calcs.sum(1, 2));
+		assertEquals(30, Calcs.sum(1, 2));
 	}
 
 	@Test
