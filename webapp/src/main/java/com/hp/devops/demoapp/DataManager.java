@@ -18,6 +18,9 @@ import java.util.ArrayList;
  */
 public class DataManager {
 
+
+	
+	
 	static private boolean initialized = false;
 	static private Object lock = new Object();
 	static private String resourcePath = "/WEB-INF/fdb/bands.json";
@@ -87,6 +90,9 @@ public class DataManager {
 				file.createNewFile();
 				file.createNewFile();
 				file.createNewFile();
+				
+				file.createNewFile();
+
 
 				PrintWriter output = new PrintWriter(file.getAbsolutePath());
 				output.print(json.toString(4));

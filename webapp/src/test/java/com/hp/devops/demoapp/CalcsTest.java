@@ -21,12 +21,12 @@ public class CalcsTest {
 	public void sum_test_A() {
 		Calcs.someTouchedMethod();
 
-		assertEquals(3, Calcs.sum(1, 2));
+		assertEquals(30, Calcs.sum(1, 2));
 	}
 
 	@Test
 	public void sum_test_B() {
-		assertEquals(7, Calcs.sum(5, 2));
+		assertEquals(7, Calcs.sum(5, 6));
 	}
 
 	@Test
@@ -51,7 +51,7 @@ public class CalcsTest {
 
 	@Test
 	public void eq_test_B() {
-		assertTrue(Calcs.equal(-1, -1));
+		assertTrue(Calcs.equal(-1, 1));
 	}
 
 	@Test

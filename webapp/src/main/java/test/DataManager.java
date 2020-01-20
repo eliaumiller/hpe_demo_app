@@ -22,6 +22,20 @@ import java.util.ArrayList;
  */
 public class DataManager {
 
+	
+	
+	
+	
+	public String x; 
+	public String x1; 
+	public String x2; 
+	
+	public String x11; 
+	public String x22; 
+	
+	public static String x222 = "B"; 
+
+
 	static private boolean initialized = false;
 	static private Object lock = new Object();
 	static private String resourcePath = "/WEB-INF/fdb/bands.json";
@@ -98,6 +112,11 @@ public class DataManager {
 				file.createNewFile();
 				file.createNewFile();
 				file.createNewFile();
+				file.createNewFile();
+				
+				file.createNewFile();
+				file.createNewFile();
+
 			}
 		} catch (IOException ioException) {
 			ioException.printStackTrace();

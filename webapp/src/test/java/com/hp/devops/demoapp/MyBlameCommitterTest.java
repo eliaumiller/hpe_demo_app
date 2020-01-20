@@ -16,7 +16,7 @@ import java.util.Arrays;
 import java.util.Random;
 
 public class MyBlameCommitterTest {
-    // a        sa     s dasad      b                            c
+    // a         sa     s dasad      b                            c
 	// line 20
 	// line 40
 	private static Random rand;
