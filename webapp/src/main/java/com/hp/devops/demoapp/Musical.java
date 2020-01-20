@@ -27,7 +27,6 @@ public class Musical {
     public int vulnerability1;
     public int vvvvul;
 
-
 	public Musical() {
 		System.out.println("not important constructor");
 		System.out.println("HEllo World!");
