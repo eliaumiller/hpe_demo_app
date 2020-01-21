@@ -14,7 +14,7 @@ import java.security.InvalidParameterException;
  * Date: 25/11/14
  * Time: 14:21
  * Testing hotspot widget by Ralu
- * test raluca test test  test
+ * test raluca test test
  */
 public class BandTest {
 	//private String NON_RELATED;
