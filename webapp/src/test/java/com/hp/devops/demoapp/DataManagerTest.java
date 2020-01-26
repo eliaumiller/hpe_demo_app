@@ -28,7 +28,7 @@ public class DataManagerTest {
 	@Test
 	public void dataManagerTestB() {
 		DataManager.loadData();
-		Assert.assertEquals(DataManager.isInitialized(), false);
+		Assert.assertEquals(DataManager.isInitialized(), true);
 	}
 
 	@Test
