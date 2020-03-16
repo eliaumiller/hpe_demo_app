@@ -1138,7 +1138,6 @@
             <counter type="CLASS" missed="1" covered="0"/>
         </sourcefile>
         <sourcefile name="Utils.java">
-            <line nr="10" mi="3" ci="0" mb="0" cb="0"/>
             <line nr="13" mi="4" ci="0" mb="0" cb="0"/>
             <line nr="14" mi="3" ci="0" mb="0" cb="0"/>
             <line nr="15" mi="2" ci="0" mb="2" cb="0"/>
