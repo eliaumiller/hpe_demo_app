@@ -11,7 +11,7 @@ public class Utils {
 			for (String node : input.split("/")) {
 				if (node.compareTo("") != 0 && node.compareTo("api") != 0) {
 					nodes.add(node);
-					System.out.println("updated   to fail test sdf  ");
+					System.out.println("updated to fail test sdf  ");
 				}
 			}
 		}
