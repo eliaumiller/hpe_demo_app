@@ -21,6 +21,7 @@ public class UtilsTest {
 		assertEquals(result.length, 1);         //  0 is the right answer
 	}
 
+
 	@Test
 	public void testThatFailForSimilarityMeasurementA() {
 		Musical musical = new Musical();
