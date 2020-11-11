@@ -35,6 +35,6 @@ public class JunitTestsWithParameters {
     @Test
     public void testUserMapping() {
         // You can use here assert also
-        Assert.assertEquals(resultExpected, input * input);
+        Assert.assertEquals(resultExpected, MathUtils.square(input));
     }
 }
