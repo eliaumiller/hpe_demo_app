@@ -26,7 +26,7 @@ public class JunitTestsWithParametersTest {
     private final int resultExpected;
 
     // Constructor is initialized with one set of parameters every time
-    public JunitTestsWithParameters(final int input, final int result)
+    public JunitTestsWithParametersTest(final int input, final int result)
     {
         this.input = input;
         this.resultExpected = result;
