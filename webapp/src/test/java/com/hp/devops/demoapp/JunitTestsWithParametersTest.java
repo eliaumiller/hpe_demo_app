@@ -1,3 +1,4 @@
+
 package com.hp.devops.demoapp;
 
 import java.util.Arrays;
@@ -11,7 +12,7 @@ import org.junit.runners.Parameterized.Parameters;
 @RunWith(Parameterized.class)
 public class JunitTestsWithParametersTest {
     // @Parameters annotation marks this method as parameters provider
-    @Parameters(name = "Run #Square of : {0}^2={1}")
+    @Parameters(name = "Run #Square of : ")
     public static Iterable<Object []> data()
     {
         return Arrays.asList(new Object[][] { { 1, 1 },
