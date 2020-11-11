@@ -34,8 +34,14 @@ public class JunitTestsWithParametersTest {
     }
 
     @Test
-    public void testUserMapping() {
+    public void testSquareUtil() {
         // You can use here assert also
         Assert.assertEquals(resultExpected, MathUtils.square(input));
+    }
+
+    @Test
+    public void testRootUtil() {
+        // You can use here assert also
+        Assert.assertEquals(input, MathUtils.square(resultExpected));
     }
 }
