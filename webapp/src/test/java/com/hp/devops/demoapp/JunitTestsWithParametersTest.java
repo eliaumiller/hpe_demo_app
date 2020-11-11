@@ -9,7 +9,7 @@ import org.junit.runners.Parameterized;
 import org.junit.runners.Parameterized.Parameters;
 
 @RunWith(Parameterized.class)
-public class JunitTestsWithParameters {
+public class JunitTestsWithParametersTest {
     // @Parameters annotation marks this method as parameters provider
     @Parameters(name = "Run #Square of : {0}^2={1}")
     public static Iterable<Object []> data()
