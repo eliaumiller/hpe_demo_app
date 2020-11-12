@@ -10,7 +10,7 @@ import org.junit.runners.Parameterized;
 import org.junit.runners.Parameterized.Parameters;
 
 @RunWith(Parameterized.class)
-public class JunitTestsWithParametersTest {
+public class MathUtilsTest {
     // @Parameters annotation marks this method as parameters provider
     @Parameters(name = "")
     public static Iterable<Object []> data()
@@ -27,7 +27,7 @@ public class JunitTestsWithParametersTest {
     private final int resultExpected;
 
     // Constructor is initialized with one set of parameters every time
-    public JunitTestsWithParametersTest(final int input, final int result)
+    public MathUtilsTest(final int input, final int result)
     {
         this.input = input;
         this.resultExpected = result;
