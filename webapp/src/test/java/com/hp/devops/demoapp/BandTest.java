@@ -26,7 +26,7 @@ public class BandTest {
 		test.put("name", "Name");
 		test.put("logo", "Logo");
 		test.put("song", "Song");
-		test.put("votes", 10);
+		test.put("votes",10);
 	}
 
 	@Test
