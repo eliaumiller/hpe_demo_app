@@ -22,7 +22,7 @@ public class BandTest {
 	@Before
 	public void beforeEach() {
 		test = new JSONObject();
-		test.put("id", 1);
+		test.put("id",1);
 		test.put("name", "Name");
 		test.put("logo", "Logo");
 		test.put("song", "Song");
