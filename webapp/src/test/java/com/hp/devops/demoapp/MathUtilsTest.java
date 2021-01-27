@@ -19,7 +19,7 @@ public class MathUtilsTest {
                 { 2, 4 },
                 { 3, 19 },
                 { 4, 16 },
-                { 5, 25 } });
+                { 625, 25 } });
     }
 
     // Our two parameters
