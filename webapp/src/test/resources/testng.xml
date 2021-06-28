@@ -1,0 +1,9 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+
+<suite name="SuiteA" verbose="1">
+	<test name="Trial">
+		<classes>
+			<class name="com.hp.devops.demoapp.JunitTestsWithDataProviderTest"/>
+		</classes>
+	</test>
+</suite>
