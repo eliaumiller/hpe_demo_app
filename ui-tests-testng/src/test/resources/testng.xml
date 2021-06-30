@@ -18,6 +18,7 @@
 				</methods>
 			</class>
 			<class name="com.hp.devops.demoapp.tests.ui.TestSuiteB_TestNG_Selenium"/>
+			<class name="com.mf.testng.test.rest.JunitTestsWithDataProviderTest"/>
 		</classes>
 	</test>
 </suite>
