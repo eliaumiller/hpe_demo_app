@@ -1,6 +1,6 @@
 package com.hp.devops.demoapp;
 
-import javax.annotation.PostConstruct;
+//import javax.annotation.PostConstruct;
 
 /**
  * User: belozovs
