@@ -10,6 +10,10 @@ pool:
   vmImage: ubuntu-latest
 
 steps:
+- task: octane-start-task@1
+  inputs:
+    OctaneServiceConnection: 'MyLocalOctaneService'
+    WorkspaceList: '1002'
 - task: Maven@3
   inputs:
     mavenPomFile: 'pom.xml'
@@ -20,3 +24,7 @@ steps:
     publishJUnitResults: true
     testResultsFiles: '**/surefire-reports/TEST-*.xml'
     goals: 'package'
+- task: octane-end-task@1
+  inputs:
+    OctaneServiceConnection: 'MyLocalOctaneService'
+    WorkspaceList: '1002'
