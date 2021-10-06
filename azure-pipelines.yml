@@ -7,7 +7,7 @@ trigger:
 - master
 
 pool:
-  vmImage: ubuntu-latest
+  vmImage: 'Azure Pipelines'
 
 steps:
 - task: octane-start-task@1
