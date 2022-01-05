@@ -13,6 +13,7 @@ steps:
   inputs:
     OctaneServiceConnection: 'MyLocalOctaneService'
     WorkspaceList: '1002'
+    GithubRepositoryConnection: 'azure_git_hub'
 - task: Maven@3
   inputs:
     mavenPomFile: 'pom.xml'
@@ -23,7 +24,9 @@ steps:
     publishJUnitResults: true
     testResultsFiles: '**/surefire-reports/TEST-*.xml'
     goals: 'package'
+    options: '-fn'
 - task: octane-end-task@1
   inputs:
     OctaneServiceConnection: 'MyLocalOctaneService'
     WorkspaceList: '1002'
+    GithubRepositoryConnection: 'azure_git_hub'
