@@ -15,7 +15,7 @@
 
     <properties>
         <suiteFile>src/test/resources/testng.xml</suiteFile>
-        <maven.compiler.source>8</maven.compiler.source>
+		<maven.compiler.source>8</maven.compiler.source>
         <maven.compiler.target>1.8</maven.compiler.target>
     </properties>
 
@@ -103,5 +103,4 @@
 		</plugins>
 		<finalName>ui-tests-testng</finalName>
 	</build>
-
 </project>
