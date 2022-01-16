@@ -30,16 +30,7 @@ jobs:
     inputs:
       OctaneServiceConnection: 'MyLocalOctaneService'
       WorkspaceList: '1002'
-      GithubRepositoryConnection: 'azure_git_hub'      
-- job: AlmOctaneStartJobPrivate
-  condition: false
-  pool: 'Pipeline agents'
-  steps:
-  - task: octane-start-task-private@1
-    inputs:
-      OctaneServiceConnection: 'hvm01735Private'
-      WorkspaceList: '1002'
-      GithubRepositoryConnection: 'github connection 1'
+      GithubRepositoryConnection: 'azure_git_hub'
 - job: AlmOctaneEndJob
   condition: always()
   pool: 'Azure Pipelines'
@@ -52,15 +43,3 @@ jobs:
       OctaneServiceConnection: 'MyLocalOctaneService'
       WorkspaceList: '1002'
       GithubRepositoryConnection: 'azure_git_hub'
-- job: AlmOctaneEndJobPrivate
-  condition: false
-  pool: 'Pipeline agents'
-  dependsOn:
-  - AlmOctaneStartJobPrivate
-  - MavenBuildJob
-  steps:
-  - task: octane-end-task-private@1
-    inputs:
-      OctaneServiceConnection: 'hvm01735Private'
-      WorkspaceList: '1002'
-      GithubRepositoryConnection: 'github connection 1'
