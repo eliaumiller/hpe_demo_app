@@ -1,0 +1,66 @@
+# Maven
+# Build your Java project and run tests with Apache Maven.
+# Add steps that analyze code, save build artifacts, deploy, and more:
+# https://docs.microsoft.com/azure/devops/pipelines/languages/java
+
+trigger:
+- master
+
+jobs:
+- job: MavenBuildJob
+  pool: 'Pipeline agents'
+  dependsOn:
+  - AlmOctaneStartJobPrivate
+  steps:
+  - task: Maven@3
+    inputs:
+      mavenPomFile: 'pom.xml'
+      mavenOptions: '-Xmx3072m'
+      javaHomeOption: 'JDKVersion'
+      jdkVersionOption: '1.8'
+      jdkArchitectureOption: 'x64'
+      publishJUnitResults: true
+      testResultsFiles: '**/surefire-reports/TEST-*.xml'
+      goals: 'package'
+- job: AlmOctaneStartJob
+  condition: false
+  pool: 'Pipeline agents'
+  steps:
+  - task: octane-start-task@1
+    inputs:
+      OctaneServiceConnection: 'hvm01735'
+      WorkspaceList: '1002'
+      GithubRepositoryConnection: 'github connection 1'
+- job: AlmOctaneStartJobPrivate
+  condition: always()
+  pool: 'Pipeline agents'
+  steps:
+  - task: octane-start-task-private@1
+    inputs:
+      OctaneServiceConnection: 'hvm01735Private'
+      WorkspaceList: '1002'
+      GithubRepositoryConnection: 'github connection 1'
+- job: AlmOctaneEndJob
+  condition: false
+  pool: 'Azure Pipelines'
+  dependsOn:
+  - AlmOctaneStartJob
+  - MavenBuildJob
+  steps:
+  - task: octane-end-task@1
+    inputs:
+      OctaneServiceConnection: 'hvm01735'
+      WorkspaceList: '1002'
+      GithubRepositoryConnection: 'github connection 1'
+- job: AlmOctaneEndJobPrivate
+  condition: always()
+  pool: 'Pipeline agents'
+  dependsOn:
+  - AlmOctaneStartJobPrivate
+  - MavenBuildJob
+  steps:
+  - task: octane-end-task-private@1
+    inputs:
+      OctaneServiceConnection: 'hvm01735Private'
+      WorkspaceList: '1002'
+      GithubRepositoryConnection: 'github connection 1'
