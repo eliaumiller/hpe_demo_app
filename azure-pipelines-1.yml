@@ -42,7 +42,7 @@ jobs:
       GithubRepositoryConnection: 'github connection 1'
 - job: AlmOctaneEndJob
   condition: false
-  pool: 'Azure Pipelines'
+  pool: 'Pipeline agents'
   dependsOn:
   - AlmOctaneStartJob
   - MavenBuildJob
