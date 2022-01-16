@@ -28,9 +28,9 @@ jobs:
   steps:
   - task: octane-start-task@1
     inputs:
-      OctaneServiceConnection: 'MyHmv01735'
+      OctaneServiceConnection: 'MyLocalOctaneService'
       WorkspaceList: '1002'
-      GithubRepositoryConnection: 'azure_git_hub'
+      GithubRepositoryConnection: 'azure_git_hub'      
 - job: AlmOctaneStartJobPrivate
   condition: false
   pool: 'Pipeline agents'
@@ -49,7 +49,7 @@ jobs:
   steps:
   - task: octane-end-task@1
     inputs:
-      OctaneServiceConnection: 'MyHmv01735'
+      OctaneServiceConnection: 'MyLocalOctaneService'
       WorkspaceList: '1002'
       GithubRepositoryConnection: 'azure_git_hub'
 - job: AlmOctaneEndJobPrivate
