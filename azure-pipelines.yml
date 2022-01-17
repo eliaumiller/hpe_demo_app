@@ -41,7 +41,7 @@ jobs:
       WorkspaceList: '1002'
       GithubRepositoryConnection: 'azure_git_hub'
 - job: AlmOctaneEndJob
-  condition: always()
+  condition: false
   pool: 'Azure Pipelines'
   dependsOn:
   - AlmOctaneStartJob
@@ -53,10 +53,10 @@ jobs:
       WorkspaceList: '1002'
       GithubRepositoryConnection: 'azure_git_hub'
 - job: AlmOctaneEndJobPrivate
-  condition: false
+  condition: always()
   pool: 'Azure Pipelines'
   dependsOn:
-  - AlmOctaneStartJob
+  - AlmOctaneStartJobPrivate
   - MavenBuildJob
   steps:
   - task: octane-end-task-private@1
