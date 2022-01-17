@@ -1,2 +1,2 @@
 C:\Users\vaingart\workspace\indi-integrations\jenkins\plugin\work\jobs\hp_example\workspace\ui-tests\target\nga-surefire-listener
-sdasda
+
