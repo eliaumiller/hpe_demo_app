@@ -10,7 +10,7 @@ jobs:
 - job: MavenBuildJob
   pool: 'Azure Pipelines'
   dependsOn:
-  - AlmOctaneStartJob
+  - AlmOctaneStartJobPrivate
   steps:
   - task: Maven@3
     inputs:
@@ -23,12 +23,21 @@ jobs:
       testResultsFiles: '**/surefire-reports/TEST-*.xml'
       goals: 'package'
 - job: AlmOctaneStartJob
-  condition: always()
+  condition: false
   pool: 'Azure Pipelines'
   steps:
   - task: octane-start-task@1
     inputs:
       OctaneServiceConnection: 'MyLocalOctaneService'
+      WorkspaceList: '1002'
+      GithubRepositoryConnection: 'azure_git_hub'
+- job: AlmOctaneStartJobPrivate
+  condition: always()
+  pool: 'Azure Pipelines'
+  steps:
+  - task: octane-start-task-private@1
+    inputs:
+      OctaneServiceConnection: 'AlmOctanePrivateService'
       WorkspaceList: '1002'
       GithubRepositoryConnection: 'azure_git_hub'
 - job: AlmOctaneEndJob
@@ -41,5 +50,17 @@ jobs:
   - task: octane-end-task@1
     inputs:
       OctaneServiceConnection: 'MyLocalOctaneService'
+      WorkspaceList: '1002'
+      GithubRepositoryConnection: 'azure_git_hub'
+- job: AlmOctaneEndJobPrivate
+  condition: false
+  pool: 'Azure Pipelines'
+  dependsOn:
+  - AlmOctaneStartJob
+  - MavenBuildJob
+  steps:
+  - task: octane-end-task-private@1
+    inputs:
+      OctaneServiceConnection: 'AlmOctanePrivateService'
       WorkspaceList: '1002'
       GithubRepositoryConnection: 'azure_git_hub'
