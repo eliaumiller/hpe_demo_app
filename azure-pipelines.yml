@@ -8,7 +8,7 @@ trigger:
 
 jobs:
 - job: MavenBuildJob
-  pool: 'Azure Pipelines'
+  pool: 'Azure Pipelines Local'
   dependsOn:
   - AlmOctaneStartJob
   steps:
@@ -24,7 +24,7 @@ jobs:
       goals: 'package'
 - job: AlmOctaneStartJob
   condition: always()
-  pool: 'Azure Pipelines'
+  pool: 'Azure Pipelines Local'
   steps:
   - task: octane-start-task@1
     inputs:
@@ -42,7 +42,7 @@ jobs:
       GithubRepositoryConnection: 'azure_git_hub'
 - job: AlmOctaneEndJob
   condition: always()
-  pool: 'Azure Pipelines'
+  pool: 'Azure Pipelines Local'
   dependsOn:
   - AlmOctaneStartJob
   - MavenBuildJob
