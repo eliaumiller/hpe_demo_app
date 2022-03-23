@@ -29,7 +29,7 @@ jobs:
   - task: octane-start-task@1
     inputs:
       OctaneServiceConnection: 'PCOEOctane'
-      WorkspaceList: '1002'
+      WorkspaceList: '1002,2002'
       GithubRepositoryConnection: 'azure_git_hub'
 - job: AlmOctaneStartJobPrivate
   condition: false
@@ -50,7 +50,7 @@ jobs:
   - task: octane-end-task@1
     inputs:
       OctaneServiceConnection: 'PCOEOctane'
-      WorkspaceList: '1002'
+      WorkspaceList: '1002,2002'
       GithubRepositoryConnection: 'azure_git_hub'
 - job: AlmOctaneEndJobPrivate
   condition: false
