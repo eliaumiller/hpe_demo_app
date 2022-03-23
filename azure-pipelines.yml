@@ -28,7 +28,7 @@ jobs:
   steps:
   - task: octane-start-task@1
     inputs:
-      OctaneServiceConnection: 'MyLocalOctaneService'
+      OctaneServiceConnection: 'PCOEOctane'
       WorkspaceList: '1002'
       GithubRepositoryConnection: 'azure_git_hub'
 - job: AlmOctaneStartJobPrivate
@@ -49,7 +49,7 @@ jobs:
   steps:
   - task: octane-end-task@1
     inputs:
-      OctaneServiceConnection: 'MyLocalOctaneService'
+      OctaneServiceConnection: 'PCOEOctane'
       WorkspaceList: '1002'
       GithubRepositoryConnection: 'azure_git_hub'
 - job: AlmOctaneEndJobPrivate
