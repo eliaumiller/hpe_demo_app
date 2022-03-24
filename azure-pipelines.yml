@@ -8,7 +8,7 @@ trigger:
 
 jobs:
 - job: MavenBuildJob
-  pool: 'Azure Pipelines Local'
+  pool: 'Azure Pipelines'
   dependsOn:
   - AlmOctaneStartJob
   steps:
@@ -28,8 +28,8 @@ jobs:
   steps:
   - task: octane-start-task@1
     inputs:
-      OctaneServiceConnection: 'PCOEOctane'
-      WorkspaceList: '1002,2002'
+      OctaneServiceConnection: 'OctaneNightlyProduction'
+      WorkspaceList: '1004'
       GithubRepositoryConnection: 'azure_git_hub'
 - job: AlmOctaneStartJobPrivate
   condition: false
@@ -49,8 +49,8 @@ jobs:
   steps:
   - task: octane-end-task@1
     inputs:
-      OctaneServiceConnection: 'PCOEOctane'
-      WorkspaceList: '1002,2002'
+      OctaneServiceConnection: 'OctaneNightlyProduction'
+      WorkspaceList: '1004'
       GithubRepositoryConnection: 'azure_git_hub'
 - job: AlmOctaneEndJobPrivate
   condition: false
