@@ -3,7 +3,3 @@ bla bla 23
 this is a for commit
 asddd
 dfdf
-this is a for commit
-dfdfdf
-asdasdfgfgfg
-asda
