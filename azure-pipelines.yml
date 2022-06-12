@@ -28,7 +28,7 @@ jobs:
   steps:
   - task: octane-start-task@1
     inputs:
-      OctaneServiceConnection: 'OctaneNightlyProduction'
+      OctaneServiceConnection: 'OctaneNightlyProd'
       WorkspaceList: '1004'
       GithubRepositoryConnection: 'azure_git_hub'
 - job: AlmOctaneStartJobPrivate
@@ -49,7 +49,7 @@ jobs:
   steps:
   - task: octane-end-task@1
     inputs:
-      OctaneServiceConnection: 'OctaneNightlyProduction'
+      OctaneServiceConnection: 'OctaneNightlyProd'
       WorkspaceList: '1004'
       GithubRepositoryConnection: 'azure_git_hub'
 - job: AlmOctaneEndJobPrivate
