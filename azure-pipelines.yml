@@ -53,7 +53,7 @@ jobs:
       WorkspaceList: '1004'
       GithubRepositoryConnection: 'azure_git_hub'
 - job: AlmOctaneEndJobPrivate
-  condition: always()
+  condition: false
   pool: 'Azure Pipelines'
   dependsOn:
   - AlmOctaneStartJobPrivate
