@@ -37,7 +37,7 @@ jobs:
   steps:
   - task: octane-start-task-private@1
     inputs:
-      OctaneServiceConnection: 'ALMOctnaeQA8'
+      OctaneServiceConnection: 'qa8_private'
       WorkspaceList: '33005'
       GithubRepositoryConnection: 'azure_git_hub'
 - job: AlmOctaneEndJob
@@ -61,6 +61,6 @@ jobs:
   steps:
   - task: octane-end-task-private@1
     inputs:
-      OctaneServiceConnection: 'ALMOctnaeQA8'
+      OctaneServiceConnection: 'qa8_private'
       WorkspaceList: '33005'
       GithubRepositoryConnection: 'azure_git_hub'
