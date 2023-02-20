@@ -6,8 +6,8 @@
 trigger:
 - master
 variables:
-  name: 'ALMOctaneLogLevel'
-  value: 'DEBUG'
+- name: ALMOctaneLogLevel
+  value: DEBUG
 
 jobs:
 - job: MavenBuildJob
