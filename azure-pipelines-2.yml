@@ -13,7 +13,7 @@ steps:
 - task: octane-start-task@2
   inputs:
     OctaneServiceConnection: 'MyHmv01735'
-    WorkspaceList: '1001'
+    WorkspaceList: '1002'
     GithubRepositoryConnection: 'github connection 1'
 - task: Maven@3
   inputs:
@@ -29,5 +29,5 @@ steps:
 - task: octane-end-task@2
   inputs:
     OctaneServiceConnection: 'MyHmv01735'
-    WorkspaceList: '1001'
+    WorkspaceList: '1002'
     GithubRepositoryConnection: 'github connection 1'
