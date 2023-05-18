@@ -47,7 +47,7 @@ jobs:
       WorkspaceList: '1002'
       GithubRepositoryConnection: 'azure_git_hub'
 - job: AlmOctaneStartJobPrivate
-  condition: always()
+  condition: false
   pool: 'Azure Pipelines'
   steps:
   - task: octane-start-task-private@1
