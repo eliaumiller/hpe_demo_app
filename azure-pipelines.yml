@@ -29,7 +29,7 @@ jobs:
   condition: false
   pool: 'Azure Pipelines Local'
   steps:
-  - task: octane-start-task@1
+  - task: octane-start-task@2
     inputs:
       OctaneServiceConnection: 'OctaneNightlyProd'
       WorkspaceList: '1002'
@@ -38,7 +38,7 @@ jobs:
   condition: always()
   pool: 'Azure Pipelines'
   steps:
-  - task: octane-start-task-private@1
+  - task: octane-start-task-private@2
     inputs:
       OctaneServiceConnection: 'ALMOctanePrivateNightlyDev'
       WorkspaceList: '1002'
@@ -50,7 +50,7 @@ jobs:
   - AlmOctaneStartJob
   - MavenBuildJob
   steps:
-  - task: octane-end-task@1
+  - task: octane-end-task@2
     inputs:
       OctaneServiceConnection: 'OctaneNightlyProd'
       WorkspaceList: '1002'
@@ -62,7 +62,7 @@ jobs:
   - AlmOctaneStartJobPrivate
   - MavenBuildJob
   steps:
-  - task: octane-end-task-private@1
+  - task: octane-end-task-private@2
     inputs:
       OctaneServiceConnection: 'ALMOctanePrivateNightlyDev'
       WorkspaceList: '1002'
