@@ -19,7 +19,7 @@ public class CalcsTest {
 //yet another comment...
 	@Test
 	public void sum_test_A() {
-		assertEquals(3, Calcs.sum(1,4));
+		assertEquals(3, Calcs.sum(1,2));
 	}
 
 	@Test
@@ -34,7 +34,7 @@ public class CalcsTest {
 
 	@Test
 	public void sub_test_C() {
-		assertEquals(3, Calcs.sub(10, 7));
+		assertEquals(3, Calcs.sub(10, 8));
 	}
 
 	@Test
