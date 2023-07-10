@@ -11,7 +11,7 @@ variables:
 
 jobs:
 - job: MavenBuildJob
-  pool: 'Azure Pipelines'
+  pool: 'Azure Pipelines Local'
   dependsOn:
   - AlmOctaneStartJob
   steps:
@@ -31,7 +31,7 @@ jobs:
   steps:
   - task: octane-start-task@2
     inputs:
-      OctaneServiceConnection: 'OctaneNightlyProd'
+      OctaneServiceConnection: 'win2019'
       WorkspaceList: '1002'
       GithubRepositoryConnection: 'azure_git_hub'
 - job: AlmOctaneEndJob
@@ -43,7 +43,7 @@ jobs:
   steps:
   - task: octane-end-task@2
     inputs:
-      OctaneServiceConnection: 'OctaneNightlyProd'
+      OctaneServiceConnection: 'win2019'
       WorkspaceList: '1002'
       GithubRepositoryConnection: 'azure_git_hub'
 - job: AlmOctaneStartJobPrivate
