@@ -24,7 +24,7 @@ public class CalcsTest {
 
 	@Test
 	public void sub_test_A() {
-		assertEquals(4, Calcs.sub(5, 1));
+		assertEquals(4, Calcs.sub(5, 2));
 	}
 
 	@Test
