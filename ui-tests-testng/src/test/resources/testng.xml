@@ -4,8 +4,8 @@
 	<test name="Trial">
 		<groups>
 			<run>
-				<include name="Group_A" />
-				<exclude name="Group_B" />
+			   <include name="Group_A" />
+			   <exclude name="Group_B" />
 			</run>
 		</groups>
 
