@@ -31,9 +31,10 @@ jobs:
   steps:
   - task: octane-start-task@2
     inputs:
-      OctaneServiceConnection: 'OctaneNightlyProd'
-      WorkspaceList: '1002'
+      OctaneServiceConnection: 'QA8_reg_day_26_12_23'
+      WorkspaceList: '37001'
       GithubRepositoryConnection: 'azure_git_hub'
+      CreatePipelineCheckbox: true
 - job: AlmOctaneEndJob
   condition: always()
   pool: 'Azure Pipelines'
@@ -43,8 +44,8 @@ jobs:
   steps:
   - task: octane-end-task@2
     inputs:
-      OctaneServiceConnection: 'OctaneNightlyProd'
-      WorkspaceList: '1002'
+      OctaneServiceConnection: 'QA8_reg_day_26_12_23'
+      WorkspaceList: '37001'
       GithubRepositoryConnection: 'azure_git_hub'
 - job: AlmOctaneStartJobPrivate
   condition: false
