@@ -31,7 +31,7 @@ jobs:
   steps:
   - task: octane-start-task@2
     inputs:
-      OctaneServiceConnection: 'qa8'
+      OctaneServiceConnection: 'QA8_reg_day_26_12_23'
       WorkspaceList: '37001'
       GithubRepositoryConnection: 'azure_git_hub'
       CreatePipelineCheckbox: true
