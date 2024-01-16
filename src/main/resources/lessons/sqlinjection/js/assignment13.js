@@ -46,7 +46,7 @@ function getServers(column) {
             var server = html.replace('ID', result[i].id);
             var status = "success";
             if (result[i].status === 'offline') {
-                status = "danger";
+                status = "danger ";
             }
             server = server.replace('ONLINE', status);
             server = server.replace('STATUS', status);
