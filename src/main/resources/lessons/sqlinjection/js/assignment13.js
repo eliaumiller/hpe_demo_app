@@ -54,7 +54,6 @@ function getServers(column) {
             server = server.replace('IP', result[i].ip);
             server = server.replace('MAC', result[i].mac);
             server = server.replace('DESCRIPTION', result[i].description);
-            $("#servers").append(server);
         }
 
     });
